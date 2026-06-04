@@ -22,17 +22,22 @@
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
 | Python | [Thonny](https://thonny.org) | v5.0.0 | 2026-04-25 | Win/Mac/Linux | Python 官方推荐教学 IDE，内置解释器，调试器可视化变量 |
-| Python | [IDLE](https://docs.python.org/3/library/idle.html) | (随 Python 发布) | 2024-10 | Win/Mac/Linux | Python 自带，零安装，交互式解释器 |
+| Python | [WinPython](https://winpython.github.io) | - | - | Windows | 便携式 Python 发行版，自带科学计算全家桶，解压即用 |
+| Python | [PyScripter](https://github.com/pyscripter/pyscripter) | - | - | Windows | 轻量 Python IDE，语法高亮、调试器、代码补全 |
 | Java | [BlueJ](https://bluej.org) | v5.4 | 2024-02 | Win/Mac/Linux | Java 教学专用，可视化类图，交互式对象创建 |
 | Java | [Greenfoot](https://greenfoot.org) | v3.8 | 2024-01 | Win/Mac/Linux | Java 游戏开发教学，可视化场景编辑器 |
 | C/C++ | [Arduino IDE](https://www.arduino.cc/en/software) | v2.3 | 2024-08 | Win/Mac/Linux | 硬件编程入门，一键烧录，海量示例代码 |
+| C/C++ | [Embarcadero Dev-C++](https://github.com/Embarcadero/Dev-Cpp) | - | - | Windows | 经典 C++ IDE，自带 MinGW 编译器，解压即用 |
+| C/C++ | [Red Panda C++](https://github.com/royqh1979/RedPanda-CPP) | - | - | Windows/Linux | Dev-C++ 精神续作，现代化界面，内置调试器 |
+| C/C++ | [LiteIDE](https://github.com/visualfc/liteide) | - | - | Win/Mac/Linux | 轻量 C++/Go IDE，解压即用，启动快 |
 | Processing | [Processing](https://processing.org) | v4.3 | 2024-06 | Win/Mac/Linux | 创意编程入门，可视化反馈即时，内置图形库 |
 | Racket | [Racket](https://racket-lang.org) | v8.14 | 2024-09 | Win/Mac/Linux | 函数式编程教学，自带 DrRacket IDE，SL 教学语言 |
 
 **适用场景：**
-- Python 零基础 → Thonny
-- Java 教学课程 → BlueJ / Greenfoot
-- 创意编程/画画学编程 → Processing
+- Python 零基础 → Thonny（跨平台）/ WinPython（Windows 便携）/ PyScripter（Windows 轻量）
+- Java 教学 → BlueJ / Greenfoot
+- C/C++ 入门 → Embarcadero Dev-C++ / Red Panda C++ / LiteIDE
+- 创意编程 → Processing
 - 硬件/机器人 → Arduino IDE
 - 函数式编程/SICP → Racket
 
@@ -80,6 +85,7 @@
 | 全语言 | [Sublime Text](https://www.sublimetext.com) | v4 | 2024-08 | Win/Mac/Linux | 极速启动，轻量，买断制 |
 | 全语言 | [Vim/Neovim](https://neovim.io) | v0.12.2 | 2026-04-22 | Win/Mac/Linux | 终端效率之王，学习曲线陡峭 |
 | 全语言 | [Helix](https://helix-editor.com) | v24.07 | 2024-07 | Win/Mac/Linux | 后现代终端编辑器，内置 LSP |
+| C#/.NET | [RoslynPad](https://github.com/aelij/RoslynPad) | - | - | Windows | C# REPL 即时执行，基于 Roslyn 编译器 |
 
 **需要手动安装的环境（按语言）：**
 
@@ -88,9 +94,12 @@
 | Python | [python.org](https://python.org) 下载 或 `pyenv` | `python3 --version` |
 | Java | [Adoptium](https://adoptium.net) | `java -version` |
 | Node.js | [nodejs.org](https://nodejs.org) 或 `nvm` | `node -v` |
-| C/C++ | Windows: MinGW-w64; Mac: Xcode CLI; Linux: `build-essential` | `gcc --version` |
+| C/C++ | Windows: MinGW-w64 或 [MSYS2](https://www.msys2.org); Mac: Xcode CLI; Linux: `build-essential` | `gcc --version` |
 | Go | [go.dev](https://go.dev) | `go version` |
 | Rust | [rustup.rs](https://rustup.rs) | `rustc --version` |
+| C#/.NET | [dotnet.microsoft.com](https://dotnet.microsoft.com) | `dotnet --version` |
+
+> 💡 Windows 用户推荐用 [MSYS2](https://www.msys2.org) 管理 C/C++/Go/Rust 工具链，比单独装 MinGW 方便得多。
 
 ---
 
@@ -99,8 +108,9 @@
 ```
 开始
  ├─ 完全零基础？
- │   ├─ 想学 Python → Thonny
+ │   ├─ 想学 Python → Thonny（跨平台）/ WinPython（Win便携）
  │   ├─ 想学 Java → BlueJ
+ │   ├─ 想学 C++ → Red Panda C++ / Embarcadero Dev-C++
  │   ├─ 想学创意编程 → Processing
  │   └─ 想玩硬件 → Arduino IDE
  │

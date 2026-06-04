@@ -16,11 +16,16 @@ from pathlib import Path
 # 项目名 → GitHub owner/repo
 REPO_MAP = {
     "Thonny":           "thonny/thonny",
+    "WinPython":        "winpython/winpython",
+    "PyScripter":       "pyscripter/pyscripter",
     "Processing":       "processing/processing4",
     "Arduino IDE":      "arduino/arduino-ide",
     "BlueJ":            None,  # 不确定 repo
     "Greenfoot":        "greenfoot/greenfoot",
     "Racket":           "racket/racket",
+    "Embarcadero Dev-C++": "Embarcadero/Dev-Cpp",
+    "Red Panda C++":    "royqh1979/RedPanda-CPP",
+    "LiteIDE":          "visualfc/liteide",
     "IntelliJ IDEA CE": "JetBrains/intellij-community",
     "PyCharm CE":       "JetBrains/pycharm-community",
     "VS Community":     None,
@@ -32,6 +37,7 @@ REPO_MAP = {
     "Spyder":           "spyder-ide/spyder",
     "VS Code":          "microsoft/vscode",
     "Neovim":           "neovim/neovim",
+    "RoslynPad":        "aelij/RoslynPad",
     "Sublime Text":     None,
     "Helix":            "helix-editor/helix",
     "Zed":              "zed-industries/zed",
