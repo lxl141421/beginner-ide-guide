@@ -21,7 +21,7 @@
 
 | IDE | 语言 | 最新版本 | 更新时间 | 平台 | 亮点 |
 |-----|------|---------|---------|------|------|
-| [Thonny](https://thonny.org) | Python | v4.1 | 2024-09 | Win/Mac/Linux | Python 官方推荐教学 IDE，内置解释器，调试器可视化变量 |
+| [Thonny](https://thonny.org) | Python | v5.0.0 | 2026-04-25 | Win/Mac/Linux | Python 官方推荐教学 IDE，内置解释器，调试器可视化变量 |
 | [Processing](https://processing.org) | Processing/Java | v4.3 | 2024-06 | Win/Mac/Linux | 创意编程入门，可视化反馈即时，内置图形库 |
 | [Arduino IDE](https://www.arduino.cc/en/software) | C/C++ | v2.3 | 2024-08 | Win/Mac/Linux | 硬件编程入门，一键烧录，海量示例代码 |
 | [Mu Editor](https://codewith.mu) | Python | v1.2 | 2023-12 | Win/Mac/Linux | 面向初学者的 Python 编辑器，支持 MicroPython/CircuitPython |
@@ -29,7 +29,7 @@
 | [Greenfoot](https://greenfoot.org) | Java | v3.8 | 2024-01 | Win/Mac/Linux | Java 游戏开发教学，可视化场景编辑器 |
 | [Racket](https://racket-lang.org) | Racket/Scheme | v8.14 | 2024-09 | Win/Mac/Linux | 函数式编程教学，自带 DrRacket IDE，SL 教学语言 |
 | [IDLE](https://docs.python.org/3/library/idle.html) | Python | (随 Python 发布) | 2024-10 | Win/Mac/Linux | Python 自带，零安装，交互式解释器 |
-| [Code::Blocks](https://www.codeblocks.org) | C/C++ | v20.03 | 2024-07 | Win/Mac/Linux | 开箱即用的 C/C++ IDE，自带 MinGW（Windows 版） |
+| [Code::Blocks](https://www.codeblocks.org) | C/C++ | v20.03 | 2020-03 (⚠️可能停更) | Win/Mac/Linux | 开箱即用的 C/C++ IDE，自带 MinGW（Windows 版） |
 | [Emacspeak](https://emacspeak.sourceforge.net) | 多语言 | 持续更新 | 2024-08 | Linux/Mac | 无障碍编程环境，视障人士专用 |
 
 **适用场景：**
@@ -47,11 +47,11 @@
 
 | IDE | 语言 | 最新版本 | 更新时间 | 平台 | 亮点 |
 |-----|------|---------|---------|------|------|
-| [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) | Java/Kotlin | 2024.2 | 2024-09 | Win/Mac/Linux | 最强 Java IDE，智能补全，社区版免费 |
-| [PyCharm CE](https://www.jetbrains.com/pycharm/) | Python | 2024.2 | 2024-09 | Win/Mac/Linux | 最强 Python IDE，科学计算支持，社区版免费 |
+| [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) | Java/Kotlin | 2026.1.3 | 2026-06-04 | Win/Mac/Linux | 最强 Java IDE，智能补全，社区版免费 |
+| [PyCharm CE](https://www.jetbrains.com/pycharm/) | Python | 2026.1.3 | 2026-06-04 | Win/Mac/Linux | 最强 Python IDE，科学计算支持，社区版免费 |
 | [Visual Studio Community](https://visualstudio.microsoft.com) | C++/C#/.NET | v17.11 | 2024-09 | Windows | 微软官方，C#/.NET 开发首选，社区版免费 |
 | [Eclipse](https://eclipse.org) | Java/C++/PHP | 2024-09 | 2024-09 | Win/Mac/Linux | 经典 Java IDE，插件生态丰富 |
-| [NetBeans](https://netbeans.apache.org) | Java/PHP/JS | 22 | 2024-09 | Win/Mac/Linux | Apache 出品，Java 教学常用 |
+| [NetBeans](https://netbeans.apache.org) | Java/PHP/JS | 30 | 2026-05-11 | Win/Mac/Linux | Apache 出品，Java 教学常用 |
 | [Android Studio](https://developer.android.com/studio) | Kotlin/Java | Ladybug 2024.2 | 2024-09 | Win/Mac/Linux | Android 开发唯一官方 IDE |
 | [CLion](https://www.jetbrains.com/clion/) | C/C++ | 2024.2 | 2024-09 | Win/Mac/Linux | 最强 C/C++ IDE，CMake 支持，学生免费 |
 | [WebStorm](https://www.jetbrains.com/webstorm/) | JS/TS | 2024.2 | 2024-09 | Win/Mac/Linux | 最强前端 IDE，开箱即用 |
@@ -74,12 +74,12 @@
 
 | 编辑器 | 类型 | 最新版本 | 更新时间 | 平台 | 亮点 |
 |--------|------|---------|---------|------|------|
-| [VS Code](https://code.visualstudio.com) | 代码编辑器 | v1.94 | 2024-10 | Win/Mac/Linux | 最流行，插件生态最强，远程开发 |
-| [Vim/Neovim](https://neovim.io) | 终端编辑器 | v0.10 | 2024-09 | Win/Mac/Linux | 终端效率之王，学习曲线陡峭 |
+| [VS Code](https://code.visualstudio.com) | 代码编辑器 | v1.123 | 2026-06-03 | Win/Mac/Linux | 最流行，插件生态最强，远程开发 |
+| [Vim/Neovim](https://neovim.io) | 终端编辑器 | v0.12.2 | 2026-04-22 | Win/Mac/Linux | 终端效率之王，学习曲线陡峭 |
 | [Sublime Text](https://www.sublimetext.com) | 代码编辑器 | v4 | 2024-08 | Win/Mac/Linux | 极速启动，轻量，买断制 |
 | [Helix](https://helix-editor.com) | 终端编辑器 | v24.07 | 2024-07 | Win/Mac/Linux | 后现代终端编辑器，内置 LSP |
-| [Zed](https://zed.dev) | 代码编辑器 | 持续更新 | 2024-10 | Mac/Linux | 最快的现代编辑器，Rust 编写 |
-| [Lapce](https://lapce.dev) | 代码编辑器 | v0.4 | 2024-06 | Win/Mac/Linux | Rust 编写，原生 GUI，内置终端 |
+| [Zed](https://zed.dev) | 代码编辑器 | v1.5.3 | 2026-06-03 | Mac/Linux | 最快的现代编辑器，Rust 编写 |
+| [Lapce](https://lapce.dev) | 代码编辑器 | v0.4.6 | 2026-01-21 | Win/Mac/Linux | Rust 编写，原生 GUI，内置终端 |
 | [Kate](https://kate-editor.org) | 代码编辑器 | v24.08 | 2024-08 | Win/Mac/Linux | KDE 出品，轻量但功能全 |
 
 **需要手动安装的环境（按语言）：**
@@ -127,23 +127,13 @@
 
 | 项目 | 最后活跃 | 状态 |
 |------|---------|------|
-| Thonny | - | ❓ |
-| Processing | - | ❓ |
-| Arduino IDE | - | ❓ |
-| Mu Editor | - | ❓ |
-| Greenfoot | - | ❓ |
-| Racket | - | ❓ |
-| IntelliJ IDEA CE | - | ❓ |
-| PyCharm CE | - | ❓ |
-| Eclipse | - | ❓ |
-| NetBeans | - | ❓ |
-| Spyder | - | ❓ |
-| VS Code | - | ❓ |
-| Neovim | - | ❓ |
-| Helix | - | ❓ |
-| Zed | - | ❓ |
-| Lapce | - | ❓ |
-| Kate | - | ❓ |
+| IntelliJ IDEA CE | 2026-06-04 | ✅ |
+| VS Code | 2026-06-03 | ✅ |
+| Zed | 2026-06-03 | ✅ |
+| NetBeans | 2026-05-11 | ✅ |
+| Thonny | 2026-04-25 | ✅ |
+| Neovim | 2026-04-22 | ✅ |
+| Lapce | 2026-01-21 | ✅ |
 
 ---
 
