@@ -22,21 +22,23 @@
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
 | Python | [Thonny](https://thonny.org) | v5.0.0 | 2026-04-25 | Win/Mac/Linux | Python 官方推荐教学 IDE，内置解释器，调试器可视化变量 |
-| Python | [WinPython](https://winpython.github.io) | - | - | Windows | 便携式 Python 发行版，自带科学计算全家桶，解压即用 |
-| Python | [PyScripter](https://github.com/pyscripter/pyscripter) | - | - | Windows | 轻量 Python IDE，语法高亮、调试器、代码补全 |
+| Python | [WinPython](https://winpython.github.io) | 17.4 | 2026-05-17 | Windows | 便携式 Python 发行版，自带科学计算全家桶，解压即用 |
+| Python | [PyScripter](https://github.com/lmbelo/pyscripter) | v5.3.0 | 2025-11-11 | Windows | 轻量 Python IDE，语法高亮、调试器、代码补全 |
 | Java | [BlueJ](https://bluej.org) | v5.4 | 2024-02 | Win/Mac/Linux | Java 教学专用，可视化类图，交互式对象创建 |
 | Java | [Greenfoot](https://greenfoot.org) | v3.8 | 2024-01 | Win/Mac/Linux | Java 游戏开发教学，可视化场景编辑器 |
 | C/C++ | [Arduino IDE](https://www.arduino.cc/en/software) | v2.3 | 2024-08 | Win/Mac/Linux | 硬件编程入门，一键烧录，海量示例代码 |
-| C/C++ | [Embarcadero Dev-C++](https://github.com/Embarcadero/Dev-Cpp) | - | - | Windows | 经典 C++ IDE，自带 MinGW 编译器，解压即用 |
-| C/C++ | [Red Panda C++](https://github.com/royqh1979/RedPanda-CPP) | - | - | Windows/Linux | Dev-C++ 精神续作，现代化界面，内置调试器 |
-| C/C++ | [LiteIDE](https://github.com/visualfc/liteide) | - | - | Win/Mac/Linux | 轻量 C++/Go IDE，解压即用，启动快 |
+| C/C++ | [Embarcadero Dev-C++](https://github.com/Embarcadero/Dev-Cpp) | v6.3 | 2024-06-17 | Windows | 经典 C++ IDE，自带 MinGW 编译器，解压即用 |
+| C/C++ | [Red Panda C++](https://github.com/royqh1979/RedPanda-CPP) | v3.4 | 2025-11-30 | Windows/Linux | Dev-C++ 精神续作，现代化界面，内置调试器 |
+| C/C++ | [小龙 Dev-C++](https://gitee.com/devcpp/devcpp) | v6.4.1 | 2026-01 | Windows | 轻量免费 C/C++ IDE，自带 GCC 11.4，经典 Dev-C++ 增强版 |
 | Processing | [Processing](https://processing.org) | v4.3 | 2024-06 | Win/Mac/Linux | 创意编程入门，可视化反馈即时，内置图形库 |
 | Racket | [Racket](https://racket-lang.org) | v8.14 | 2024-09 | Win/Mac/Linux | 函数式编程教学，自带 DrRacket IDE，SL 教学语言 |
+| Go | [LiteIDE](https://github.com/visualfc/liteide) | x38.4 | 2025-05-19 | Win/Mac/Linux | 轻量 Go IDE，解压即用，启动快，代码补全 |
 
 **适用场景：**
 - Python 零基础 → Thonny（跨平台）/ WinPython（Windows 便携）/ PyScripter（Windows 轻量）
 - Java 教学 → BlueJ / Greenfoot
-- C/C++ 入门 → Embarcadero Dev-C++ / Red Panda C++ / LiteIDE
+- C/C++ 入门 → 小龙 Dev-C++（Windows）/ Red Panda C++ / Embarcadero Dev-C++
+- Go 入门 → LiteIDE
 - 创意编程 → Processing
 - 硬件/机器人 → Arduino IDE
 - 函数式编程/SICP → Racket
@@ -110,7 +112,8 @@
  ├─ 完全零基础？
  │   ├─ 想学 Python → Thonny（跨平台）/ WinPython（Win便携）
  │   ├─ 想学 Java → BlueJ
- │   ├─ 想学 C++ → Red Panda C++ / Embarcadero Dev-C++
+ │   ├─ 想学 C++ → 小龙 Dev-C++ / Red Panda C++ / Embarcadero Dev-C++
+ │   ├─ 想学 Go → LiteIDE
  │   ├─ 想学创意编程 → Processing
  │   └─ 想玩硬件 → Arduino IDE
  │
