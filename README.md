@@ -24,20 +24,16 @@
 | Python | [Thonny](https://thonny.org) | v5.0.0 | 2026-04-25 | Win/Mac/Linux | Python 官方推荐教学 IDE，内置解释器，调试器可视化变量 |
 | Python | [WinPython](https://winpython.github.io) | 17.4 | 2026-05-17 | Windows | 便携式 Python 发行版，自带科学计算全家桶，解压即用 |
 | Python | [PyScripter](https://github.com/lmbelo/pyscripter) | v5.3.0 | 2025-11-11 | Windows | 轻量 Python IDE，语法高亮、调试器、代码补全 |
-| Java | [BlueJ](https://bluej.org) | v5.4 | 2024-02 | Win/Mac/Linux | Java 教学专用，可视化类图，交互式对象创建 |
-| Java | [Greenfoot](https://greenfoot.org) | v3.8 | 2024-01 | Win/Mac/Linux | Java 游戏开发教学，可视化场景编辑器 |
-| C/C++ | [Arduino IDE](https://www.arduino.cc/en/software) | v2.3 | 2024-08 | Win/Mac/Linux | 硬件编程入门，一键烧录，海量示例代码 |
-| C/C++ | [Embarcadero Dev-C++](https://github.com/Embarcadero/Dev-Cpp) | v6.3 | 2024-06-17 | Windows | 经典 C++ IDE，自带 MinGW 编译器，解压即用 |
+| Java | [BlueJ](https://bluej.org) | v5.5.0 | 2025-06-03 | Win/Mac/Linux | Java 教学专用，可视化类图，交互式对象创建 |
+| C/C++ | [Arduino IDE](https://www.arduino.cc/en/software) | v2.3.9 | 2026-05-26 | Win/Mac/Linux | 硬件编程入门，一键烧录，海量示例代码 |
 | C/C++ | [Red Panda C++](https://github.com/royqh1979/RedPanda-CPP) | v3.4 | 2025-11-30 | Windows/Linux | Dev-C++ 精神续作，现代化界面，内置调试器 |
 | C/C++ | [小龙 Dev-C++](https://gitee.com/devcpp/devcpp) | v6.4.1 | 2026-01 | Windows | 轻量免费 C/C++ IDE，自带 GCC 11.4，经典 Dev-C++ 增强版 |
-| Processing | [Processing](https://processing.org) | v4.3 | 2024-06 | Win/Mac/Linux | 创意编程入门，可视化反馈即时，内置图形库 |
-| Racket | [Racket](https://racket-lang.org) | v8.14 | 2024-09 | Win/Mac/Linux | 函数式编程教学，自带 DrRacket IDE，SL 教学语言 |
+| Processing | [Processing](https://processing.org) | v4.5.2 | 2026-01-29 | Win/Mac/Linux | 创意编程入门，可视化反馈即时，内置图形库 |
+| Racket | [Racket](https://racket-lang.org) | v9.2 | 2026-05-28 | Win/Mac/Linux | 函数式编程教学，自带 DrRacket IDE，SL 教学语言 |
 | Go | [LiteIDE](https://github.com/visualfc/liteide) | x38.4 | 2025-05-19 | Win/Mac/Linux | 轻量 Go IDE，解压即用，启动快，代码补全 |
 
 **适用场景：**
 - Python 零基础 → Thonny（跨平台）/ WinPython（Windows 便携）/ PyScripter（Windows 轻量）
-- Java 教学 → BlueJ / Greenfoot
-- C/C++ 入门 → 小龙 Dev-C++（Windows）/ Red Panda C++ / Embarcadero Dev-C++
 - Go 入门 → LiteIDE
 - 创意编程 → Processing
 - 硬件/机器人 → Arduino IDE
@@ -52,14 +48,14 @@
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
 | Java/Kotlin | [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) | 2026.1.3 | 2026-06-04 | Win/Mac/Linux | 最强 Java IDE，智能补全，社区版免费 |
-| Java | [Eclipse](https://eclipse.org) | 2024-09 | 2024-09 | Win/Mac/Linux | 经典 Java IDE，插件生态丰富 |
+| Java | [Eclipse](https://eclipse.org) | 2026-03 | 2026-03 | Win/Mac/Linux | 经典 Java IDE，插件生态丰富 |
 | Java | [NetBeans](https://netbeans.apache.org) | 30 | 2026-05-11 | Win/Mac/Linux | Apache 出品，Java 教学常用 |
-| Kotlin/Java | [Android Studio](https://developer.android.com/studio) | Ladybug 2024.2 | 2024-09 | Win/Mac/Linux | Android 开发唯一官方 IDE |
+| Kotlin/Java | [Android Studio](https://developer.android.com/studio) | Narwhal 2025.1.1 | 2025-05 | Win/Mac/Linux | Android 开发唯一官方 IDE |
 | Python | [PyCharm CE](https://www.jetbrains.com/pycharm/) | 2026.1.3 | 2026-06-04 | Win/Mac/Linux | 最强 Python IDE，科学计算支持，社区版免费 |
-| Python | [Spyder](https://www.spyder-ide.org) | v6.0 | 2024-09 | Win/Mac/Linux | 科学计算/数据分析专用，变量浏览器 |
-| C++/C#/.NET | [Visual Studio Community](https://visualstudio.microsoft.com) | v17.11 | 2024-09 | Windows | 微软官方，C#/.NET 开发首选，社区版免费 |
-| C/C++ | [CLion](https://www.jetbrains.com/clion/) | 2024.2 | 2024-09 | Win/Mac/Linux | 最强 C/C++ IDE，CMake 支持，学生免费 |
-| JS/TS | [WebStorm](https://www.jetbrains.com/webstorm/) | 2024.2 | 2024-09 | Win/Mac/Linux | 最强前端 IDE，开箱即用 |
+| Python | [Spyder](https://www.spyder-ide.org) | v6.1.4 | 2026-04-07 | Win/Mac/Linux | 科学计算/数据分析专用，变量浏览器 |
+| C++/C#/.NET | [Visual Studio Community](https://visualstudio.microsoft.com) | v17.14 | 2026-06 | Windows | 微软官方，C#/.NET 开发首选，社区版免费 |
+| C/C++ | [CLion](https://www.jetbrains.com/clion/) | 2025.1.1 | 2025-05 | Win/Mac/Linux | 最强 C/C++ IDE，CMake 支持，学生免费 |
+| JS/TS | [WebStorm](https://www.jetbrains.com/webstorm/) | 2026.1 | 2026-06 | Win/Mac/Linux | 最强前端 IDE，开箱即用 |
 
 **适用场景：**
 - Java 开发 → IntelliJ CE（首选）/ Eclipse / NetBeans
@@ -83,10 +79,10 @@
 | 全语言 | [VS Code](https://code.visualstudio.com) | v1.123 | 2026-06-03 | Win/Mac/Linux | 最流行，插件生态最强，远程开发 |
 | 全语言 | [Zed](https://zed.dev) | v1.5.3 | 2026-06-03 | Mac/Linux | 最快的现代编辑器，Rust 编写 |
 | 全语言 | [Lapce](https://lapce.dev) | v0.4.6 | 2026-01-21 | Win/Mac/Linux | Rust 编写，原生 GUI，内置终端 |
-| 全语言 | [Kate](https://kate-editor.org) | v24.08 | 2024-08 | Win/Mac/Linux | KDE 出品，轻量但功能全 |
-| 全语言 | [Sublime Text](https://www.sublimetext.com) | v4 | 2024-08 | Win/Mac/Linux | 极速启动，轻量，买断制 |
+| 全语言 | [Kate](https://kate-editor.org) | v26.04.2 | 2026-04 | Win/Mac/Linux | KDE 出品，轻量但功能全 |
+| 全语言 | [Sublime Text](https://www.sublimetext.com) | Build 4200 | 2026-03 | Win/Mac/Linux | 极速启动，轻量，买断制 |
 | 全语言 | [Vim/Neovim](https://neovim.io) | v0.12.2 | 2026-04-22 | Win/Mac/Linux | 终端效率之王，学习曲线陡峭 |
-| 全语言 | [Helix](https://helix-editor.com) | v24.07 | 2024-07 | Win/Mac/Linux | 后现代终端编辑器，内置 LSP |
+| 全语言 | [Helix](https://helix-editor.com) | 25.07.1 | 2025-07-18 | Win/Mac/Linux | 后现代终端编辑器，内置 LSP |
 | C#/.NET | [RoslynPad](https://github.com/aelij/RoslynPad) | - | - | Windows | C# REPL 即时执行，基于 Roslyn 编译器 |
 
 **需要手动安装的环境（按语言）：**
@@ -112,7 +108,6 @@
  ├─ 完全零基础？
  │   ├─ 想学 Python → Thonny（跨平台）/ WinPython（Win便携）
  │   ├─ 想学 Java → BlueJ
- │   ├─ 想学 C++ → 小龙 Dev-C++ / Red Panda C++ / Embarcadero Dev-C++
  │   ├─ 想学 Go → LiteIDE
  │   ├─ 想学创意编程 → Processing
  │   └─ 想玩硬件 → Arduino IDE
