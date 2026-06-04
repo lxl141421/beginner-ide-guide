@@ -18,11 +18,9 @@ REPO_MAP = {
     "Thonny":           "thonny/thonny",
     "Processing":       "processing/processing4",
     "Arduino IDE":      "arduino/arduino-ide",
-    "Mu Editor":        "codewith/mu",
     "BlueJ":            None,  # 不确定 repo
     "Greenfoot":        "greenfoot/greenfoot",
     "Racket":           "racket/racket",
-    "Code::Blocks":     None,
     "IntelliJ IDEA CE": "JetBrains/intellij-community",
     "PyCharm CE":       "JetBrains/pycharm-community",
     "VS Community":     None,
