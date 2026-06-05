@@ -118,7 +118,6 @@
 | 语言支持 | 编辑器 | 最新版本 | 更新时间 | 平台 | 亮点 |
 |---------|--------|---------|---------|------|------|
 | 全语言 | [VS Code](https://code.visualstudio.com) | v1.123 | 2026-06-03 | Win/Mac/Linux | 市占率第一，插件 3 万+，远程开发/Dev Containers |
-| 全语言 | [Notepad++](https://notepad-plus-plus.org) | v8.9.6 | 2026-06-03 | Windows | Windows 轻量编辑器之王，启动秒开，插件丰富 |
 | 全语言 | [Zed](https://zed.dev) | v1.5.3 | 2026-06-03 | Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
 | 全语言 | [Sublime Text](https://www.sublimetext.com) | Build 4200 | 2026-05-29 | Win/Mac/Linux | 启动 <1 秒，多光标编辑，可无限试用 |
 | 全语言 | [Kate](https://kate-editor.org) | v26.04.2 | 2026-05-22 | Win/Mac/Linux | KDE 出品，内置终端/LSP/文件树，比 VS Code 轻 3 倍 |
@@ -195,7 +194,6 @@
 | Arduino IDE | 2026-06-01 | ✅ |
 | Racket | 2026-06-02 | ✅ |
 | Spyder | 2026-06-02 | ✅ |
-| Notepad++ | 2026-06-03 | ✅ |
 | RoslynPad | 2026-05-21 | ✅ |
 | Thonny | 2026-05-28 | ✅ |
 | Processing | 2026-05-26 | ✅ |
