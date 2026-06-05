@@ -62,7 +62,7 @@ SOURCES = {
     "nano":             {"type": "static",       "check_url": "https://nano-editor.org"},
     "gedit":            {"type": "gitlab_tag",   "repo": "World/gedit/gedit"},
     "Lapce":            {"type": "github_release", "repo": "lapce/lapce"},
-    "Emacs":            {"type": "static",       "check_url": "https://github.com/emacs-mirror/emacs"},
+    "Emacs":            {"type": "static",       "check_url": "https://www.gnu.org/software/emacs/"},
     "Helix":            {"type": "github_release", "repo": "helix-editor/helix"},
 }
 
