@@ -53,7 +53,7 @@
 |------|-----|---------|---------|------|------|
 | Racket | [Racket](https://racket-lang.org) | v9.2 | 2026-05-28 | Win/Mac/Linux | SICP/函数式编程首选，自带 DrRacket，教学语言分级 |
 | Processing | [Processing](https://processing.org) | v4.5.2 | 2026-01-29 | Win/Mac/Linux | 创意编程/可视化艺术首选，5 行代码画动画，即时反馈 |
-| Pascal | [Lazarus](https://www.lazarus-ide.org) | v3.2.2 | 2025 | Win/Mac/Linux | Delphi 开源替代，可视化窗体设计器，OJ/Pascal 教学 |
+| Pascal | [Lazarus](https://www.lazarus-ide.org) | v4.6 | 2025 | Win/Mac/Linux | Delphi 开源替代，可视化窗体设计器，OJ/Pascal 教学 |
 
 **适用场景：**
 - Python 零基础 → Thonny（跨平台）/ WinPython（Windows 便携）/ PyScripter（Windows 轻量）
@@ -124,11 +124,11 @@
 | 全语言 | [Kate](https://kate-editor.org) | v26.04.2 | 2026-04 | Win/Mac/Linux | KDE 出品，内置终端/LSP/文件树，比 VS Code 轻 3 倍 |
 | 全语言 | [Sublime Text](https://www.sublimetext.com) | Build 4200 | 2026-03 | Win/Mac/Linux | 启动 <1 秒，多光标编辑，可无限试用 |
 | 全语言 | [Lapce](https://lapce.dev) | v0.4.6 | 2026-01-21 | Win/Mac/Linux | Rust 原生 GUI，内置 LSP 和远程开发，比 Electron 快 |
-| 全语言 | [Emacs](https://www.gnu.org/software/emacs/) | 30.2 | 2025 | Win/Mac/Linux | 可编程编辑器，Org-mode/Lisp 生态，学习曲线陡峭 |
+| 全语言 | [Emacs](https://www.gnu.org/software/emacs/) | 30.2 | 2025-08-14 | Win/Mac/Linux | 可编程编辑器，Org-mode/Lisp 生态，学习曲线陡峭 |
 | 全语言 | [Helix](https://helix-editor.com) | 25.07.1 | 2025-07-18 | Win/Mac/Linux | 类 Vim 但开箱即用，内置 LSP/树形选择，无需插件 |
 | 全语言 | [Notepad++](https://notepad-plus-plus.org) | v8.9.6 | 2026-06-03 | Windows | Windows 轻量编辑器之王，启动秒开，插件丰富 |
-| 全语言 | [nano](https://nano-editor.org) | 9.0 | 2025 | Linux/Mac | 最简单的终端编辑器，服务器必装，零学习成本 |
-| 全语言 | [gedit](https://wiki.gnome.org/Apps/Gedit) | 46.2 | 2024 | Linux | GNOME 桌面自带，语法高亮，适合 Linux 课堂 |
+| 全语言 | [nano](https://nano-editor.org) | 9.0 | 2026-04-08 | Linux/Mac | 最简单的终端编辑器，服务器必装，零学习成本 |
+| 全语言 | [gedit](https://wiki.gnome.org/Apps/Gedit) | 46.2 | 2024-02-18 | Linux | GNOME 桌面自带，语法高亮，适合 Linux 课堂 |
 
 **需要手动安装的环境（按语言）：**
 
