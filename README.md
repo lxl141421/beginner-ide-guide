@@ -32,7 +32,7 @@
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
 | C/C++ | [Arduino IDE](https://www.arduino.cc/en/software) | v2.3.9 | 2026-05-26 | Win/Mac/Linux | 硬件编程首选，一键烧录到开发板，海量库支持 |
-| C/C++ | [小龙 Dev-C++](https://gitee.com/devcpp/devcpp) | v6.4.1 | 2026-01 | Windows | 国产增强版 Dev-C++，自带 GCC 11.4，OJ 刷题/竞赛常用 |
+| C/C++ | [小龙 Dev-C++](https://gitee.com/devcpp/devcpp) | v6.4.1 | 2026-01-15 | Windows | 国产增强版 Dev-C++，自带 GCC 11.4，OJ 刷题/竞赛常用 |
 | C/C++ | [Red Panda C++](https://github.com/royqh1979/RedPanda-CPP) | v3.4 | 2025-11-30 | Windows/Linux | 信奥/竞赛首选，内置 OJ 题库，智能补全，中文界面 |
 
 **Java：**
@@ -53,7 +53,7 @@
 |------|-----|---------|---------|------|------|
 | Racket | [Racket](https://racket-lang.org) | v9.2 | 2026-05-28 | Win/Mac/Linux | SICP/函数式编程首选，自带 DrRacket，教学语言分级 |
 | Processing | [Processing](https://processing.org) | v4.5.2 | 2026-01-29 | Win/Mac/Linux | 创意编程/可视化艺术首选，5 行代码画动画，即时反馈 |
-| Pascal | [Lazarus](https://www.lazarus-ide.org) | v4.6 | 2025 | Win/Mac/Linux | Delphi 开源替代，可视化窗体设计器，OJ/Pascal 教学 |
+| Pascal | [Lazarus](https://www.lazarus-ide.org) | v4.6 | 2026-02-21 | Win/Mac/Linux | Delphi 开源替代，可视化窗体设计器，OJ/Pascal 教学 |
 
 **适用场景：**
 - Python 零基础 → Thonny（跨平台）/ WinPython（Windows 便携）/ PyScripter（Windows 轻量）
@@ -75,8 +75,8 @@
 |------|-----|---------|---------|------|------|
 | Java/Kotlin | [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) · [下载](https://www.jetbrains.com/idea/download/) | 2026.1.3 | 2026-06-04 | Win/Mac/Linux | Java 开发行业标准，重构/补全/调试一体，社区版免费 |
 | Java | [NetBeans](https://netbeans.apache.org) | 30 | 2026-05-11 | Win/Mac/Linux | Apache 出品，Maven/Gradle 原生支持，GUI 拖拽设计器 |
-| Java | [Eclipse](https://eclipse.org) | 2026-03 | 2026-03 | Win/Mac/Linux | 老牌 Java IDE，插件生态最全，企业项目常用 |
-| Kotlin/Java | [Android Studio](https://developer.android.com/studio) | Narwhal 2025.1.1 | 2025-05 | Win/Mac/Linux | Android 开发唯一官方 IDE，内置模拟器，布局可视化 |
+| Java | [Eclipse](https://eclipse.org) | 2026-03 | 2026-03-12 | Win/Mac/Linux | 老牌 Java IDE，插件生态最全，企业项目常用 |
+| Kotlin/Java | [Android Studio](https://developer.android.com/studio) | Narwhal 2025.1.4 | 2026-06-04 | Win/Mac/Linux | Android 开发唯一官方 IDE，内置模拟器，布局可视化 |
 
 **Python：**
 
@@ -89,14 +89,14 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| C++/C#/.NET | [Visual Studio Community](https://visualstudio.microsoft.com/vs/) · [社区版](https://visualstudio.microsoft.com/vs/community/) | v17.14 | 2026-06 | Windows | C++/C# 开发最强，IntelliSense 智能补全，社区版免费 |
-| C/C++ | [CLion](https://www.jetbrains.com/clion/) · [下载](https://www.jetbrains.com/clion/download/) | 2025.1.1 | 2025-05 | Win/Mac/Linux | C/C++ 开发首选，CMake 原生支持，学生免费 |
+| C++/C#/.NET | [Visual Studio Community](https://visualstudio.microsoft.com/vs/) · [社区版](https://visualstudio.microsoft.com/vs/community/) | v17.14 | 2026-05-07 | Windows | C++/C# 开发最强，IntelliSense 智能补全，社区版免费 |
+| C/C++ | [CLion](https://www.jetbrains.com/clion/) · [下载](https://www.jetbrains.com/clion/download/) | 2026.1.2 | 2026-05-18 | Win/Mac/Linux | C/C++ 开发首选，CMake 原生支持，学生免费 |
 
 **JS / TS：**
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| JS/TS | [WebStorm](https://www.jetbrains.com/webstorm/) · [下载](https://www.jetbrains.com/webstorm/download/) | 2026.1 | 2026-06 | Win/Mac/Linux | 前端开发首选，Vue/React/Angular 全支持，学生免费 |
+| JS/TS | [WebStorm](https://www.jetbrains.com/webstorm/) · [下载](https://www.jetbrains.com/webstorm/download/) | 2026.1.3 | 2026-06-04 | Win/Mac/Linux | 前端开发首选，Vue/React/Angular 全支持，学生免费 |
 
 **适用场景：**
 - Java 开发 → IntelliJ CE（首选）/ Eclipse / NetBeans
@@ -121,8 +121,8 @@
 | 全语言 | [Zed](https://zed.dev) | v1.5.3 | 2026-06-03 | Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
 | 全语言 | [Vim/Neovim](https://neovim.io) | v0.12.2 | 2026-04-22 | Win/Mac/Linux | 终端编辑器之王，纯键盘操作，服务器必装 |
 | C#/.NET | [RoslynPad](https://github.com/roslynpad/roslynpad) | v21 | 2026-05-21 | Windows | C# 即时执行 REPL，无需创建项目即可测试代码片段 |
-| 全语言 | [Kate](https://kate-editor.org) | v26.04.2 | 2026-04 | Win/Mac/Linux | KDE 出品，内置终端/LSP/文件树，比 VS Code 轻 3 倍 |
-| 全语言 | [Sublime Text](https://www.sublimetext.com) | Build 4200 | 2026-03 | Win/Mac/Linux | 启动 <1 秒，多光标编辑，可无限试用 |
+| 全语言 | [Kate](https://kate-editor.org) | v26.04.2 | 2026-05-22 | Win/Mac/Linux | KDE 出品，内置终端/LSP/文件树，比 VS Code 轻 3 倍 |
+| 全语言 | [Sublime Text](https://www.sublimetext.com) | Build 4200 | 2026-05-29 | Win/Mac/Linux | 启动 <1 秒，多光标编辑，可无限试用 |
 | 全语言 | [Lapce](https://lapce.dev) | v0.4.6 | 2026-01-21 | Win/Mac/Linux | Rust 原生 GUI，内置 LSP 和远程开发，比 Electron 快 |
 | 全语言 | [Emacs](https://www.gnu.org/software/emacs/) | 30.2 | 2025-08-14 | Win/Mac/Linux | 可编程编辑器，Org-mode/Lisp 生态，学习曲线陡峭 |
 | 全语言 | [Helix](https://helix-editor.com) | 25.07.1 | 2025-07-18 | Win/Mac/Linux | 类 Vim 但开箱即用，内置 LSP/树形选择，无需插件 |
