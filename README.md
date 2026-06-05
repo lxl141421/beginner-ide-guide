@@ -179,35 +179,35 @@
 | 项目 | 最后活跃 | 状态 |
 |------|---------|------|
 | IntelliJ IDEA CE | 2026-06-04 | ✅ |
+| Android Studio | 2026-06-04 | ✅ |
+| PyCharm CE | 2026-06-04 | ✅ |
+| WebStorm | 2026-06-04 | ✅ |
 | VS Code | 2026-06-03 | ✅ |
 | Zed | 2026-06-03 | ✅ |
+| Sublime Text | 2026-05-29 | ✅ |
 | Racket | 2026-05-28 | ✅ |
 | Arduino IDE | 2026-05-26 | ✅ |
+| Kate | 2026-05-22 | ✅ |
 | RoslynPad | 2026-05-21 | ✅ |
+| CLion | 2026-05-18 | ✅ |
 | WinPython | 2026-05-17 | ✅ |
 | NetBeans | 2026-05-11 | ✅ |
+| VS Community | 2026-05-07 | ✅ |
 | Thonny | 2026-04-25 | ✅ |
 | Vim/Neovim | 2026-04-22 | ✅ |
+| nano | 2026-04-08 | ✅ |
 | Spyder | 2026-04-07 | ✅ |
 | gedit | 2026-03-27 | ✅ |
+| Eclipse | 2026-03-12 | ✅ |
+| Lazarus | 2026-02-21 | ✅ |
 | Processing | 2026-01-29 | ✅ |
 | Lapce | 2026-01-21 | ✅ |
+| 小龙 Dev-C++ | 2026-01-15 | ✅ |
 | Red Panda C++ | 2025-11-30 | ✅ |
 | PyScripter | 2025-11-11 | ✅ |
 | Helix | 2025-07-18 | ✅ |
+| BlueJ | 2025-06-03 | ✅ |
 | LiteIDE | 2025-05-19 | ⚠️ 可能停更 |
-| BlueJ |  | ✅ |
-| Lazarus |  | ✅ |
-| 小龙 Dev-C++ |  | ✅ |
-| Eclipse |  | ✅ |
-| Android Studio |  | ✅ |
-| PyCharm CE |  | ✅ |
-| VS Community |  | ✅ |
-| CLion |  | ✅ |
-| WebStorm |  | ✅ |
-| Sublime Text |  | ✅ |
-| Kate |  | ✅ |
-| nano |  | ✅ |
 | Emacs |  | ❌ 链接失效 |
 
 ---

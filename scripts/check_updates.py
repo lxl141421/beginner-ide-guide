@@ -333,6 +333,15 @@ def sort_all_tables(content):
 
 def update_status_table(content, results):
     """Update the status section table with latest dates, sorted."""
+    # Extract existing dates from old status table
+    old_dates = {}
+    old_match = re.search(r"\| 项目 \| 最后活跃 \| 状态 \|\n\|-+.*?\n(.*?)(?=\n\n|\n## )", content, re.DOTALL)
+    if old_match:
+        for row in old_match.group(1).strip().split("\n"):
+            cols = [c.strip() for c in row.split("|")]
+            if len(cols) >= 4 and cols[1] and cols[2]:
+                old_dates[cols[1]] = cols[2]
+
     entries = []
     for name, info in results.items():
         date_str = info.get("date", "")
@@ -343,12 +352,15 @@ def update_status_table(content, results):
             emoji = "❌ 链接失效"
         elif stale:
             emoji = "⚠️ 可能停更"
-        elif date_str and date_str not in ("static", "dead", ""):
-            emoji = "✅"
         else:
             emoji = "✅"
 
-        display_date = date_str if date_str not in ("static", "dead") else "-"
+        # For static entries, preserve the old date from the existing table
+        if date_str in ("static", "dead", ""):
+            display_date = old_dates.get(name, "-")
+        else:
+            display_date = date_str
+
         entries.append((name, display_date, emoji, parse_date_for_sort(display_date)))
 
     entries.sort(key=lambda x: x[3], reverse=True)
