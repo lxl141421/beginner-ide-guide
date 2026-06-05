@@ -228,6 +228,29 @@
 
 ---
 
+## 自动更新说明
+
+本项目通过 GitHub Actions 每 3 个月自动检查更新。以下项目因非开源或无公开 Release API，**仅检查链接有效性**，版本号需手动更新：
+
+| 项目 | 仅检查链接原因 |
+|------|--------------|
+| BlueJ | 非 GitHub 托管，无公开 API |
+| Lazarus | 非 GitHub 托管，无公开 API |
+| 小龙 Dev-C++ | Gitee 托管，无标准 Release API |
+| Eclipse | GitHub 仓库 tag 格式不规范 |
+| Android Studio | 非开源，无公开 API |
+| PyCharm CE | JetBrains 私有发布机制 |
+| Visual Studio Community | 非开源，无公开 API |
+| CLion | 非开源，无公开 API |
+| WebStorm | 非开源，无公开 API |
+| Sublime Text | 非开源，无公开 API |
+| nano | GNU 项目，无标准 Release API |
+| Emacs | GNU 项目，无标准 Release API |
+
+其余 15 个项目（WinPython、Thonny、PyScripter、Arduino IDE、Red Panda C++、LiteIDE、Racket、Processing、IntelliJ IDEA CE、NetBeans、Spyder、VS Code、Zed、Kate、RoslynPad、Vim/Neovim、gedit、Lapce、Helix）会自动从 GitHub Releases 或 GitLab Tags 获取最新版本号和发布日期。
+
+---
+
 ## 许可
 
 MIT License - 欢迎自由使用和分享。
