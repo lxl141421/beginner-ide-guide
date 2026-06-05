@@ -125,6 +125,7 @@
 | C#/.NET | [RoslynPad](https://github.com/roslynpad/roslynpad) | v21 | 2026-05-21 | Windows | C# 即时执行 REPL，无需创建项目即可测试代码片段 |
 | 全语言 | [Vim/Neovim](https://neovim.io) | v0.12.2 | 2026-04-22 | Win/Mac/Linux | 终端编辑器之王，纯键盘操作，服务器必装 |
 | 全语言 | [nano](https://nano-editor.org) | 9.0 | 2026-04-08 | Linux/Mac | 最简单的终端编辑器，服务器必装，零学习成本 |
+| 全语言 | [gedit](https://gedit-technology.github.io/apps/gedit/) | v50.0 | 2026-03-27 | Linux | GNOME 桌面自带，语法高亮，适合 Linux 课堂 |
 | 全语言 | [Lapce](https://lapce.dev) | v0.4.6 | 2026-01-21 | Win/Mac/Linux | Rust 原生 GUI，内置 LSP 和远程开发，比 Electron 快 |
 | 全语言 | [Emacs](https://www.gnu.org/software/emacs/) | 30.2 | 2025-08-14 | Win/Mac/Linux | 可编程编辑器，Org-mode/Lisp 生态，学习曲线陡峭 |
 | 全语言 | [Helix](https://helix-editor.com) | 25.07.1 | 2025-07-18 | Win/Mac/Linux | 类 Vim 但开箱即用，内置 LSP/树形选择，无需插件 |
@@ -203,6 +204,7 @@
 | VS Community | 2026-05-07 | ✅ |
 | CLion | 2026-05-18 | ✅ |
 | nano | 2026-04-08 | ✅ |
+| gedit | 2026-03-27 | ✅ |
 | Lazarus | 2026-02-21 | ✅ |
 | Sublime Text | 2026-03 | ✅ |
 | PyScripter | 2025-11-24 | ✅ |

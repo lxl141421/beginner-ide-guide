@@ -44,6 +44,7 @@ REPO_MAP = {
     "Lapce":            "lapce/lapce",
     "Kate":             "KDE/kate",
     "Notepad++":        "notepad-plus-plus/notepad-plus-plus",
+    "gedit":            None,  # GNOME GitLab: gitlab.gnome.org/World/gedit/gedit (非GitHub)
     "Emacs":            "emacs-mirror/emacs",
 }
 
