@@ -2,6 +2,7 @@
 """
 编程入门IDE指南 - 自动更新检查脚本（轻量版）
 只检查 repo 的 pushed_at，不逐个查 release，大幅减少 API 调用。
+更新后自动按时间降序排序状态表。
 """
 
 import json
@@ -17,15 +18,14 @@ from pathlib import Path
 REPO_MAP = {
     "Thonny":           "thonny/thonny",
     "WinPython":        "winpython/winpython",
-    "PyScripter":       "pyscripter/pyscripter",
+    "PyScripter":       "lmbelo/pyscripter",
     "Processing":       "processing/processing4",
     "Arduino IDE":      "arduino/arduino-ide",
-    "BlueJ":            None,  # 不确定 repo
-    "Greenfoot":        "greenfoot/greenfoot",
+    "BlueJ":            None,  # 不在 GitHub
     "Racket":           "racket/racket",
-    "Embarcadero Dev-C++": "Embarcadero/Dev-Cpp",
     "Red Panda C++":    "royqh1979/RedPanda-CPP",
     "LiteIDE":          "visualfc/liteide",
+    "Lazarus":          "LazarusIDE/Lazarus",
     "IntelliJ IDEA CE": "JetBrains/intellij-community",
     "PyCharm CE":       "JetBrains/pycharm-community",
     "VS Community":     None,
@@ -37,19 +37,21 @@ REPO_MAP = {
     "Spyder":           "spyder-ide/spyder",
     "VS Code":          "microsoft/vscode",
     "Neovim":           "neovim/neovim",
-    "RoslynPad":        "aelij/RoslynPad",
+    "RoslynPad":        "roslynpad/roslynpad",
     "Sublime Text":     None,
     "Helix":            "helix-editor/helix",
     "Zed":              "zed-industries/zed",
     "Lapce":            "lapce/lapce",
     "Kate":             "KDE/kate",
+    "Notepad++":        "notepad-plus-plus/notepad-plus-plus",
+    "Emacs":            "emacs-mirror/emacs",
 }
 
 STALE_DAYS = 365
 API_BASE = "https://api.github.com"
 
 
-def gh_get(path: str, timeout: int = 10) -> dict | None:
+def gh_get(path, timeout=10):
     url = f"{API_BASE}{path}"
     headers = {"Accept": "application/vnd.github.v3+json", "User-Agent": "beginner-ide-guide"}
     token = os.environ.get("GITHUB_TOKEN", "")
@@ -60,25 +62,23 @@ def gh_get(path: str, timeout: int = 10) -> dict | None:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             return json.loads(resp.read().decode())
     except Exception as e:
-        print(f"  ⚠ {path}: {e}")
+        print(f"  warn {path}: {e}")
         return None
 
 
-def check_repo(name: str, repo: str | None) -> dict:
-    result = {"name": name, "repo": repo, "status": "unknown", "last_active": "", "version": "", "note": ""}
-
+def check_repo(name, repo):
+    result = {"name": name, "repo": repo, "status": "unknown", "last_active": "", "note": ""}
     if not repo:
         result["status"] = "skip"
-        result["note"] = "非开源/不在GitHub"
+        result["note"] = "non-opensource"
         return result
 
-    print(f"  检查 {name} ({repo})...")
+    print(f"  checking {name} ({repo})...")
     data = gh_get(f"/repos/{repo}")
     if not data:
         result["status"] = "unknown"
-        result["note"] = "API 请求失败"
+        result["note"] = "API failed"
         return result
-
     if data.get("archived"):
         result["status"] = "archived"
         result["last_active"] = data.get("pushed_at", "")
@@ -86,7 +86,6 @@ def check_repo(name: str, repo: str | None) -> dict:
 
     pushed = data.get("pushed_at", "")
     result["last_active"] = pushed
-
     if pushed:
         try:
             last_dt = datetime.fromisoformat(pushed.replace("Z", "+00:00"))
@@ -94,11 +93,10 @@ def check_repo(name: str, repo: str | None) -> dict:
             result["status"] = "stale" if days > STALE_DAYS else "active"
         except (ValueError, TypeError):
             result["status"] = "unknown"
-
     return result
 
 
-def format_date(iso_str: str) -> str:
+def format_date(iso_str):
     if not iso_str:
         return "-"
     try:
@@ -107,30 +105,34 @@ def format_date(iso_str: str) -> str:
         return iso_str[:10]
 
 
-def status_emoji(s: str) -> str:
-    return {"active": "✅", "stale": "⚠️ 可能停更", "archived": "📦 已归档", "skip": "⏭️", "unknown": "❓"}.get(s, "❓")
+EMOJI = {"active": "✅", "stale": "⚠️ 可能停更", "archived": "📦 已归档", "skip": "⏭️", "unknown": "❓"}
 
 
-def update_readme(results: list[dict], readme_path: str):
+def update_readme(results, readme_path):
     with open(readme_path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    lines = ["| 项目 | 最后活跃 | 状态 |", "|------|---------|------|"]
+    # Sort by date descending
+    entries = []
     for r in results:
         if r["status"] == "skip":
             continue
-        lines.append(f"| {r['name']} | {format_date(r['last_active'])} | {status_emoji(r['status'])} |")
+        date_str = format_date(r["last_active"])
+        entries.append((r["name"], date_str, EMOJI.get(r["status"], "❓"), date_str))
+
+    entries.sort(key=lambda x: x[3], reverse=True)
+
+    lines = ["| 项目 | 最后活跃 | 状态 |", "|------|---------|------|"]
+    for name, date_str, emoji, _ in entries:
+        lines.append(f"| {name} | {date_str} | {emoji} |")
 
     new_table = "\n".join(lines)
-    # 替换旧表格
     pattern = r"(\| 项目 \| 最后活跃 \| 状态 \|\n\|-+.*?)(?=\n\n|\n## )"
     content_new = re.sub(pattern, new_table, content, flags=re.DOTALL)
 
     now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     update_note = f"> 🤖 最后自动检查: {now_str}"
     content_new = re.sub(r"> 🤖 最后自动检查:.*", update_note, content_new)
-    if "🤖 最后自动检查" not in content_new:
-        content_new = content_new.replace("## 更新状态", f"## 更新状态\n\n{update_note}")
 
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write(content_new)
@@ -156,17 +158,14 @@ def main():
         if r["status"] in counts:
             counts[r["status"]] += 1
 
-    print(f"\n{'='*50}")
-    print(f"  ✅ 活跃: {counts['active']}  ⚠️ 可能停更: {counts['stale']}  📦 归档: {counts['archived']}")
-    print(f"{'='*50}")
-
+    print(f"\n✅ 活跃: {counts['active']}  ⚠️ 可能停更: {counts['stale']}  📦 归档: {counts['archived']}")
     update_readme(results, str(readme_path))
 
     alerts = [r for r in results if r["status"] in ("stale", "archived")]
     if alerts:
         print("\n⚠️  以下项目可能需要移除：")
         for r in alerts:
-            print(f"  - {r['name']}: {status_emoji(r['status'])} (最后活跃: {format_date(r['last_active'])})")
+            print(f"  - {r['name']}: {format_date(r['last_active'])}")
 
 
 if __name__ == "__main__":
