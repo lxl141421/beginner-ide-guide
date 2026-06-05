@@ -128,7 +128,7 @@
 | 全语言 | [Helix](https://helix-editor.com) | 25.07.1 | 2025-07-18 | Win/Mac/Linux | 类 Vim 但开箱即用，内置 LSP/树形选择，无需插件 |
 | 全语言 | [Notepad++](https://notepad-plus-plus.org) | v8.9.6 | 2026-06-03 | Windows | Windows 轻量编辑器之王，启动秒开，插件丰富 |
 | 全语言 | [nano](https://nano-editor.org) | 9.0 | 2025 | Linux/Mac | 最简单的终端编辑器，服务器必装，零学习成本 |
-| 全语言 | [gedit](https://wiki.gnome.org/Apps/Gedit) | 46 | 2024 | Linux | GNOME 桌面自带，语法高亮，适合 Linux 课堂 |
+| 全语言 | [gedit](https://wiki.gnome.org/Apps/Gedit) | 46.2 | 2024 | Linux | GNOME 桌面自带，语法高亮，适合 Linux 课堂 |
 
 **需要手动安装的环境（按语言）：**
 
