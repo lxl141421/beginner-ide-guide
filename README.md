@@ -51,8 +51,8 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Processing | [Processing](https://processing.org) | v4.5.2 | 2026-01-29 | Win/Mac/Linux | 创意编程入门，可视化反馈即时，内置图形库 |
 | Racket | [Racket](https://racket-lang.org) | v9.2 | 2026-05-28 | Win/Mac/Linux | 函数式编程教学，自带 DrRacket IDE，SL 教学语言 |
+| Processing | [Processing](https://processing.org) | v4.5.2 | 2026-01-29 | Win/Mac/Linux | 创意编程入门，可视化反馈即时，内置图形库 |
 
 **适用场景：**
 - Python 零基础 → Thonny（跨平台）/ WinPython（Windows 便携）/ PyScripter（Windows 轻量）
