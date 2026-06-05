@@ -117,10 +117,10 @@
 |---------|--------|---------|---------|------|------|
 | 全语言 | [VS Code](https://code.visualstudio.com) | v1.123 | 2026-06-03 | Win/Mac/Linux | 最流行，插件生态最强，远程开发 |
 | 全语言 | [Zed](https://zed.dev) | v1.5.3 | 2026-06-03 | Mac/Linux | 最快的现代编辑器，Rust 编写 |
-| 全语言 | [Kate](https://kate-editor.org) | v26.04.2 | 2026-04 | Win/Mac/Linux | KDE 出品，轻量但功能全 |
 | 全语言 | [Vim/Neovim](https://neovim.io) | v0.12.2 | 2026-04-22 | Win/Mac/Linux | 终端效率之王，学习曲线陡峭 |
-| 全语言 | [Lapce](https://lapce.dev) | v0.4.6 | 2026-01-21 | Win/Mac/Linux | Rust 编写，原生 GUI，内置终端 |
+| 全语言 | [Kate](https://kate-editor.org) | v26.04.2 | 2026-04 | Win/Mac/Linux | KDE 出品，轻量但功能全 |
 | 全语言 | [Sublime Text](https://www.sublimetext.com) | Build 4200 | 2026-03 | Win/Mac/Linux | 极速启动，轻量，买断制 |
+| 全语言 | [Lapce](https://lapce.dev) | v0.4.6 | 2026-01-21 | Win/Mac/Linux | Rust 编写，原生 GUI，内置终端 |
 | 全语言 | [Helix](https://helix-editor.com) | 25.07.1 | 2025-07-18 | Win/Mac/Linux | 后现代终端编辑器，内置 LSP |
 | C#/.NET | [RoslynPad](https://github.com/aelij/RoslynPad) | - | - | Windows | C# REPL 即时执行，基于 Roslyn 编译器 |
 
@@ -173,28 +173,33 @@
 
 | 项目 | 最后活跃 | 状态 |
 |------|---------|------|
-| Thonny | 2026-05-28 | ✅ |
-| WinPython | 2026-05-25 | ✅ |
-| PyScripter | 2025-11-24 | ✅ |
-| Processing | 2026-05-26 | ✅ |
+| 小龙 Dev-C++ | 2026-05-22 | ✅ |
 | Arduino IDE | 2026-06-01 | ✅ |
-| Greenfoot | - | ❓ |
 | Racket | 2026-06-02 | ✅ |
-| Embarcadero Dev-C++ | 2024-06-17 | ⚠️ 可能停更 |
 | Red Panda C++ | 2026-06-04 | ✅ |
 | LiteIDE | 2026-05-19 | ✅ |
+| WinPython | 2026-05-25 | ✅ |
+| Thonny | 2026-05-28 | ✅ |
+| Processing | 2026-05-26 | ✅ |
+| PyScripter | 2025-11-24 | ✅ |
+| BlueJ | 2025-06-03 | ✅ |
 | IntelliJ IDEA CE | 2026-06-04 | ✅ |
-| PyCharm CE | - | ❓ |
-| Eclipse | 2026-06-04 | ✅ |
+| PyCharm CE | 2026-06-04 | ✅ |
+| VS Community | 2026-06 | ✅ |
+| WebStorm | 2026-06 | ✅ |
 | NetBeans | 2026-06-04 | ✅ |
 | Spyder | 2026-06-02 | ✅ |
+| Eclipse | 2026-06-04 | ✅ |
+| CLion | 2025-05 | ✅ |
+| Android Studio | 2025-05 | ✅ |
 | VS Code | 2026-06-05 | ✅ |
-| Neovim | 2026-06-04 | ✅ |
-| RoslynPad | 2026-06-03 | ✅ |
-| Helix | 2026-06-04 | ✅ |
 | Zed | 2026-06-04 | ✅ |
-| Lapce | 2026-06-04 | ✅ |
+| Vim/Neovim | 2026-06-04 | ✅ |
 | Kate | 2026-06-04 | ✅ |
+| Sublime Text | 2026-03 | ✅ |
+| Lapce | 2026-06-04 | ✅ |
+| Helix | 2026-06-04 | ✅ |
+| RoslynPad | 2026-06-03 | ✅ |
 
 ---
 
