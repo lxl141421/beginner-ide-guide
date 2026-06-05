@@ -23,36 +23,36 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Python | [WinPython](https://winpython.github.io) | 17.4 | 2026-05-17 | Windows | 便携式 Python 发行版，自带科学计算全家桶，解压即用 |
-| Python | [Thonny](https://thonny.org) | v5.0.0 | 2026-04-25 | Win/Mac/Linux | Python 官方推荐教学 IDE，内置解释器，调试器可视化变量 |
-| Python | [PyScripter](https://github.com/lmbelo/pyscripter) | v5.3.0 | 2025-11-11 | Windows | 轻量 Python IDE，语法高亮、调试器、代码补全 |
+| Python | [WinPython](https://winpython.github.io) | 17.4 | 2026-05-17 | Windows | 便携免安装，自带 NumPy/Pandas/Matplotlib，选 **CPython 3.12** 版本 |
+| Python | [Thonny](https://thonny.org) | v5.0.0 | 2026-04-25 | Win/Mac/Linux | Python 官方推荐，逐行执行可视化变量，零配置 |
+| Python | [PyScripter](https://github.com/lmbelo/pyscripter) | v5.3.0 | 2025-11-11 | Windows | Windows 专属轻量 IDE，启动秒开，内置调试器 |
 
 **C / C++：**
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| C/C++ | [Arduino IDE](https://www.arduino.cc/en/software) | v2.3.9 | 2026-05-26 | Win/Mac/Linux | 硬件编程入门，一键烧录，海量示例代码 |
-| C/C++ | [小龙 Dev-C++](https://gitee.com/devcpp/devcpp) | v6.4.1 | 2026-01 | Windows | 轻量免费 C/C++ IDE，自带 GCC 11.4，经典 Dev-C++ 增强版 |
-| C/C++ | [Red Panda C++](https://github.com/royqh1979/RedPanda-CPP) | v3.4 | 2025-11-30 | Windows/Linux | Dev-C++ 精神续作，现代化界面，内置调试器 |
+| C/C++ | [Arduino IDE](https://www.arduino.cc/en/software) | v2.3.9 | 2026-05-26 | Win/Mac/Linux | 硬件编程首选，一键烧录到开发板，海量库支持 |
+| C/C++ | [小龙 Dev-C++](https://gitee.com/devcpp/devcpp) | v6.4.1 | 2026-01 | Windows | 国产增强版 Dev-C++，自带 GCC 11.4，OJ 刷题/竞赛常用 |
+| C/C++ | [Red Panda C++](https://github.com/royqh1979/RedPanda-CPP) | v3.4 | 2025-11-30 | Windows/Linux | 信奥/竞赛首选，内置 OJ 题库，智能补全，中文界面 |
 
 **Java：**
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Java | [BlueJ](https://bluej.org) | v5.5.0 | 2025-06-03 | Win/Mac/Linux | Java 教学专用，可视化类图，交互式对象创建 |
+| Java | [BlueJ](https://bluej.org) | v5.5.0 | 2025-06-03 | Win/Mac/Linux | 大学 Java 课程标配，可视化类图交互式创建对象 |
 
 **Go：**
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Go | [LiteIDE](https://github.com/visualfc/liteide) | x38.4 | 2025-05-19 | Win/Mac/Linux | 轻量 Go IDE，解压即用，启动快，代码补全 |
+| Go | [LiteIDE](https://github.com/visualfc/liteide) | x38.4 | 2025-05-19 | Win/Mac/Linux | 唯一专注 Go 的轻量 IDE，解压即用，中文界面 |
 
 **其他：**
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Racket | [Racket](https://racket-lang.org) | v9.2 | 2026-05-28 | Win/Mac/Linux | 函数式编程教学，自带 DrRacket IDE，SL 教学语言 |
-| Processing | [Processing](https://processing.org) | v4.5.2 | 2026-01-29 | Win/Mac/Linux | 创意编程入门，可视化反馈即时，内置图形库 |
+| Racket | [Racket](https://racket-lang.org) | v9.2 | 2026-05-28 | Win/Mac/Linux | SICP/函数式编程首选，自带 DrRacket，教学语言分级 |
+| Processing | [Processing](https://processing.org) | v4.5.2 | 2026-01-29 | Win/Mac/Linux | 创意编程/可视化艺术首选，5 行代码画动画，即时反馈 |
 
 **适用场景：**
 - Python 零基础 → Thonny（跨平台）/ WinPython（Windows 便携）/ PyScripter（Windows 轻量）
@@ -71,30 +71,30 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Java/Kotlin | [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) · [下载](https://www.jetbrains.com/idea/download/) | 2026.1.3 | 2026-06-04 | Win/Mac/Linux | 最强 Java IDE，智能补全，社区版免费 |
-| Java | [NetBeans](https://netbeans.apache.org) | 30 | 2026-05-11 | Win/Mac/Linux | Apache 出品，Java 教学常用 |
-| Java | [Eclipse](https://eclipse.org) | 2026-03 | 2026-03 | Win/Mac/Linux | 经典 Java IDE，插件生态丰富 |
-| Kotlin/Java | [Android Studio](https://developer.android.com/studio) | Narwhal 2025.1.1 | 2025-05 | Win/Mac/Linux | Android 开发唯一官方 IDE |
+| Java/Kotlin | [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) · [下载](https://www.jetbrains.com/idea/download/) | 2026.1.3 | 2026-06-04 | Win/Mac/Linux | Java 开发行业标准，重构/补全/调试一体，社区版免费 |
+| Java | [NetBeans](https://netbeans.apache.org) | 30 | 2026-05-11 | Win/Mac/Linux | Apache 出品，Maven/Gradle 原生支持，GUI 拖拽设计器 |
+| Java | [Eclipse](https://eclipse.org) | 2026-03 | 2026-03 | Win/Mac/Linux | 老牌 Java IDE，插件生态最全，企业项目常用 |
+| Kotlin/Java | [Android Studio](https://developer.android.com/studio) | Narwhal 2025.1.1 | 2025-05 | Win/Mac/Linux | Android 开发唯一官方 IDE，内置模拟器，布局可视化 |
 
 **Python：**
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Python | [PyCharm CE](https://www.jetbrains.com/pycharm/) · [下载](https://www.jetbrains.com/pycharm/download/) | 2026.1.3 | 2026-06-04 | Win/Mac/Linux | 最强 Python IDE，科学计算支持，社区版免费 |
-| Python | [Spyder](https://www.spyder-ide.org) | v6.1.4 | 2026-04-07 | Win/Mac/Linux | 科学计算/数据分析专用，变量浏览器 |
+| Python | [PyCharm CE](https://www.jetbrains.com/pycharm/) · [下载](https://www.jetbrains.com/pycharm/download/) | 2026.1.3 | 2026-06-04 | Win/Mac/Linux | Python 开发首选，Django/Flask 支持，社区版免费 |
+| Python | [Spyder](https://www.spyder-ide.org) | v6.1.4 | 2026-04-07 | Win/Mac/Linux | 数据科学专用，变量浏览器实时查看 DataFrame，类 MATLAB |
 
 **C / C++ / C#：**
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| C++/C#/.NET | [Visual Studio Community](https://visualstudio.microsoft.com/vs/) · [社区版](https://visualstudio.microsoft.com/vs/community/) | v17.14 | 2026-06 | Windows | 微软官方，C#/.NET 开发首选，社区版免费 |
-| C/C++ | [CLion](https://www.jetbrains.com/clion/) · [下载](https://www.jetbrains.com/clion/download/) | 2025.1.1 | 2025-05 | Win/Mac/Linux | 最强 C/C++ IDE，CMake 支持，学生免费 |
+| C++/C#/.NET | [Visual Studio Community](https://visualstudio.microsoft.com/vs/) · [社区版](https://visualstudio.microsoft.com/vs/community/) | v17.14 | 2026-06 | Windows | C++/C# 开发最强，IntelliSense 智能补全，社区版免费 |
+| C/C++ | [CLion](https://www.jetbrains.com/clion/) · [下载](https://www.jetbrains.com/clion/download/) | 2025.1.1 | 2025-05 | Win/Mac/Linux | C/C++ 开发首选，CMake 原生支持，学生免费 |
 
 **JS / TS：**
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| JS/TS | [WebStorm](https://www.jetbrains.com/webstorm/) · [下载](https://www.jetbrains.com/webstorm/download/) | 2026.1 | 2026-06 | Win/Mac/Linux | 最强前端 IDE，开箱即用，学生免费 |
+| JS/TS | [WebStorm](https://www.jetbrains.com/webstorm/) · [下载](https://www.jetbrains.com/webstorm/download/) | 2026.1 | 2026-06 | Win/Mac/Linux | 前端开发首选，Vue/React/Angular 全支持，学生免费 |
 
 **适用场景：**
 - Java 开发 → IntelliJ CE（首选）/ Eclipse / NetBeans
@@ -115,14 +115,14 @@
 
 | 语言支持 | 编辑器 | 最新版本 | 更新时间 | 平台 | 亮点 |
 |---------|--------|---------|---------|------|------|
-| 全语言 | [VS Code](https://code.visualstudio.com) | v1.123 | 2026-06-03 | Win/Mac/Linux | 最流行，插件生态最强，远程开发 |
-| 全语言 | [Zed](https://zed.dev) | v1.5.3 | 2026-06-03 | Mac/Linux | 最快的现代编辑器，Rust 编写 |
-| 全语言 | [Vim/Neovim](https://neovim.io) | v0.12.2 | 2026-04-22 | Win/Mac/Linux | 终端效率之王，学习曲线陡峭 |
-| C#/.NET | [RoslynPad](https://github.com/roslynpad/roslynpad) | v21 | 2026-05-21 | Windows | C# REPL 即时执行，基于 Roslyn 编译器 |
-| 全语言 | [Kate](https://kate-editor.org) | v26.04.2 | 2026-04 | Win/Mac/Linux | KDE 出品，轻量但功能全 |
-| 全语言 | [Sublime Text](https://www.sublimetext.com) | Build 4200 | 2026-03 | Win/Mac/Linux | 极速启动，轻量，买断制 |
-| 全语言 | [Lapce](https://lapce.dev) | v0.4.6 | 2026-01-21 | Win/Mac/Linux | Rust 编写，原生 GUI，内置终端 |
-| 全语言 | [Helix](https://helix-editor.com) | 25.07.1 | 2025-07-18 | Win/Mac/Linux | 后现代终端编辑器，内置 LSP |
+| 全语言 | [VS Code](https://code.visualstudio.com) | v1.123 | 2026-06-03 | Win/Mac/Linux | 市占率第一，插件 3 万+，远程开发/Dev Containers |
+| 全语言 | [Zed](https://zed.dev) | v1.5.3 | 2026-06-03 | Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
+| 全语言 | [Vim/Neovim](https://neovim.io) | v0.12.2 | 2026-04-22 | Win/Mac/Linux | 终端编辑器之王，纯键盘操作，服务器必装 |
+| C#/.NET | [RoslynPad](https://github.com/roslynpad/roslynpad) | v21 | 2026-05-21 | Windows | C# 即时执行 REPL，无需创建项目即可测试代码片段 |
+| 全语言 | [Kate](https://kate-editor.org) | v26.04.2 | 2026-04 | Win/Mac/Linux | KDE 出品，内置终端/LSP/文件树，比 VS Code 轻 3 倍 |
+| 全语言 | [Sublime Text](https://www.sublimetext.com) | Build 4200 | 2026-03 | Win/Mac/Linux | 启动 <1 秒，多光标编辑，买断制 ¥70 |
+| 全语言 | [Lapce](https://lapce.dev) | v0.4.6 | 2026-01-21 | Win/Mac/Linux | Rust 原生 GUI，内置 LSP 和远程开发，比 Electron 快 |
+| 全语言 | [Helix](https://helix-editor.com) | 25.07.1 | 2025-07-18 | Win/Mac/Linux | 类 Vim 但开箱即用，内置 LSP/树形选择，无需插件 |
 
 **需要手动安装的环境（按语言）：**
 
