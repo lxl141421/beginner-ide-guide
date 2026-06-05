@@ -215,12 +215,14 @@ def parse_date_for_sort(date_str):
     """Parse date string for sorting. Returns YYYY-MM-DD or empty string."""
     if not date_str or date_str in ("static", "dead", "-", ""):
         return "0000-00-00"
-    parts = date_str.strip().split("-")
+    # Strip bold markers
+    clean = date_str.strip().replace("**", "")
+    parts = clean.split("-")
     try:
         if len(parts) == 3:
-            return date_str.strip()
+            return clean
         elif len(parts) == 2:
-            return date_str.strip() + "-01"
+            return clean + "-01"
         elif len(parts) == 1 and parts[0].isdigit():
             return parts[0] + "-01-01"
     except:
@@ -306,7 +308,8 @@ def sort_all_tables(content):
             for row in rows[:3]:
                 cols = [c.strip() for c in row.split("|")]
                 for j, col in enumerate(cols):
-                    if re.match(r'\d{4}(-\d{2}){0,2}$', col):
+                    clean = col.replace("**", "")
+                    if re.match(r'\d{4}(-\d{2}){0,2}$', clean):
                         date_col = j
                         break
                 if date_col >= 0:
@@ -316,7 +319,7 @@ def sort_all_tables(content):
                 def sort_key(row):
                     cols = [c.strip() for c in row.split("|")]
                     if date_col < len(cols):
-                        return parse_date_for_sort(cols[date_col])
+                        return parse_date_for_sort(cols[date_col].replace("**", ""))
                     return "0000-00-00"
 
                 rows.sort(key=sort_key, reverse=True)
