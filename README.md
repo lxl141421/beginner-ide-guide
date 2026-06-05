@@ -21,16 +21,40 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Racket | [Racket](https://racket-lang.org) | v9.2 | 2026-05-28 | Win/Mac/Linux | 函数式编程教学，自带 DrRacket IDE，SL 教学语言 |
-| C/C++ | [Arduino IDE](https://www.arduino.cc/en/software) | v2.3.9 | 2026-05-26 | Win/Mac/Linux | 硬件编程入门，一键烧录，海量示例代码 |
+**Python：**
+
+| 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
+|------|-----|---------|---------|------|------|
 | Python | [WinPython](https://winpython.github.io) | 17.4 | 2026-05-17 | Windows | 便携式 Python 发行版，自带科学计算全家桶，解压即用 |
 | Python | [Thonny](https://thonny.org) | v5.0.0 | 2026-04-25 | Win/Mac/Linux | Python 官方推荐教学 IDE，内置解释器，调试器可视化变量 |
-| Processing | [Processing](https://processing.org) | v4.5.2 | 2026-01-29 | Win/Mac/Linux | 创意编程入门，可视化反馈即时，内置图形库 |
+| Python | [PyScripter](https://github.com/lmbelo/pyscripter) | v5.3.0 | 2025-11-11 | Windows | 轻量 Python IDE，语法高亮、调试器、代码补全 |
+
+**C / C++：**
+
+| 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
+|------|-----|---------|---------|------|------|
+| C/C++ | [Arduino IDE](https://www.arduino.cc/en/software) | v2.3.9 | 2026-05-26 | Win/Mac/Linux | 硬件编程入门，一键烧录，海量示例代码 |
 | C/C++ | [小龙 Dev-C++](https://gitee.com/devcpp/devcpp) | v6.4.1 | 2026-01 | Windows | 轻量免费 C/C++ IDE，自带 GCC 11.4，经典 Dev-C++ 增强版 |
 | C/C++ | [Red Panda C++](https://github.com/royqh1979/RedPanda-CPP) | v3.4 | 2025-11-30 | Windows/Linux | Dev-C++ 精神续作，现代化界面，内置调试器 |
-| Python | [PyScripter](https://github.com/lmbelo/pyscripter) | v5.3.0 | 2025-11-11 | Windows | 轻量 Python IDE，语法高亮、调试器、代码补全 |
+
+**Java：**
+
+| 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
+|------|-----|---------|---------|------|------|
 | Java | [BlueJ](https://bluej.org) | v5.5.0 | 2025-06-03 | Win/Mac/Linux | Java 教学专用，可视化类图，交互式对象创建 |
+
+**Go：**
+
+| 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
+|------|-----|---------|---------|------|------|
 | Go | [LiteIDE](https://github.com/visualfc/liteide) | x38.4 | 2025-05-19 | Win/Mac/Linux | 轻量 Go IDE，解压即用，启动快，代码补全 |
+
+**其他：**
+
+| 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
+|------|-----|---------|---------|------|------|
+| Processing | [Processing](https://processing.org) | v4.5.2 | 2026-01-29 | Win/Mac/Linux | 创意编程入门，可视化反馈即时，内置图形库 |
+| Racket | [Racket](https://racket-lang.org) | v9.2 | 2026-05-28 | Win/Mac/Linux | 函数式编程教学，自带 DrRacket IDE，SL 教学语言 |
 
 **适用场景：**
 - Python 零基础 → Thonny（跨平台）/ WinPython（Windows 便携）/ PyScripter（Windows 轻量）
