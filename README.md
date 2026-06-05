@@ -118,11 +118,11 @@
 | 全语言 | [VS Code](https://code.visualstudio.com) | v1.123 | 2026-06-03 | Win/Mac/Linux | 最流行，插件生态最强，远程开发 |
 | 全语言 | [Zed](https://zed.dev) | v1.5.3 | 2026-06-03 | Mac/Linux | 最快的现代编辑器，Rust 编写 |
 | 全语言 | [Vim/Neovim](https://neovim.io) | v0.12.2 | 2026-04-22 | Win/Mac/Linux | 终端效率之王，学习曲线陡峭 |
+| C#/.NET | [RoslynPad](https://github.com/roslynpad/roslynpad) | v21 | 2026-05-21 | Windows | C# REPL 即时执行，基于 Roslyn 编译器 |
 | 全语言 | [Kate](https://kate-editor.org) | v26.04.2 | 2026-04 | Win/Mac/Linux | KDE 出品，轻量但功能全 |
 | 全语言 | [Sublime Text](https://www.sublimetext.com) | Build 4200 | 2026-03 | Win/Mac/Linux | 极速启动，轻量，买断制 |
 | 全语言 | [Lapce](https://lapce.dev) | v0.4.6 | 2026-01-21 | Win/Mac/Linux | Rust 编写，原生 GUI，内置终端 |
 | 全语言 | [Helix](https://helix-editor.com) | 25.07.1 | 2025-07-18 | Win/Mac/Linux | 后现代终端编辑器，内置 LSP |
-| C#/.NET | [RoslynPad](https://github.com/aelij/RoslynPad) | - | - | Windows | C# REPL 即时执行，基于 Roslyn 编译器 |
 
 **需要手动安装的环境（按语言）：**
 
@@ -199,7 +199,7 @@
 | Sublime Text | 2026-03 | ✅ |
 | Lapce | 2026-06-04 | ✅ |
 | Helix | 2026-06-04 | ✅ |
-| RoslynPad | 2026-06-03 | ✅ |
+| RoslynPad | 2026-05-21 | ✅ |
 
 ---
 
