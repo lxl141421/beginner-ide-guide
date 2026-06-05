@@ -47,15 +47,34 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
+**Java / Kotlin：**
+
+| 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
+|------|-----|---------|---------|------|------|
 | Java/Kotlin | [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) · [下载](https://www.jetbrains.com/idea/download/) | 2026.1.3 | 2026-06-04 | Win/Mac/Linux | 最强 Java IDE，智能补全，社区版免费 |
-| Python | [PyCharm CE](https://www.jetbrains.com/pycharm/) · [下载](https://www.jetbrains.com/pycharm/download/) | 2026.1.3 | 2026-06-04 | Win/Mac/Linux | 最强 Python IDE，科学计算支持，社区版免费 |
-| C++/C#/.NET | [Visual Studio Community](https://visualstudio.microsoft.com/vs/) · [社区版](https://visualstudio.microsoft.com/vs/community/) | v17.14 | 2026-06 | Windows | 微软官方，C#/.NET 开发首选，社区版免费 |
-| JS/TS | [WebStorm](https://www.jetbrains.com/webstorm/) · [下载](https://www.jetbrains.com/webstorm/download/) | 2026.1 | 2026-06 | Win/Mac/Linux | 最强前端 IDE，开箱即用 |
 | Java | [NetBeans](https://netbeans.apache.org) | 30 | 2026-05-11 | Win/Mac/Linux | Apache 出品，Java 教学常用 |
-| Python | [Spyder](https://www.spyder-ide.org) | v6.1.4 | 2026-04-07 | Win/Mac/Linux | 科学计算/数据分析专用，变量浏览器 |
 | Java | [Eclipse](https://eclipse.org) | 2026-03 | 2026-03 | Win/Mac/Linux | 经典 Java IDE，插件生态丰富 |
-| C/C++ | [CLion](https://www.jetbrains.com/clion/) · [下载](https://www.jetbrains.com/clion/download/) | 2025.1.1 | 2025-05 | Win/Mac/Linux | 最强 C/C++ IDE，CMake 支持，学生免费 |
 | Kotlin/Java | [Android Studio](https://developer.android.com/studio) | Narwhal 2025.1.1 | 2025-05 | Win/Mac/Linux | Android 开发唯一官方 IDE |
+
+**Python：**
+
+| 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
+|------|-----|---------|---------|------|------|
+| Python | [PyCharm CE](https://www.jetbrains.com/pycharm/) · [下载](https://www.jetbrains.com/pycharm/download/) | 2026.1.3 | 2026-06-04 | Win/Mac/Linux | 最强 Python IDE，科学计算支持，社区版免费 |
+| Python | [Spyder](https://www.spyder-ide.org) | v6.1.4 | 2026-04-07 | Win/Mac/Linux | 科学计算/数据分析专用，变量浏览器 |
+
+**C / C++ / C#：**
+
+| 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
+|------|-----|---------|---------|------|------|
+| C++/C#/.NET | [Visual Studio Community](https://visualstudio.microsoft.com/vs/) · [社区版](https://visualstudio.microsoft.com/vs/community/) | v17.14 | 2026-06 | Windows | 微软官方，C#/.NET 开发首选，社区版免费 |
+| C/C++ | [CLion](https://www.jetbrains.com/clion/) · [下载](https://www.jetbrains.com/clion/download/) | 2025.1.1 | 2025-05 | Win/Mac/Linux | 最强 C/C++ IDE，CMake 支持，学生免费 |
+
+**JS / TS：**
+
+| 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
+|------|-----|---------|---------|------|------|
+| JS/TS | [WebStorm](https://www.jetbrains.com/webstorm/) · [下载](https://www.jetbrains.com/webstorm/download/) | 2026.1 | 2026-06 | Win/Mac/Linux | 最强前端 IDE，开箱即用 |
 
 **适用场景：**
 - Java 开发 → IntelliJ CE（首选）/ Eclipse / NetBeans
