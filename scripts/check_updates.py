@@ -460,7 +460,9 @@ def main():
         for name in stale_list:
             print(f"  - {name}: {results[name]['date']}")
 
-    return 0 if not dead_links else 1
+    # Dead links are logged as warnings in the README (❌ markers),
+    # but should not block the workflow from committing other updates.
+    return 0
 
 
 if __name__ == "__main__":
