@@ -12,6 +12,8 @@
 | 零基础 / 课堂教学 / 不想折腾环境 | [解压即用型 IDE](#一解压即用型-ide) |
 | 有一定基础 / 项目开发 / 培训课程 | [需要配置环境的 IDE](#二需要配置环境的-ide) |
 | 深度学习底层原理 / 计算机专业 | [编辑器 + 手动配置环境](#三编辑器--手动配置环境) |
+| 不想装软件 / 随时随地写代码 | [在线网页版 IDE](#四在线网页版-ide) |
+| 想理解算法运行过程 | [算法可视化网站](#五算法可视化网站) |
 
 ---
 
@@ -145,6 +147,88 @@
 
 ---
 
+## 四、在线网页版 IDE
+
+> 打开浏览器就能写代码，不用安装任何软件。适合课堂演示、快速验证想法、随时随地练习。
+
+**综合型（多语言）：**
+
+| 平台 | 支持语言 | 需要登录 | 免费 | 亮点 |
+|------|---------|---------|------|------|
+| [Replit](https://replit.com) | 50+ 种（Python/Java/C++/JS/Go 等） | 是 | ✅ 基础免费 | 浏览器完整 IDE，多人协作，AI 助手 |
+| [GitHub Codespaces](https://github.com/features/codespaces) | 全语言（VS Code） | 是（GitHub） | ✅ 60 小时/月 | 浏览器完整 VS Code，直接打开仓库 |
+| [OnlineGDB](https://www.onlinegdb.com) | 15+ 种（C/C++/Java/Python/JS 等） | 否 | ✅ 完全免费 | 内置 GDB 调试器，适合学习调试 |
+| [JDoodle](https://www.jdoodle.com) | 70+ 种语言 | 否 | ✅ 有每日限额 | 语言支持最广，快速测试代码 |
+| [W3Schools Tryit](https://www.w3schools.com/tryit/) | 15+ 种（HTML/Python/Java/C 等） | 否 | ✅ 完全免费 | 配套 W3Schools 教程，一键试运行 |
+| [菜鸟工具](https://www.runoob.com) | 10+ 种（Python/C/Java/JS/PHP 等） | 否 | ✅ 完全免费 | 配套菜鸟教程，中文界面，一键运行 |
+| [IDEONE](https://ideone.com) | 60+ 种语言 | 否 | ✅ 完全免费 | 简洁快速，适合多语言对比测试 |
+
+**专项型：**
+
+| 平台 | 支持语言 | 需要登录 | 免费 | 亮点 |
+|------|---------|---------|------|------|
+| [Google Colab](https://colab.research.google.com) | Python | 是（Google） | ✅ 含免费 GPU | 数据科学/ML 首选，预装 NumPy/PyTorch |
+| [PythonAnywhere](https://www.pythonanywhere.com) | Python | 是 | ✅ 基础免费 | Python 专属，可部署 Flask/Django 网站 |
+| [CodePen](https://codepen.io) | HTML/CSS/JS | 否 | ✅ 基础免费 | 前端开发实验场，实时预览，社区分享 |
+| [StackBlitz](https://stackblitz.com) | JS/TS/HTML/CSS | 否 | ✅ 完全免费 | 浏览器内运行 Node.js，秒开 GitHub 项目 |
+| [Programiz](https://www.programiz.com/python-programming/online-compiler) | Python/C/C++/Java/JS/Go | 否 | ✅ 完全免费 | 界面极简，零基础友好，配套教程 |
+
+**国内编程竞赛/刷题平台（在线 IDE）：**
+
+| 平台 | 支持语言 | 需要登录 | 免费 | 亮点 |
+|------|---------|---------|------|------|
+| [力扣 LeetCode](https://leetcode.cn) | 15+ 种（Python/C++/Java/JS/Go 等） | 是 | ✅ 大部分免费 | 算法刷题首选，内置代码编辑器+测试用例 |
+| [AcWing](https://www.acwing.com) | C++/Python/Java | 是 | 部分免费 | 高质量算法课程+在线评测，B站配套视频 |
+| [牛客](https://www.nowcoder.com) | 10+ 种（C/C++/Java/Python/JS 等） | 是 | ✅ 大部分免费 | 面试刷题+在线笔试模拟，校招必备 |
+| [洛谷](https://www.luogu.com.cn) | C/C++/Java/Python | 是 | ✅ 大部分免费 | 3000+ 题库，难度分级，社区活跃 |
+| [蓝桥杯官方练习](https://www.lanqiao.cn) | C/C++/Java/Python/JS/Go | 是 | ✅ 练习免费 | 蓝桥杯竞赛配套，在线模拟考试 |
+
+> 💡 不想登录只想快速跑代码 → Programiz / OnlineGDB / JDoodle（打开即用）
+> 💡 想刷算法题 → 力扣（国际通用）/ 洛谷（国内竞赛）
+
+---
+
+## 五、算法可视化网站
+
+> 用动画看算法怎么运行，比读代码直观 100 倍。推荐配合 Hello Algo 和代码随想录学习。
+
+**综合算法可视化：**
+
+| 网站 | 形式 | 需要登录 | 免费 | 支持语言 | 亮点 |
+|------|------|---------|------|---------|------|
+| [VisuAlgo](https://visualgo.net) | 交互动画 | 否 | ✅ 完全免费 | 伪代码（多语言切换） | 新加坡国立大学出品，覆盖排序/图/字符串/数据结构 |
+| [Algorithm Visualizer](https://algorithm-visualizer.org) | 代码+动画同步 | 否 | ✅ 完全免费 | JS/Java/C++/Python | 开源，边写代码边看动画，社区贡献算法 |
+| [Python Tutor](https://pythontutor.com) | 逐步执行可视化 | 否 | ✅ 完全免费 | Python/Java/C/C++/JS/TS/Ruby | ⭐ 初学者神器！逐行显示变量值+调用栈+指针关系 |
+| [USF 数据结构可视化](https://www.cs.usfca.edu/~galles/visualization/) | 点击交互 | 否 | ✅ 完全免费 | 无需写代码 | 经典教材级，堆/树/哈希表/图算法，纯点击操作 |
+
+**排序算法专题：**
+
+| 网站 | 形式 | 需要登录 | 免费 | 支持语言 | 亮点 |
+|------|------|---------|------|---------|------|
+| [SortVisualizer](https://sortvisualizer.com) | 并排动画对比 | 否 | ✅ 完全免费 | 无需写代码 | 多种排序算法并排运行，直观对比速度差异 |
+| [Toptal 排序演示](https://www.toptal.com/developers/sorting-algorithms) | 动画+声音 | 否 | ✅ 完全免费 | 无需写代码 | 排序过程有声音反馈，不同算法音色不同 |
+
+**路径规划算法：**
+
+| 网站 | 形式 | 需要登录 | 免费 | 支持语言 | 亮点 |
+|------|------|---------|------|---------|------|
+| [PathFinding.js](https://qiao.github.io/PathFinding.js/visual/) | 网格交互 | 否 | ✅ 完全免费 | JavaScript | 画障碍物→看 A*/Dijkstra/BFS/DFS 找路径过程 |
+
+**中文学习资源（含算法图解）：**
+
+| 网站 | 形式 | 需要登录 | 免费 | 支持语言 | 亮点 |
+|------|------|---------|------|---------|------|
+| [Hello Algo（动手学数据结构与算法）](https://www.hello-algo.com) | 电子书+动画 | 否 | ✅ 完全免费 | Python/C++/Java/C/Go/JS/TS/C#/Swift/Rust | ⭐⭐ 中文最佳！全彩图解+动画+12 种语言代码 |
+| [代码随想录](https://programmercarl.com) | 图文+代码 | 否 | ✅ 完全免费 | C++/Python/Java/Go/JS | ⭐⭐ LeetCode 题解+动画图解，B 站配套视频 |
+| [The Algorithms](https://the-algorithms.com) | 代码实现+说明 | 否 | ✅ 完全免费 | Python/Java/C++/C/JS/Go/Rust 等 15+ 种 | 开源算法大全，按语言+类别分类 |
+
+> 💡 零基础想理解代码执行过程 → **Python Tutor**（粘贴代码，逐步运行，看变量变化）
+> 💡 系统学习数据结构与算法 → **Hello Algo**（中文图解+动画+多语言代码）
+> 💡 刷 LeetCode 需要思路讲解 → **代码随想录**（视频+图解+题解）
+> 💡 纯看动画不想写代码 → **USF 数据结构可视化** / **SortVisualizer**
+
+---
+
 ## 选型决策树
 
 ```
@@ -154,14 +238,22 @@
  │   ├─ 想学 Java → BlueJ
  │   ├─ 想学 Go → LiteIDE
  │   ├─ 想学创意编程 → Processing
- │   └─ 想玩硬件 → Arduino IDE
+ │   ├─ 想玩硬件 → Arduino IDE
+ │   └─ 不想装软件？→ Programiz / OnlineGDB / 菜鸟工具（打开即写）
  │
  ├─ 有少量编程经验？
  │   ├─ Python → PyCharm CE
  │   ├─ Java → IntelliJ CE
  │   ├─ C#/.NET → VS Community
  │   ├─ 前端 → WebStorm 或 VS Code
- │   └─ 数据科学 → Spyder
+ │   ├─ 数据科学 → Spyder / Google Colab
+ │   └─ 随时随地写？→ Replit / GitHub Codespaces
+ │
+ ├─ 想理解算法怎么运行？
+ │   ├─ 看代码逐行执行 → Python Tutor
+ │   ├─ 系统学数据结构 → Hello Algo
+ │   ├─ 刷 LeetCode → 代码随想录 / 力扣
+ │   └─ 纯看动画 → USF 数据结构可视化 / SortVisualizer
  │
  └─ 想要最大灵活性？
      └─ VS Code + 手动配置语言环境
