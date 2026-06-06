@@ -117,8 +117,8 @@
 
 | 语言支持 | 编辑器 | 最新版本 | 更新时间 | 平台 | 亮点 |
 |---------|--------|---------|---------|------|------|
-| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.123 | 2026-06-03 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
-| 全语言 | [Zed](https://zed.dev) | 1.5.3 | 2026-06-03 | Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
+| 全语言 | [Zed](https://zed.dev) | 1.5.4 | 2026-06-06 | Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
+| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.123.0 | 2026-06-05 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
 | **全语言** | **[Sublime Text](https://www.sublimetext.com)** | **Build 4200** | **2026-05-29** | **Win/Mac/Linux** | **启动 <1 秒，多光标编辑，可无限试用** |
 | 全语言 | [Kate](https://kate-editor.org) | v26.04.2 | 2026-05-22 | Win/Mac/Linux | KDE 出品，内置终端/LSP/文件树，比 VS Code 轻 3 倍 |
 | C#/.NET | [RoslynPad](https://github.com/roslynpad/roslynpad) | 21 | 2026-05-21 | Windows | C# 即时执行 REPL，无需创建项目即可测试代码片段 |
@@ -171,19 +171,19 @@
 
 ## 更新状态
 
-> 🤖 最后自动检查: 2026-06-05 04:37 UTC
+> 🤖 最后自动检查: 2026-06-06 10:12 UTC
 
 > 以下状态由自动化脚本每日更新。  
 > ⚠️ = 超过 12 个月未更新；✅ = 活跃维护中
 
 | 项目 | 最后活跃 | 状态 |
 |------|---------|------|
+| Zed | 2026-06-06 | ✅ |
+| VS Code | 2026-06-05 | ✅ |
 | IntelliJ IDEA CE | 2026-06-04 | ✅ |
 | Android Studio | 2026-06-04 | ✅ |
 | PyCharm CE | 2026-06-04 | ✅ |
 | WebStorm | 2026-06-04 | ✅ |
-| VS Code | 2026-06-03 | ✅ |
-| Zed | 2026-06-03 | ✅ |
 | Sublime Text | 2026-05-29 | ✅ |
 | Racket | 2026-05-28 | ✅ |
 | Arduino IDE | 2026-05-26 | ✅ |
@@ -205,10 +205,10 @@
 | 小龙 Dev-C++ | 2026-01-15 | ✅ |
 | Red Panda C++ | 2025-11-30 | ✅ |
 | PyScripter | 2025-11-11 | ✅ |
+| Emacs | 2025-08-14 | ✅ |
 | Helix | 2025-07-18 | ✅ |
 | BlueJ | 2025-06-03 | ✅ |
 | LiteIDE | 2025-05-19 | ⚠️ 可能停更 |
-| Emacs | 2025-08-14 | ✅ |
 
 ---
 
