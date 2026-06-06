@@ -347,3 +347,15 @@
 ## 许可
 
 MIT License - 欢迎自由使用和分享。
+
+---
+
+## 致谢
+
+感谢 [JetBrains](https://www.jetbrains.com) 对全球开发者社区的无私贡献。
+
+JetBrains 打造了 IntelliJ IDEA、PyCharm、WebStorm、CLion 等一系列伟大的开发工具，深刻影响了现代软件开发的方式。作为一名学生时，我曾受益于 JetBrains 的[免费学生授权](https://www.jetbrains.com/community/education/)，这些工具陪伴我走过了编程学习的关键阶段，对我帮助很大。
+
+尽管目前已不再符合免费授权的条件，但我对 JetBrains 始终心怀感激。一个公司愿意长期为学生和开源社区提供免费的专业工具，这件事本身就值得尊敬。
+
+> *"The best tools are the ones that make you better at what you do."*
