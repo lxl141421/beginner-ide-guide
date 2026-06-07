@@ -120,11 +120,11 @@
 
 | 语言支持 | 编辑器 | 最新版本 | 更新时间 | 平台 | 亮点 |
 |---------|--------|---------|---------|------|------|
+| C#/.NET | [RoslynPad](https://github.com/roslynpad/roslynpad) | 21.1 | 2026-06-07 | Windows | C# 即时执行 REPL，无需创建项目即可测试代码片段 |
 | 全语言 | [Zed](https://zed.dev) | 1.5.4 | 2026-06-06 | Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
 | **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.123.0 | 2026-06-05 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
 | **全语言** | **[Sublime Text](https://www.sublimetext.com)** | **Build 4200** | **2026-05-29** | **Win/Mac/Linux** | **启动 <1 秒，多光标编辑，可无限试用** |
 | 全语言 | [Kate](https://kate-editor.org) | v26.04.2 | 2026-05-22 | Win/Mac/Linux | KDE 出品，内置终端/LSP/文件树，比 VS Code 轻 3 倍 |
-| C#/.NET | [RoslynPad](https://github.com/roslynpad/roslynpad) | 21 | 2026-05-21 | Windows | C# 即时执行 REPL，无需创建项目即可测试代码片段 |
 | **全语言** | **[Vim/Neovim](https://neovim.io)** | 0.12.2 | 2026-04-22 | **Win/Mac/Linux** | **终端编辑器之王，纯键盘操作，服务器必装** |
 | 全语言 | [nano](https://nano-editor.org) | 9.0 | 2026-04-08 | Linux/Mac | 最简单的终端编辑器，服务器必装，零学习成本 |
 | 全语言 | [gedit](https://gedit-technology.github.io/apps/gedit/) | 50.0 | 2026-03-27 | Linux | GNOME 桌面自带，语法高亮，适合 Linux 课堂 |
@@ -264,13 +264,14 @@
 
 ## 更新状态
 
-> 🤖 最后自动检查: 2026-06-06 10:12 UTC
+> 🤖 最后自动检查: 2026-06-07 10:34 UTC
 
 > 以下状态由自动化脚本每日更新。  
 > ⚠️ = 超过 12 个月未更新；✅ = 活跃维护中
 
 | 项目 | 最后活跃 | 状态 |
 |------|---------|------|
+| RoslynPad | 2026-06-07 | ✅ |
 | Zed | 2026-06-06 | ✅ |
 | VS Code | 2026-06-05 | ✅ |
 | IntelliJ IDEA CE | 2026-06-04 | ✅ |
@@ -281,7 +282,6 @@
 | Racket | 2026-05-28 | ✅ |
 | Arduino IDE | 2026-05-26 | ✅ |
 | Kate | 2026-05-22 | ✅ |
-| RoslynPad | 2026-05-21 | ✅ |
 | CLion | 2026-05-18 | ✅ |
 | WinPython | 2026-05-17 | ✅ |
 | NetBeans | 2026-05-11 | ✅ |
@@ -298,7 +298,7 @@
 | 小龙 Dev-C++ | 2026-01-15 | ✅ |
 | Red Panda C++ | 2025-11-30 | ✅ |
 | PyScripter | 2025-11-11 | ✅ |
-| Emacs | 2025-08-14 | ✅ |
+| Emacs | 2025-08-14 | ❌ 链接失效 |
 | Helix | 2025-07-18 | ✅ |
 | BlueJ | 2025-06-03 | ✅ |
 | LiteIDE | 2025-05-19 | ⚠️ 可能停更 |
