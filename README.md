@@ -34,7 +34,7 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| C/C++ | [Arduino IDE](https://www.arduino.cc/en/software) | 2.3.9 | 2026-05-26 | Win/Mac/Linux | 硬件编程首选，一键烧录到开发板，海量库支持 |
+| C/C++ | [Arduino IDE](https://www.arduino.cc/en/software) | 2.3.10 | 2026-06-09 | Win/Mac/Linux | 硬件编程首选，一键烧录到开发板，海量库支持 |
 | C/C++ | [小龙 Dev-C++](https://gitee.com/devcpp/devcpp) | v6.4.1 | 2026-01-15 | Windows | 国产增强版 Dev-C++，自带 GCC 11.4，OJ 刷题/竞赛常用 |
 | C/C++ | [Red Panda C++](https://github.com/royqh1979/RedPanda-CPP) | 3.4 | 2025-11-30 | Windows/Linux | 信奥/竞赛首选，内置 OJ 题库，智能补全，中文界面 |
 
@@ -120,9 +120,9 @@
 
 | 语言支持 | 编辑器 | 最新版本 | 更新时间 | 平台 | 亮点 |
 |---------|--------|---------|---------|------|------|
+| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.123.2 | 2026-06-10 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
+| 全语言 | [Zed](https://zed.dev) | 1.5.5 | 2026-06-09 | Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
 | C#/.NET | [RoslynPad](https://github.com/roslynpad/roslynpad) | 21.1 | 2026-06-07 | Windows | C# 即时执行 REPL，无需创建项目即可测试代码片段 |
-| 全语言 | [Zed](https://zed.dev) | 1.5.4 | 2026-06-06 | Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
-| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.123.0 | 2026-06-05 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
 | **全语言** | **[Sublime Text](https://www.sublimetext.com)** | **Build 4200** | **2026-05-29** | **Win/Mac/Linux** | **启动 <1 秒，多光标编辑，可无限试用** |
 | 全语言 | [Kate](https://kate-editor.org) | v26.04.2 | 2026-05-22 | Win/Mac/Linux | KDE 出品，内置终端/LSP/文件树，比 VS Code 轻 3 倍 |
 | **全语言** | **[Vim/Neovim](https://neovim.io)** | 0.12.2 | 2026-04-22 | **Win/Mac/Linux** | **终端编辑器之王，纯键盘操作，服务器必装** |
@@ -264,23 +264,23 @@
 
 ## 更新状态
 
-> 🤖 最后自动检查: 2026-06-09 11:24 UTC
+> 🤖 最后自动检查: 2026-06-10 11:44 UTC
 
 > 以下状态由自动化脚本每日更新。  
 > ⚠️ = 超过 12 个月未更新；✅ = 活跃维护中
 
 | 项目 | 最后活跃 | 状态 |
 |------|---------|------|
+| VS Code | 2026-06-10 | ✅ |
+| Arduino IDE | 2026-06-09 | ✅ |
+| Zed | 2026-06-09 | ✅ |
 | RoslynPad | 2026-06-07 | ✅ |
-| Zed | 2026-06-06 | ✅ |
-| VS Code | 2026-06-05 | ✅ |
 | IntelliJ IDEA CE | 2026-06-04 | ✅ |
 | Android Studio | 2026-06-04 | ✅ |
 | PyCharm CE | 2026-06-04 | ✅ |
 | WebStorm | 2026-06-04 | ✅ |
 | Sublime Text | 2026-05-29 | ✅ |
 | Racket | 2026-05-28 | ✅ |
-| Arduino IDE | 2026-05-26 | ✅ |
 | Kate | 2026-05-22 | ✅ |
 | CLion | 2026-05-18 | ✅ |
 | WinPython | 2026-05-17 | ✅ |
@@ -298,7 +298,7 @@
 | 小龙 Dev-C++ | 2026-01-15 | ✅ |
 | Red Panda C++ | 2025-11-30 | ✅ |
 | PyScripter | 2025-11-11 | ✅ |
-| Emacs | 2025-08-14 | ❌ 链接失效 |
+| Emacs | 2025-08-14 | ✅ |
 | Helix | 2025-07-18 | ✅ |
 | BlueJ | 2025-06-03 | ✅ |
 | LiteIDE | 2025-05-19 | ⚠️ 可能停更 |
