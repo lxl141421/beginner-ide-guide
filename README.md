@@ -76,7 +76,7 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Java/Kotlin | [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) · [下载](https://www.jetbrains.com/idea/download/) | 2026.1.3 | 2026-06-04 | Win/Mac/Linux | Java 开发行业标准，重构/补全/调试一体，社区版免费 |
+| Java/Kotlin | [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) · [下载](https://www.jetbrains.com/idea/download/) | 2026.1.3 | 2026-06-22 | Win/Mac/Linux | Java 开发行业标准，重构/补全/调试一体，社区版免费 |
 | Kotlin/Java | [Android Studio](https://developer.android.com/studio) | Narwhal 2025.1.4 | 2026-06-04 | Win/Mac/Linux | Android 开发唯一官方 IDE，内置模拟器，布局可视化 |
 | Java | [NetBeans](https://netbeans.apache.org) | 30 | 2026-05-11 | Win/Mac/Linux | Apache 出品，Maven/Gradle 原生支持，GUI 拖拽设计器 |
 | Java | [Eclipse](https://eclipse.org) | 2026-03 | 2026-03-12 | Win/Mac/Linux | 老牌 Java IDE，插件生态最全，企业项目常用 |
@@ -264,19 +264,19 @@
 
 ## 更新状态
 
-> 🤖 最后自动检查: 2026-06-21 11:21 UTC
+> 🤖 最后自动检查: 2026-06-22 13:40 UTC
 
 > 以下状态由自动化脚本每日更新。  
 > ⚠️ = 超过 12 个月未更新；✅ = 活跃维护中
 
 | 项目 | 最后活跃 | 状态 |
 |------|---------|------|
+| IntelliJ IDEA CE | 2026-06-22 | ✅ |
 | VS Code | 2026-06-17 | ✅ |
 | Zed | 2026-06-17 | ✅ |
 | Vim/Neovim | 2026-06-10 | ✅ |
 | Arduino IDE | 2026-06-09 | ✅ |
 | RoslynPad | 2026-06-07 | ✅ |
-| IntelliJ IDEA CE | 2026-06-04 | ✅ |
 | Android Studio | 2026-06-04 | ✅ |
 | PyCharm CE | 2026-06-04 | ✅ |
 | WebStorm | 2026-06-04 | ✅ |
