@@ -10,7 +10,7 @@
 
 | 你的情况 | 推荐类别 |
 |---------|---------|
-| 零基础 / 课堂教学 / 不想折腾环境 | [解压即用型 IDE](#一解压即用型-ide) |
+| 零基础 / 课堂教学 / 不想折腾环境 | [无需配置环境的 IDE](#一无需配置环境的-ide) |
 | 有一定基础 / 项目开发 / 培训课程 | [需要配置环境的 IDE](#二需要配置环境的-ide) |
 | 深度学习底层原理 / 计算机专业 | [编辑器 + 手动配置环境](#三编辑器--手动配置环境) |
 | 不想装软件 / 随时随地写代码 | [在线网页版 IDE](#四在线网页版-ide) |
@@ -28,6 +28,7 @@
 |------|-----|---------|---------|------|------|
 | Python | [WinPython](https://winpython.github.io) | 17.4 | 2026-05-17 | Windows | 便携免安装，数据科学选 **free** 版，只学基础选 **slim** 版 |
 | Python | [Thonny](https://thonny.org) | 5.0.0 | 2026-04-25 | Win/Mac/Linux | Python 官方推荐，逐行执行可视化变量，零配置 |
+| Python | [PyScripter](https://github.com/lmbelo/pyscripter) | 5.3.0 | 2025-11-11 | Windows | Windows 专属轻量 IDE，启动秒开，内置调试器 |
 
 
 **C / C++：**
@@ -264,22 +265,22 @@
 | VS Code | 2026-06-17 | ✅ |
 | Zed | 2026-06-17 | ✅ |
 | Vim/Neovim | 2026-06-10 | ✅ |
+| Lazarus | 2026-06-11 | ✅ |
 | Arduino IDE | 2026-06-09 | ✅ |
 | Android Studio | 2026-06-04 | ✅ |
 | PyCharm CE | 2026-06-04 | ✅ |
 | WebStorm | 2026-06-04 | ✅ |
 | Sublime Text | 2026-05-29 | ✅ |
-| Racket | 2026-05-28 | ✅ |
+| Racket | 2026-05-27 | ✅ |
 | CLion | 2026-05-18 | ✅ |
 | WinPython | 2026-05-17 | ✅ |
 | NetBeans | 2026-05-11 | ✅ |
-| VS Community | 2026-05-07 | ✅ |
+| Visual Studio Community | 2026-05-07 | ✅ |
 | Thonny | 2026-04-25 | ✅ |
 | nano | 2026-04-08 | ✅ |
 | Spyder | 2026-04-07 | ✅ |
 | gedit | 2026-03-27 | ✅ |
 | Eclipse | 2026-03-12 | ✅ |
-| Lazarus | 2026-06-11 | ✅ |
 | Processing | 2026-03-02 | ✅ |
 | 小龙 Dev-C++ | 2026-01-24 | ✅ |
 | Red Panda C++ | 2025-11-30 | ✅ |
@@ -314,7 +315,6 @@
 |------|--------------|
 | BlueJ | 非 GitHub 托管，无公开 API |
 | Lazarus | 非 GitHub 托管，无公开 API |
-| 小龙 Dev-C++ | Gitee 托管，无标准 Release API |
 | Eclipse | GitHub 仓库 tag 格式不规范 |
 | Android Studio | 非开源，无公开 API |
 | PyCharm CE | JetBrains 私有发布机制 |
@@ -324,6 +324,7 @@
 | Sublime Text | 非开源，无公开 API |
 | nano | GNU 项目，无标准 Release API |
 | Emacs | GNU 项目，无标准 Release API |
+| Geany | 非 GitHub 托管，无公开 Release API |
 
 其余 14 个项目（WinPython、Thonny、PyScripter、Arduino IDE、Red Panda C++、Racket、Processing、IntelliJ IDEA CE、NetBeans、Spyder、VS Code、Zed、Vim/Neovim、gedit）会自动从 GitHub Releases 或 GitLab Tags 获取最新版本号和发布日期。
 

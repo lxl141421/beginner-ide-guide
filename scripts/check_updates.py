@@ -47,7 +47,7 @@ SOURCES = {
     "Android Studio":   {"type": "static",       "check_url": "https://developer.android.com/studio"},
     "PyCharm CE":       {"type": "static",       "check_url": "https://www.jetbrains.com/pycharm/"},
     "Spyder":           {"type": "github_release", "repo": "spyder-ide/spyder"},
-    "VS Community":     {"type": "static",       "check_url": "https://visualstudio.microsoft.com/vs/community/"},
+    "Visual Studio Community": {"type": "static", "check_url": "https://visualstudio.microsoft.com/vs/community/"},
     "CLion":            {"type": "static",       "check_url": "https://www.jetbrains.com/clion/"},
     "WebStorm":         {"type": "static",       "check_url": "https://www.jetbrains.com/webstorm/"},
 
@@ -106,13 +106,13 @@ def clean_version(tag):
     for prefix in ("idea/", "pycharm/", "webstorm/", "clion/", "android-studio/"):
         if v.lower().startswith(prefix):
             v = v[len(prefix):]
-    # Strip processing-XXXX- prefix
+    # Strip processing-XXXX- prefix (keep only the trailing number for now)
     v = re.sub(r'^processing-\d+-', '', v)
     # Strip emacs- prefix
     v = re.sub(r'^emacs-', '', v)
-    # Strip leading v (but not vx38.4 style → strip vx too)
+    # Strip leading v or vx
     if v.startswith("vx") and len(v) > 2:
-        v = v[1:]  # keep the x: vx38.4 → x38.4
+        v = v[2:]  # vx38.4 → 38.4
     elif v.startswith("v") and len(v) > 1 and v[1].isdigit():
         v = v[1:]
     # Strip trailing build info: "17.4.20260511final" → "17.4"
