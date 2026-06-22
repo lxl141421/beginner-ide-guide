@@ -28,7 +28,6 @@
 |------|-----|---------|---------|------|------|
 | Python | [WinPython](https://winpython.github.io) | 17.4 | 2026-05-17 | Windows | 便携免安装，数据科学选 **free** 版，只学基础选 **slim** 版 |
 | Python | [Thonny](https://thonny.org) | 5.0.0 | 2026-04-25 | Win/Mac/Linux | Python 官方推荐，逐行执行可视化变量，零配置 |
-| Python | [PyScripter](https://github.com/lmbelo/pyscripter) | 5.3.0 | 2025-11-11 | Windows | Windows 专属轻量 IDE，启动秒开，内置调试器 |
 
 
 **C / C++：**
@@ -54,7 +53,7 @@
 | Processing | [Processing](https://processing.org) | 4.5.3 | 2026-03-02 | Win/Mac/Linux | 创意编程/可视化艺术首选，5 行代码画动画，即时反馈 |
 
 **适用场景：**
-- Python 零基础 → Thonny（跨平台）/ WinPython（Windows 便携）/ PyScripter（Windows 轻量）
+- Python 零基础 → Thonny（跨平台）/ WinPython（Windows 便携）
 - Pascal/OJ 刷题 → Lazarus / 小龙 Dev-C++ / Red Panda C++
 - 创意编程 → Processing
 - 硬件/机器人 → Arduino IDE
@@ -81,6 +80,7 @@
 |------|-----|---------|---------|------|------|
 | Python | [PyCharm CE](https://www.jetbrains.com/pycharm/) · [下载](https://www.jetbrains.com/pycharm/download/) | 2026.1.3 | 2026-06-04 | Win/Mac/Linux | Python 开发首选，Django/Flask 支持，社区版免费 |
 | Python | [Spyder](https://www.spyder-ide.org) | 6.1.4 | 2026-04-07 | Win/Mac/Linux | 数据科学专用，变量浏览器实时查看 DataFrame，类 MATLAB |
+| Python | [PyScripter](https://github.com/lmbelo/pyscripter) | 5.3.0 | 2025-11-11 | Windows | 轻量级 Python IDE，启动秒开，内置调试器 |
 
 **C / C++ / C#：**
 
@@ -97,7 +97,7 @@
 
 **适用场景：**
 - Java 开发 → IntelliJ CE（首选）/ Eclipse / NetBeans
-- Python Web/数据分析 → PyCharm CE
+- Python 开发 → PyCharm CE（全功能）/ PyScripter（轻量 Windows）
 - 数据科学/AI → Spyder
 - C#/.NET → VS Community
 - C/C++ → CLion
