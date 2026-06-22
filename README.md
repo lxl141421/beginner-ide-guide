@@ -18,7 +18,7 @@
 
 ---
 
-## 一、解压即用型 IDE
+## 一、无需配置环境的 IDE
 
 > 下载解压就能用，不需要额外安装编译器/解释器。
 
@@ -28,14 +28,14 @@
 |------|-----|---------|---------|------|------|
 | Python | [WinPython](https://winpython.github.io) | 17.4 | 2026-05-17 | Windows | 便携免安装，数据科学选 **free** 版，只学基础选 **slim** 版 |
 | Python | [Thonny](https://thonny.org) | 5.0.0 | 2026-04-25 | Win/Mac/Linux | Python 官方推荐，逐行执行可视化变量，零配置 |
-| Python | [PyScripter](https://github.com/lmbelo/pyscripter) | 5.3.0 | 2025-11-11 | Windows | Windows 专属轻量 IDE，启动秒开，内置调试器 |
+
 
 **C / C++：**
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
 | C/C++ | [Arduino IDE](https://www.arduino.cc/en/software) | 2.3.10 | 2026-06-09 | Win/Mac/Linux | 硬件编程首选，一键烧录到开发板，海量库支持 |
-| C/C++ | [小龙 Dev-C++](https://gitee.com/devcpp/devcpp) | v6.4.1 | 2026-01-15 | Windows | 国产增强版 Dev-C++，自带 GCC 11.4，OJ 刷题/竞赛常用 |
+| C/C++ | [小龙 Dev-C++](https://gitee.com/devcpp/devcpp) · [GitHub](https://github.com/anbangli/XiaoLoong-DevCpp) | v6.4.1 | 2026-01-24 | Windows | 国产增强版 Dev-C++，自带 TDM-GCC，OJ 刷题/竞赛常用 |
 | C/C++ | [Red Panda C++](https://github.com/royqh1979/RedPanda-CPP) | 3.4 | 2025-11-30 | Windows/Linux | 信奥/竞赛首选，内置 OJ 题库，智能补全，中文界面 |
 
 **Java：**
@@ -44,24 +44,17 @@
 |------|-----|---------|---------|------|------|
 | Java | [BlueJ](https://bluej.org) | v5.5.0 | 2025-06-03 | Win/Mac/Linux | 大学 Java 课程标配，可视化类图交互式创建对象 |
 
-**Go：**
-
-| 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
-|------|-----|---------|---------|------|------|
-| Go | [LiteIDE](https://github.com/visualfc/liteide) | x38.4 | 2025-05-19 | Win/Mac/Linux | 唯一专注 Go 的轻量 IDE，解压即用，中文界面 |
-
 **其他：**
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Racket | [Racket](https://racket-lang.org) | 9.2 | 2026-05-28 | Win/Mac/Linux | SICP/函数式编程首选，自带 DrRacket，教学语言分级 |
-| Pascal | [Lazarus](https://www.lazarus-ide.org) | v4.6 | 2026-02-21 | Win/Mac/Linux | Delphi 开源替代，可视化窗体设计器，OJ/Pascal 教学 |
-| Processing | [Processing](https://processing.org) | 4.5.2 | 2026-01-29 | Win/Mac/Linux | 创意编程/可视化艺术首选，5 行代码画动画，即时反馈 |
+| Racket | [Racket](https://racket-lang.org) | 9.2 | 2026-05-27 | Win/Mac/Linux | SICP/函数式编程首选，自带 DrRacket，教学语言分级 |
+| Pascal | [Lazarus](https://www.lazarus-ide.org) | v4.8 | 2026-06-11 | Win/Mac/Linux | Delphi 开源替代，可视化窗体设计器，OJ/Pascal 教学 |
+| Processing | [Processing](https://processing.org) | 4.5.3 | 2026-03-02 | Win/Mac/Linux | 创意编程/可视化艺术首选，5 行代码画动画，即时反馈 |
 
 **适用场景：**
 - Python 零基础 → Thonny（跨平台）/ WinPython（Windows 便携）/ PyScripter（Windows 轻量）
 - Pascal/OJ 刷题 → Lazarus / 小龙 Dev-C++ / Red Panda C++
-- Go 入门 → LiteIDE
 - 创意编程 → Processing
 - 硬件/机器人 → Arduino IDE
 - 函数式编程/SICP → Racket
@@ -233,11 +226,10 @@
 ## 选型决策树
 
 ```
-开始
+ 开始
  ├─ 完全零基础？
  │   ├─ 想学 Python → Thonny（跨平台）/ WinPython（Win便携）
  │   ├─ 想学 Java → BlueJ
- │   ├─ 想学 Go → LiteIDE
  │   ├─ 想学创意编程 → Processing
  │   ├─ 想玩硬件 → Arduino IDE
  │   └─ 不想装软件？→ Programiz / OnlineGDB / 菜鸟工具（打开即写）
@@ -301,7 +293,6 @@
 | Emacs | 2025-08-14 | ✅ |
 | Helix | 2025-07-18 | ✅ |
 | BlueJ | 2025-06-03 | ✅ |
-| LiteIDE | 2025-05-19 | ⚠️ 可能停更 |
 
 ---
 
@@ -340,7 +331,7 @@
 | nano | GNU 项目，无标准 Release API |
 | Emacs | GNU 项目，无标准 Release API |
 
-其余 15 个项目（WinPython、Thonny、PyScripter、Arduino IDE、Red Panda C++、LiteIDE、Racket、Processing、IntelliJ IDEA CE、NetBeans、Spyder、VS Code、Zed、Kate、RoslynPad、Vim/Neovim、gedit、Lapce、Helix）会自动从 GitHub Releases 或 GitLab Tags 获取最新版本号和发布日期。
+其余 14 个项目（WinPython、Thonny、PyScripter、Arduino IDE、Red Panda C++、Racket、Processing、IntelliJ IDEA CE、NetBeans、Spyder、VS Code、Zed、Kate、RoslynPad、Vim/Neovim、gedit、Lapce、Helix）会自动从 GitHub Releases 或 GitLab Tags 获取最新版本号和发布日期。
 
 ---
 

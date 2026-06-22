@@ -35,11 +35,10 @@ SOURCES = {
     "Arduino IDE":      {"type": "github_release", "repo": "arduino/arduino-ide"},
     "Red Panda C++":    {"type": "github_release", "repo": "royqh1979/RedPanda-CPP"},
     "BlueJ":            {"type": "static",      "check_url": "https://bluej.org"},
-    "LiteIDE":          {"type": "github_release", "repo": "visualfc/liteide"},
     "Racket":           {"type": "github_release", "repo": "racket/racket"},
     "Processing":       {"type": "github_release", "repo": "processing/processing4"},
     "Lazarus":          {"type": "static",      "check_url": "https://www.lazarus-ide.org"},
-    "小龙 Dev-C++":      {"type": "static",      "check_url": "https://gitee.com/devcpp/devcpp"},
+    "小龙 Dev-C++":      {"type": "github_release", "repo": "anbangli/XiaoLoong-DevCpp"},
 
     # === 二、需要配置环境 ===
     "IntelliJ IDEA CE": {"type": "github_release", "repo": "JetBrains/intellij-community"},
