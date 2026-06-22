@@ -55,14 +55,11 @@ SOURCES = {
     "VS Code":          {"type": "github_release", "repo": "microsoft/vscode"},
     "Zed":              {"type": "github_release", "repo": "zed-industries/zed"},
     "Sublime Text":     {"type": "static",       "check_url": "https://www.sublimetext.com"},
-    "Kate":             {"type": "github_tag",   "repo": "KDE/kate", "name_re": r"v?(\d+\.\d+\.\d+)"},
-    "RoslynPad":        {"type": "github_release", "repo": "roslynpad/roslynpad"},
     "Vim/Neovim":       {"type": "github_release", "repo": "neovim/neovim"},
     "nano":             {"type": "static",       "check_url": "https://nano-editor.org"},
     "gedit":            {"type": "gitlab_tag",   "repo": "World/gedit/gedit"},
-    "Lapce":            {"type": "github_release", "repo": "lapce/lapce"},
+    "Geany":            {"type": "static",       "check_url": "https://www.geany.org"},
     "Emacs":            {"type": "static",       "check_url": "https://www.gnu.org/software/emacs/"},
-    "Helix":            {"type": "github_release", "repo": "helix-editor/helix"},
 }
 
 

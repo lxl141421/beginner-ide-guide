@@ -116,14 +116,11 @@
 | **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.125.0 | 2026-06-17 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
 | 全语言 | [Zed](https://zed.dev) | 1.7.2 | 2026-06-17 | Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
 | **全语言** | **[Vim/Neovim](https://neovim.io)** | 0.12.3 | 2026-06-10 | **Win/Mac/Linux** | **终端编辑器之王，纯键盘操作，服务器必装** |
-| C#/.NET | [RoslynPad](https://github.com/roslynpad/roslynpad) | 21.1 | 2026-06-07 | Windows | C# 即时执行 REPL，无需创建项目即可测试代码片段 |
 | **全语言** | **[Sublime Text](https://www.sublimetext.com)** | **Build 4200** | **2026-05-29** | **Win/Mac/Linux** | **启动 <1 秒，多光标编辑，可无限试用** |
-| 全语言 | [Kate](https://kate-editor.org) | v26.04.2 | 2026-05-22 | Win/Mac/Linux | KDE 出品，内置终端/LSP/文件树，比 VS Code 轻 3 倍 |
 | 全语言 | [nano](https://nano-editor.org) | 9.0 | 2026-04-08 | Linux/Mac | 最简单的终端编辑器，服务器必装，零学习成本 |
 | 全语言 | [gedit](https://gedit-technology.github.io/apps/gedit/) | 50.0 | 2026-03-27 | Linux | GNOME 桌面自带，语法高亮，适合 Linux 课堂 |
-| 全语言 | [Lapce](https://lapce.dev) | 0.4.6 | 2026-01-21 | Win/Mac/Linux | Rust 原生 GUI，内置 LSP 和远程开发，比 Electron 快 |
+| 全语言 | [Geany](https://www.geany.org) | 2.1.0 | 2025-07-01 | Win/Mac/Linux | 轻量级 GUI 编辑器，50+ 语言，自带编译运行，开箱即用 |
 | 全语言 | [Emacs](https://www.gnu.org/software/emacs/) | 30.2 | 2025-08-14 | Win/Mac/Linux | 可编程编辑器，Org-mode/Lisp 生态，学习曲线陡峭 |
-| 全语言 | [Helix](https://helix-editor.com) | 25.07.1 | 2025-07-18 | Win/Mac/Linux | 类 Vim 但开箱即用，内置 LSP/树形选择，无需插件 |
 
 **需要手动安装的环境（按语言）：**
 
@@ -268,13 +265,11 @@
 | Zed | 2026-06-17 | ✅ |
 | Vim/Neovim | 2026-06-10 | ✅ |
 | Arduino IDE | 2026-06-09 | ✅ |
-| RoslynPad | 2026-06-07 | ✅ |
 | Android Studio | 2026-06-04 | ✅ |
 | PyCharm CE | 2026-06-04 | ✅ |
 | WebStorm | 2026-06-04 | ✅ |
 | Sublime Text | 2026-05-29 | ✅ |
 | Racket | 2026-05-28 | ✅ |
-| Kate | 2026-05-22 | ✅ |
 | CLion | 2026-05-18 | ✅ |
 | WinPython | 2026-05-17 | ✅ |
 | NetBeans | 2026-05-11 | ✅ |
@@ -284,14 +279,13 @@
 | Spyder | 2026-04-07 | ✅ |
 | gedit | 2026-03-27 | ✅ |
 | Eclipse | 2026-03-12 | ✅ |
-| Lazarus | 2026-02-21 | ✅ |
-| Processing | 2026-01-29 | ✅ |
-| Lapce | 2026-01-21 | ✅ |
-| 小龙 Dev-C++ | 2026-01-15 | ✅ |
+| Lazarus | 2026-06-11 | ✅ |
+| Processing | 2026-03-02 | ✅ |
+| 小龙 Dev-C++ | 2026-01-24 | ✅ |
 | Red Panda C++ | 2025-11-30 | ✅ |
 | PyScripter | 2025-11-11 | ✅ |
 | Emacs | 2025-08-14 | ✅ |
-| Helix | 2025-07-18 | ✅ |
+| Geany | 2025-07-01 | ✅ |
 | BlueJ | 2025-06-03 | ✅ |
 
 ---
@@ -331,7 +325,7 @@
 | nano | GNU 项目，无标准 Release API |
 | Emacs | GNU 项目，无标准 Release API |
 
-其余 14 个项目（WinPython、Thonny、PyScripter、Arduino IDE、Red Panda C++、Racket、Processing、IntelliJ IDEA CE、NetBeans、Spyder、VS Code、Zed、Kate、RoslynPad、Vim/Neovim、gedit、Lapce、Helix）会自动从 GitHub Releases 或 GitLab Tags 获取最新版本号和发布日期。
+其余 14 个项目（WinPython、Thonny、PyScripter、Arduino IDE、Red Panda C++、Racket、Processing、IntelliJ IDEA CE、NetBeans、Spyder、VS Code、Zed、Vim/Neovim、gedit）会自动从 GitHub Releases 或 GitLab Tags 获取最新版本号和发布日期。
 
 ---
 
