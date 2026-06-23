@@ -254,7 +254,7 @@
 
 ## 更新状态
 
-> 🤖 最后自动检查: 2026-06-23 00:16 UTC
+> 🤖 最后自动检查: 2026-06-23 00:20 UTC
 
 > 以下状态由自动化脚本每日更新。  
 > ⚠️ = 超过 12 个月未更新；✅ = 活跃维护中
@@ -309,24 +309,14 @@
 
 ## 自动更新说明
 
-本项目通过 GitHub Actions 每 3 个月自动检查更新。以下项目因非开源或无公开 Release API，**仅检查链接有效性**，版本号需手动更新：
+本项目通过 GitHub Actions 自动维护：
+- **每天**：检查所有链接是否失效
+- **每周日**：完整更新版本号、发布日期、链接检查、按时间排序
+- **手动触发**：随时可运行完整更新
 
-| 项目 | 仅检查链接原因 |
-|------|--------------|
-| BlueJ | 非 GitHub 托管，无公开 API |
-| Lazarus | 非 GitHub 托管，无公开 API |
-| Eclipse | GitHub 仓库 tag 格式不规范 |
-| Android Studio | 非开源，无公开 API |
-| PyCharm CE | JetBrains 私有发布机制 |
-| Visual Studio Community | 非开源，无公开 API |
-| CLion | 非开源，无公开 API |
-| WebStorm | 非开源，无公开 API |
-| Sublime Text | 非开源，无公开 API |
-| nano | GNU 项目，无标准 Release API |
-| Emacs | GNU 项目，无标准 Release API |
-| Geany | 非 GitHub 托管，无公开 Release API |
-
-其余 14 个项目（WinPython、Thonny、PyScripter、Arduino IDE、Red Panda C++、Racket、Processing、IntelliJ IDEA CE、NetBeans、Spyder、VS Code、Zed、Vim/Neovim、gedit）会自动从 GitHub Releases 或 GitLab Tags 获取最新版本号和发布日期。
+所有 27 个项目均已实现自动版本号获取：
+- GitHub/GitLab 项目：通过 Release API 或 Tag 获取
+- 非 GitHub 项目（Emacs/Geany/BlueJ/Lazarus/Sublime Text/nano/JetBrains系列/VS Community/Eclipse/Android Studio）：通过网页抓取获取
 
 ---
 
