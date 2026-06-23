@@ -125,15 +125,17 @@
 
 **需要手动安装的环境（按语言）：**
 
-| 语言 | 安装方式 | 验证命令 |
-|------|---------|---------|
-| Python | [python.org](https://python.org) 下载 或 `pyenv` | `python3 --version` |
-| Java | [Adoptium](https://adoptium.net) | `java -version` |
-| Node.js | [nodejs.org](https://nodejs.org) 或 `nvm` | `node -v` |
-| C/C++ | Windows: MinGW-w64 或 [MSYS2](https://www.msys2.org); Mac: Xcode CLI; Linux: `build-essential` | `gcc --version` |
-| Go | [go.dev](https://go.dev) | `go version` |
-| Rust | [rustup.rs](https://rustup.rs) | `rustc --version` |
-| C#/.NET | [dotnet.microsoft.com](https://dotnet.microsoft.com) | `dotnet --version` |
+| 语言 | 推荐版本 | 安装方式 | 验证命令 |
+|------|---------|---------|---------|
+| Python | 3.12+（最新稳定版） | [python.org](https://python.org) 下载 或 `pyenv` | `python3 --version` |
+| Java | 21 LTS（长期支持版） | [Adoptium](https://adoptium.net) | `java -version` |
+| Node.js | 22 LTS（长期支持版） | [nodejs.org](https://nodejs.org) 或 `nvm` | `node -v` |
+| C/C++ | 最新稳定版即可 | Windows: MinGW-w64 或 [MSYS2](https://www.msys2.org); Mac: Xcode CLI; Linux: `build-essential` | `gcc --version` |
+| Go | 1.22+（最新稳定版） | [go.dev](https://go.dev) | `go version` |
+| Rust | 最新稳定版（rustup 自动管理） | [rustup.rs](https://rustup.rs) | `rustc --version` |
+| C#/.NET | 8 LTS（长期支持版） | [dotnet.microsoft.com](https://dotnet.microsoft.com) | `dotnet --version` |
+
+> 💡 选版本原则：**有 LTS（长期支持）选 LTS，没有就选最新稳定版**。LTS 版本维护时间长、社区支持好，适合学习和生产环境。
 
 > 💡 Windows 用户推荐用 [MSYS2](https://www.msys2.org) 管理 C/C++/Go/Rust 工具链，比单独装 MinGW 方便得多。
 
