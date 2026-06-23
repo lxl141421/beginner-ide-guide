@@ -2,9 +2,8 @@ name: Check Links Daily
 
 on:
   schedule:
-    # 每天 UTC 08:00 运行（北京时间 16:00）
     - cron: '0 8 * * *'
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -21,7 +20,8 @@ jobs:
           python-version: '3.12'
 
       - name: Check links only
-        run: python -c "
+        run: |
+          python -c "
           import urllib.request, urllib.error, re
           from pathlib import Path
 
@@ -45,12 +45,11 @@ jobs:
               except Exception as e:
                   dead.append((name, url, str(e)[:50]))
           if dead:
-              print('⚠️ Dead links found:')
+              print('Dead links found:')
               for name, url, err in dead:
-                  print(f'  - [{name}]({url}) → {err}')
-              # Report as warning, don't fail workflow
+                  print(f'  - [{name}]({url}) -> {err}')
           else:
-              print(f'✅ All {len(checked)} links OK')
+              print(f'All {len(checked)} links OK')
           "
 
       - name: Commit if README changed
@@ -58,5 +57,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --cached --quiet || git commit -m "🤖 链接检查 [$(date -u +%Y-%m-%d)]"
+          git diff --cached --quiet || git commit -m "link check [$(date -u +%Y-%m-%d)]"
           git push
