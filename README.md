@@ -35,7 +35,7 @@
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
 | C/C++ | [Arduino IDE](https://www.arduino.cc/en/software) | 2.3.10 | 2026-06-09 | Win/Mac/Linux | 硬件编程首选，一键烧录到开发板，海量库支持 |
-| C/C++ | [小龙 Dev-C++](https://gitee.com/devcpp/devcpp) · [GitHub](https://github.com/anbangli/XiaoLoong-DevCpp) | v6.4.1 | 2026-01-24 | Windows | 国产增强版 Dev-C++，自带 TDM-GCC，OJ 刷题/竞赛常用 |
+| C/C++ | [小龙 Dev-C++](https://gitee.com/devcpp/devcpp) · [GitHub](https://github.com/anbangli/XiaoLoong-DevCpp) | 6.4.1 | 2026-01-24 | Windows | 国产增强版 Dev-C++，自带 TDM-GCC，OJ 刷题/竞赛常用 |
 | C/C++ | [Red Panda C++](https://github.com/royqh1979/RedPanda-CPP) | 3.4 | 2025-11-30 | Windows/Linux | 信奥/竞赛首选，内置 OJ 题库，智能补全，中文界面 |
 
 **Java：**
@@ -48,9 +48,9 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Racket | [Racket](https://racket-lang.org) | 9.2 | 2026-05-27 | Win/Mac/Linux | SICP/函数式编程首选，自带 DrRacket，教学语言分级 |
 | Pascal | [Lazarus](https://www.lazarus-ide.org) | v4.8 | 2026-06-11 | Win/Mac/Linux | Delphi 开源替代，可视化窗体设计器，OJ/Pascal 教学 |
-| Processing | [Processing](https://processing.org) | 4.5.3 | 2026-03-02 | Win/Mac/Linux | 创意编程/可视化艺术首选，5 行代码画动画，即时反馈 |
+| Racket | [Racket](https://racket-lang.org) | 9.2 | 2026-05-28 | Win/Mac/Linux | SICP/函数式编程首选，自带 DrRacket，教学语言分级 |
+| Processing | [Processing](https://processing.org) | 4.5.2 | 2026-01-29 | Win/Mac/Linux | 创意编程/可视化艺术首选，5 行代码画动画，即时反馈 |
 
 **适用场景：**
 - Python 零基础 → Thonny（跨平台）/ WinPython（Windows 便携）
@@ -120,8 +120,8 @@
 | **全语言** | **[Sublime Text](https://www.sublimetext.com)** | **Build 4200** | **2026-05-29** | **Win/Mac/Linux** | **启动 <1 秒，多光标编辑，可无限试用** |
 | 全语言 | [nano](https://nano-editor.org) | 9.0 | 2026-04-08 | Linux/Mac | 最简单的终端编辑器，服务器必装，零学习成本 |
 | 全语言 | [gedit](https://gedit-technology.github.io/apps/gedit/) | 50.0 | 2026-03-27 | Linux | GNOME 桌面自带，语法高亮，适合 Linux 课堂 |
-| 全语言 | [Geany](https://www.geany.org) | 2.1.0 | 2025-07-01 | Win/Mac/Linux | 轻量级 GUI 编辑器，50+ 语言，自带编译运行，开箱即用 |
 | 全语言 | [Emacs](https://www.gnu.org/software/emacs/) | 30.2 | 2025-08-14 | Win/Mac/Linux | 可编程编辑器，Org-mode/Lisp 生态，学习曲线陡峭 |
+| 全语言 | [Geany](https://www.geany.org) | 2.1.0 | 2025-07-01 | Win/Mac/Linux | 轻量级 GUI 编辑器，50+ 语言，自带编译运行，开箱即用 |
 
 **需要手动安装的环境（按语言）：**
 
@@ -254,7 +254,7 @@
 
 ## 更新状态
 
-> 🤖 最后自动检查: 2026-06-22 13:40 UTC
+> 🤖 最后自动检查: 2026-06-23 00:05 UTC
 
 > 以下状态由自动化脚本每日更新。  
 > ⚠️ = 超过 12 个月未更新；✅ = 活跃维护中
@@ -264,14 +264,14 @@
 | IntelliJ IDEA CE | 2026-06-22 | ✅ |
 | VS Code | 2026-06-17 | ✅ |
 | Zed | 2026-06-17 | ✅ |
-| Vim/Neovim | 2026-06-10 | ✅ |
 | Lazarus | 2026-06-11 | ✅ |
+| Vim/Neovim | 2026-06-10 | ✅ |
 | Arduino IDE | 2026-06-09 | ✅ |
-| Android Studio | 2026-06-04 | ✅ |
+| Android Studio | 2026-06-04 | ❌ 链接失效 |
 | PyCharm CE | 2026-06-04 | ✅ |
 | WebStorm | 2026-06-04 | ✅ |
 | Sublime Text | 2026-05-29 | ✅ |
-| Racket | 2026-05-27 | ✅ |
+| Racket | 2026-05-28 | ✅ |
 | CLion | 2026-05-18 | ✅ |
 | WinPython | 2026-05-17 | ✅ |
 | NetBeans | 2026-05-11 | ✅ |
@@ -281,7 +281,7 @@
 | Spyder | 2026-04-07 | ✅ |
 | gedit | 2026-03-27 | ✅ |
 | Eclipse | 2026-03-12 | ✅ |
-| Processing | 2026-03-02 | ✅ |
+| Processing | 2026-01-29 | ✅ |
 | 小龙 Dev-C++ | 2026-01-24 | ✅ |
 | Red Panda C++ | 2025-11-30 | ✅ |
 | PyScripter | 2025-11-11 | ✅ |
