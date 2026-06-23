@@ -34,32 +34,32 @@ SOURCES = {
     "PyScripter":       {"type": "github_release", "repo": "lmbelo/pyscripter"},
     "Arduino IDE":      {"type": "github_release", "repo": "arduino/arduino-ide"},
     "Red Panda C++":    {"type": "github_release", "repo": "royqh1979/RedPanda-CPP"},
-    "BlueJ":            {"type": "static",      "check_url": "https://bluej.org"},
+    "BlueJ":            {"type": "scrape", "check_url": "https://bluej.org", "scraper": "bluej"},
     "Racket":           {"type": "github_release", "repo": "racket/racket"},
     "Processing":       {"type": "github_release", "repo": "processing/processing4"},
-    "Lazarus":          {"type": "static",      "check_url": "https://www.lazarus-ide.org"},
+    "Lazarus":          {"type": "scrape", "check_url": "https://www.lazarus-ide.org", "scraper": "lazarus"},
     "小龙 Dev-C++":      {"type": "github_release", "repo": "anbangli/XiaoLoong-DevCpp"},
 
     # === 二、需要配置环境 ===
     "IntelliJ IDEA CE": {"type": "github_release", "repo": "JetBrains/intellij-community"},
     "NetBeans":         {"type": "github_release", "repo": "apache/netbeans"},
-    "Eclipse":          {"type": "static",       "check_url": "https://eclipse.org"},
-    "Android Studio":   {"type": "static",       "check_url": "https://developer.android.com/studio"},
-    "PyCharm CE":       {"type": "static",       "check_url": "https://www.jetbrains.com/pycharm/"},
+    "Eclipse":          {"type": "scrape", "check_url": "https://www.eclipse.org", "scraper": "eclipse"},
+    "Android Studio":   {"type": "scrape", "check_url": "https://developer.android.com/studio", "scraper": "android_studio"},
+    "PyCharm CE":       {"type": "scrape", "check_url": "https://www.jetbrains.com/pycharm/whatsnew/", "scraper": "jetbrains", "product_name": "PyCharm"},
     "Spyder":           {"type": "github_release", "repo": "spyder-ide/spyder"},
-    "Visual Studio Community": {"type": "static", "check_url": "https://visualstudio.microsoft.com/vs/community/"},
-    "CLion":            {"type": "static",       "check_url": "https://www.jetbrains.com/clion/"},
-    "WebStorm":         {"type": "static",       "check_url": "https://www.jetbrains.com/webstorm/"},
+    "Visual Studio Community": {"type": "scrape", "check_url": "https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes", "scraper": "vscommunity"},
+    "CLion":            {"type": "scrape", "check_url": "https://www.jetbrains.com/clion/whatsnew/", "scraper": "jetbrains", "product_name": "CLion"},
+    "WebStorm":         {"type": "scrape", "check_url": "https://www.jetbrains.com/webstorm/whatsnew/", "scraper": "jetbrains", "product_name": "WebStorm"},
 
     # === 三、编辑器 ===
     "VS Code":          {"type": "github_release", "repo": "microsoft/vscode"},
     "Zed":              {"type": "github_release", "repo": "zed-industries/zed"},
-    "Sublime Text":     {"type": "static",       "check_url": "https://www.sublimetext.com"},
+    "Sublime Text":     {"type": "scrape", "check_url": "https://www.sublimetext.com", "scraper": "sublime"},
     "Vim/Neovim":       {"type": "github_release", "repo": "neovim/neovim"},
-    "nano":             {"type": "static",       "check_url": "https://nano-editor.org"},
+    "nano":             {"type": "scrape", "check_url": "https://nano-editor.org", "scraper": "nano"},
     "gedit":            {"type": "gitlab_tag",   "repo": "World/gedit/gedit"},
-    "Geany":            {"type": "static",       "check_url": "https://www.geany.org"},
-    "Emacs":            {"type": "static",       "check_url": "https://www.gnu.org/software/emacs/"},
+    "Geany":            {"type": "scrape", "check_url": "https://www.geany.org", "scraper": "geany"},
+    "Emacs":            {"type": "scrape", "check_url": "https://www.gnu.org/software/emacs/", "scraper": "emacs"},
 }
 
 
@@ -73,6 +73,21 @@ def api_get(url, headers=None, timeout=TIMEOUT):
         req = urllib.request.Request(url, headers=hdrs)
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             return json.loads(resp.read().decode())
+    except Exception as e:
+        return None
+
+
+def fetch_html(url, timeout=TIMEOUT):
+    """Fetch HTML content from a URL. Returns string or None."""
+    hdrs = {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml",
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+    try:
+        req = urllib.request.Request(url, headers=hdrs)
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            return resp.read().decode("utf-8", errors="ignore")
     except Exception as e:
         return None
 
@@ -170,6 +185,232 @@ def fetch_gitlab_tag(project_path):
     return None
 
 
+def parse_month_name(month_str):
+    """Convert month name to number: 'Jan' -> 1, 'January' -> 1, etc."""
+    months = {
+        "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
+        "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12,
+    }
+    return months.get(month_str.lower()[:3], 0)
+
+
+def fetch_scrape_generic(url, version_pattern, date_pattern=None):
+    """Generic web scraper. Returns (version, date) or None."""
+    html = fetch_html(url)
+    if not html:
+        return None
+    # Remove HTML tags for cleaner matching
+    text = re.sub(r'<[^>]+>', ' ', html)
+    text = re.sub(r'\s+', ' ', text)
+
+    ver_match = re.search(version_pattern, text)
+    if not ver_match:
+        return None
+    version = ver_match.group(1)
+
+    date = ""
+    if date_pattern:
+        date_match = re.search(date_pattern, text, re.IGNORECASE)
+        if date_match:
+            date = date_match.group(1)
+
+    return version, date
+
+
+def fetch_scrape_emacs(url):
+    """Scrape Emacs version from gnu.org."""
+    html = fetch_html(url)
+    if not html:
+        return None
+    text = re.sub(r'<[^>]+>', ' ', html)
+    text = re.sub(r'\s+', ' ', text)
+    # "Emacs 30.2 Released Aug 14, 2025"
+    m = re.search(r'Emacs\s+(\d+\.\d+)\s+Released\s+(\w+)\s+(\d+),\s*(\d{4})', text)
+    if m:
+        version = m.group(1)
+        month = parse_month_name(m.group(2))
+        day = m.group(3)
+        year = m.group(4)
+        date = f"{year}-{month:02d}-{int(day):02d}"
+        return version, date
+    return None
+
+
+def fetch_scrape_geany(url):
+    """Scrape Geany version from geany.org."""
+    html = fetch_html(url)
+    if not html:
+        return None
+    text = re.sub(r'<[^>]+>', ' ', html)
+    text = re.sub(r'\s+', ' ', text)
+    # "Download Geany 2.1.0"
+    m = re.search(r'Download\s+Geany\s+([\d.]+)', text)
+    if m:
+        version = m.group(1)
+        # Try to find date from news: "Geany 2.1 is out! - July 2025"
+        date_m = re.search(r'Geany\s+' + re.escape(version[:3]) + r'[^-]*-\s+(\w+)\s+(\d{4})', text)
+        date = ""
+        if date_m:
+            month = parse_month_name(date_m.group(1))
+            year = date_m.group(2)
+            date = f"{year}-{month:02d}-01"
+        return version, date
+    return None
+
+
+def fetch_scrape_bluej(url):
+    """Scrape BlueJ version from bluej.org."""
+    html = fetch_html(url)
+    if not html:
+        return None
+    text = re.sub(r'<[^>]+>', ' ', html)
+    text = re.sub(r'\s+', ' ', text)
+    # "Version 5.5.0, released 3 June 2025"
+    m = re.search(r'Version\s+([\d.]+),?\s*released\s+(\d+)\s+(\w+)\s+(\d{4})', text, re.IGNORECASE)
+    if m:
+        version = m.group(1)
+        day = m.group(2)
+        month = parse_month_name(m.group(3))
+        year = m.group(4)
+        date = f"{year}-{month:02d}-{int(day):02d}"
+        return version, date
+    return None
+
+
+def fetch_scrape_lazarus(url):
+    """Scrape Lazarus version from lazarus-ide.org."""
+    html = fetch_html(url)
+    if not html:
+        return None
+    text = re.sub(r'<[^>]+>', ' ', html)
+    text = re.sub(r'\s+', ' ', text)
+    # "Version 4.8 for Windows" or "Lazarus Bugfix Release 4.8 - June 11, 2026"
+    m = re.search(r'Version\s+([\d.]+)', text)
+    if not m:
+        return None
+    version = m.group(1)
+    # Try to find date: "Lazarus Bugfix Release X.X - Month DD, YYYY"
+    date_m = re.search(r'Lazarus\s+(?:Bugfix\s+)?Release\s+' + re.escape(version) + r'\s*-\s*(\w+)\s+(\d+),\s*(\d{4})', text)
+    date = ""
+    if date_m:
+        month = parse_month_name(date_m.group(1))
+        day = date_m.group(2)
+        year = date_m.group(3)
+        date = f"{year}-{month:02d}-{int(day):02d}"
+    return version, date
+
+
+def fetch_scrape_sublime(url):
+    """Scrape Sublime Text version from sublimetext.com."""
+    html = fetch_html(url)
+    if not html:
+        return None
+    text = re.sub(r'<[^>]+>', ' ', html)
+    text = re.sub(r'\s+', ' ', text)
+    # "Sublime Text 4 (Build 4200)"
+    m = re.search(r'Sublime Text\s+\d+\s+\(Build\s+(\d+)\)', text)
+    if m:
+        version = m.group(1)
+        return version, ""
+    return None
+
+
+def fetch_scrape_nano(url):
+    """Scrape nano version from nano-editor.org."""
+    html = fetch_html(url)
+    if not html:
+        return None
+    text = re.sub(r'<[^>]+>', ' ', html)
+    text = re.sub(r'\s+', ' ', text)
+    # "Latest version: 9.0 Modified: 2026 April 8"
+    m = re.search(r'Latest version:\s*([\d.]+)', text)
+    if not m:
+        return None
+    version = m.group(1)
+    # "Modified: 2026 April 8"
+    date_m = re.search(r'Modified:\s*(\d{4})\s+(\w+)\s+(\d+)', text)
+    date = ""
+    if date_m:
+        year = date_m.group(1)
+        month = parse_month_name(date_m.group(2))
+        day = date_m.group(3)
+        date = f"{year}-{month:02d}-{int(day):02d}"
+    return version, date
+
+
+def fetch_scrape_jetbrains(whatsnew_url, product_name):
+    """Scrape JetBrains product version from what's new page."""
+    html = fetch_html(whatsnew_url)
+    if not html:
+        return None
+    text = re.sub(r'<[^>]+>', ' ', html)
+    text = re.sub(r'\s+', ' ', text)
+    # "What's New in PyCharm 2026.1" or title tag
+    m = re.search(r"What(?:'s|\u2019s)\s+New\s+in\s+" + re.escape(product_name) + r"\s+(\d{4}\.\d+)", text, re.IGNORECASE)
+    if not m:
+        # Try title tag
+        m = re.search(re.escape(product_name) + r"\s+(\d{4}\.\d+)", text, re.IGNORECASE)
+    if m:
+        version = m.group(1)
+        # JetBrains releases don't have exact dates on what's new pages
+        # Try to find release date from page
+        return version, ""
+    return None
+
+
+def fetch_scrape_vscommunity(url):
+    """Scrape Visual Studio Community version from Microsoft Learn."""
+    html = fetch_html(url)
+    if not html:
+        return None
+    text = re.sub(r'<[^>]+>', ' ', html)
+    text = re.sub(r'\s+', ' ', text)
+    # "Visual Studio 2022 version 17.14 Release Notes"
+    m = re.search(r'Visual Studio\s+(\d{4})\s+version\s+([\d.]+)', text)
+    if m:
+        version = f"{m.group(1)} {m.group(2)}"
+        # "Version 17.14.9 Released July 15th, 2025"
+        date_m = re.search(r'Version\s+[\d.]+\s+Released\s+(\w+)\s+(\d+)\D*\s*(\d{4})', text)
+        date = ""
+        if date_m:
+            month = parse_month_name(date_m.group(1))
+            day = date_m.group(2)
+            year = date_m.group(3)
+            date = f"{year}-{month:02d}-{int(day):02d}"
+        return version, date
+    return None
+
+
+def fetch_scrape_android_studio(url):
+    """Scrape Android Studio version from Chinese site (less anti-bot)."""
+    html = fetch_html("https://developer.android.google.cn/studio")
+    if html:
+        text = re.sub(r'<[^>]+>', ' ', html)
+        text = re.sub(r'\s+', ' ', text)
+        # "Android Studio Quail 1 | 2026.1.1"
+        m = re.search(r'Android Studio\s+(\w+(?:\s+\w+)*)\s*\|\s*([\d.]+)', text)
+        if m:
+            return m.group(2), ""
+    return None
+
+
+def fetch_scrape_eclipse(url):
+    """Scrape Eclipse IDE version from downloads page."""
+    html = fetch_html("https://www.eclipse.org/downloads/packages/")
+    if not html:
+        return None
+    text = re.sub(r'<[^>]+>', ' ', html)
+    text = re.sub(r'\s+', ' ', text)
+    # Look for version like "2025-06" or "4.32"
+    m = re.search(r'Eclipse\s+(?:IDE\s+)?(\d{4}-\d{2})', text)
+    if m:
+        return m.group(1), ""
+    m = re.search(r'Version\s+([\d.]+)', text)
+    if m:
+        return m.group(1), ""
+    return None
+
+
 def fetch_version(name, cfg):
     """Fetch latest version info based on source type. Returns (version, date) or None."""
     src_type = cfg["type"]
@@ -187,8 +428,35 @@ def fetch_version(name, cfg):
             releases = data["releases"].get(ver, [])
             date = releases[0]["upload_time"][:10] if releases else ""
             return ver, date
+    elif src_type == "scrape":
+        scraper = cfg.get("scraper")
+        url = cfg["check_url"]
+        if scraper == "emacs":
+            return fetch_scrape_emacs(url)
+        elif scraper == "geany":
+            return fetch_scrape_geany(url)
+        elif scraper == "bluej":
+            return fetch_scrape_bluej(url)
+        elif scraper == "lazarus":
+            return fetch_scrape_lazarus(url)
+        elif scraper == "sublime":
+            return fetch_scrape_sublime(url)
+        elif scraper == "nano":
+            return fetch_scrape_nano(url)
+        elif scraper == "jetbrains":
+            return fetch_scrape_jetbrains(url, cfg.get("product_name", ""))
+        elif scraper == "vscommunity":
+            return fetch_scrape_vscommunity(url)
+        elif scraper == "android_studio":
+            return fetch_scrape_android_studio(url)
+        elif scraper == "eclipse":
+            return fetch_scrape_eclipse(url)
+        else:
+            # Generic scraper
+            ver_pattern = cfg.get("version_pattern", r'v?([\d.]+)')
+            date_pattern = cfg.get("date_pattern")
+            return fetch_scrape_generic(url, ver_pattern, date_pattern)
     elif src_type == "static":
-        # Just check link, don't update version
         url = cfg["check_url"]
         alive = check_link(url)
         if alive:
@@ -415,12 +683,12 @@ def main():
                     print(f"    {'✅' if alive else '❌'} Link: {url}")
             else:
                 info["version"] = ver
-                info["date"] = format_date(date)
+                info["date"] = format_date(date) if date else ""
                 counts["updated"] += 1
-                print(f"    v{ver}  {format_date(date)}")
+                print(f"    v{ver}  {format_date(date) if date else '(no date)'}")
 
                 # Check staleness
-                sort_date = parse_date_for_sort(format_date(date))
+                sort_date = parse_date_for_sort(format_date(date) if date else "")
                 if sort_date != "0000-00-00":
                     try:
                         release_dt = datetime.strptime(sort_date, "%Y-%m-%d").replace(tzinfo=timezone.utc)

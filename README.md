@@ -42,13 +42,13 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Java | [BlueJ](https://bluej.org) | v5.5.0 | 2025-06-03 | Win/Mac/Linux | 大学 Java 课程标配，可视化类图交互式创建对象 |
+| Java | [BlueJ](https://bluej.org) | 5.5.0 | 2025-06-03 | Win/Mac/Linux | 大学 Java 课程标配，可视化类图交互式创建对象 |
 
 **其他：**
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Pascal | [Lazarus](https://www.lazarus-ide.org) | v4.8 | 2026-06-11 | Win/Mac/Linux | Delphi 开源替代，可视化窗体设计器，OJ/Pascal 教学 |
+| Pascal | [Lazarus](https://www.lazarus-ide.org) | 4.8 | 2026-06-11 | Win/Mac/Linux | Delphi 开源替代，可视化窗体设计器，OJ/Pascal 教学 |
 | Racket | [Racket](https://racket-lang.org) | 9.2 | 2026-05-28 | Win/Mac/Linux | SICP/函数式编程首选，自带 DrRacket，教学语言分级 |
 | Processing | [Processing](https://processing.org) | 4.5.2 | 2026-01-29 | Win/Mac/Linux | 创意编程/可视化艺术首选，5 行代码画动画，即时反馈 |
 
@@ -86,8 +86,8 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
+| C++/C#/.NET | [Visual Studio Community](https://visualstudio.microsoft.com/vs/) · [社区版](https://visualstudio.microsoft.com/vs/community/) | 2022 17.14 | 2026-06-16 | Windows | C++/C# 开发最强，IntelliSense 智能补全，社区版免费 |
 | C/C++ | [CLion](https://www.jetbrains.com/clion/) · [下载](https://www.jetbrains.com/clion/download/) | 2026.1.2 | 2026-05-18 | Win/Mac/Linux | C/C++ 开发首选，CMake 原生支持，学生免费 |
-| C++/C#/.NET | [Visual Studio Community](https://visualstudio.microsoft.com/vs/) · [社区版](https://visualstudio.microsoft.com/vs/community/) | v17.14 | 2026-05-07 | Windows | C++/C# 开发最强，IntelliSense 智能补全，社区版免费 |
 
 **JS / TS：**
 
@@ -254,7 +254,7 @@
 
 ## 更新状态
 
-> 🤖 最后自动检查: 2026-06-23 00:05 UTC
+> 🤖 最后自动检查: 2026-06-23 00:16 UTC
 
 > 以下状态由自动化脚本每日更新。  
 > ⚠️ = 超过 12 个月未更新；✅ = 活跃维护中
@@ -264,10 +264,11 @@
 | IntelliJ IDEA CE | 2026-06-22 | ✅ |
 | VS Code | 2026-06-17 | ✅ |
 | Zed | 2026-06-17 | ✅ |
+| Visual Studio Community | 2026-06-16 | ✅ |
 | Lazarus | 2026-06-11 | ✅ |
 | Vim/Neovim | 2026-06-10 | ✅ |
 | Arduino IDE | 2026-06-09 | ✅ |
-| Android Studio | 2026-06-04 | ❌ 链接失效 |
+| Android Studio | 2026-06-04 | ✅ |
 | PyCharm CE | 2026-06-04 | ✅ |
 | WebStorm | 2026-06-04 | ✅ |
 | Sublime Text | 2026-05-29 | ✅ |
@@ -275,7 +276,6 @@
 | CLion | 2026-05-18 | ✅ |
 | WinPython | 2026-05-17 | ✅ |
 | NetBeans | 2026-05-11 | ✅ |
-| Visual Studio Community | 2026-05-07 | ✅ |
 | Thonny | 2026-04-25 | ✅ |
 | nano | 2026-04-08 | ✅ |
 | Spyder | 2026-04-07 | ✅ |
@@ -287,7 +287,7 @@
 | PyScripter | 2025-11-11 | ✅ |
 | Emacs | 2025-08-14 | ✅ |
 | Geany | 2025-07-01 | ✅ |
-| BlueJ | 2025-06-03 | ✅ |
+| BlueJ | 2025-06-03 | ⚠️ 可能停更 |
 
 ---
 
