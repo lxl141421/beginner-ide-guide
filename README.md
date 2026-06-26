@@ -38,23 +38,17 @@
 | C/C++ | [小龙 Dev-C++](https://gitee.com/devcpp/devcpp) · [GitHub](https://github.com/anbangli/XiaoLoong-DevCpp) | 6.4.1 | 2026-01-24 | Windows | 国产增强版 Dev-C++，自带 TDM-GCC，OJ 刷题/竞赛常用 |
 | C/C++ | [Red Panda C++](https://github.com/royqh1979/RedPanda-CPP) | 3.4 | 2025-11-30 | Windows/Linux | 信奥/竞赛首选，内置 OJ 题库，智能补全，中文界面 |
 
-**Java：**
 
-| 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
-|------|-----|---------|---------|------|------|
-| Java | [BlueJ](https://bluej.org) | 5.5.0 | 2025-06-03 | Win/Mac/Linux | 大学 Java 课程标配，可视化类图交互式创建对象 |
 
 **其他：**
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Pascal | [Lazarus](https://www.lazarus-ide.org) | 4.8 | 2026-06-11 | Win/Mac/Linux | Delphi 开源替代，可视化窗体设计器，OJ/Pascal 教学 |
 | Racket | [Racket](https://racket-lang.org) | 9.2 | 2026-05-28 | Win/Mac/Linux | SICP/函数式编程首选，自带 DrRacket，教学语言分级 |
 | Processing | [Processing](https://processing.org) | 4.5.2 | 2026-01-29 | Win/Mac/Linux | 创意编程/可视化艺术首选，5 行代码画动画，即时反馈 |
 
 **适用场景：**
 - Python 零基础 → Thonny（跨平台）/ WinPython（Windows 便携）
-- Pascal/OJ 刷题 → Lazarus / 小龙 Dev-C++ / Red Panda C++
 - 创意编程 → Processing
 - 硬件/机器人 → Arduino IDE
 - 函数式编程/SICP → Racket
@@ -73,6 +67,7 @@
 | Kotlin/Java | [Android Studio](https://developer.android.com/studio) | Narwhal 2025.1.4 | 2026-06-04 | Win/Mac/Linux | Android 开发唯一官方 IDE，内置模拟器，布局可视化 |
 | Java | [NetBeans](https://netbeans.apache.org) | 30 | 2026-05-11 | Win/Mac/Linux | Apache 出品，Maven/Gradle 原生支持，GUI 拖拽设计器 |
 | Java | [Eclipse](https://eclipse.org) | 2026-03 | 2026-03-12 | Win/Mac/Linux | 老牌 Java IDE，插件生态最全，企业项目常用 |
+| Java | [BlueJ](https://bluej.org) | 5.5.0 | 2025-06-03 | Win/Mac/Linux | 大学 Java 课程标配，可视化类图交互式创建对象 |
 
 **Python：**
 
@@ -95,12 +90,20 @@
 |------|-----|---------|---------|------|------|
 | JS/TS | [WebStorm](https://www.jetbrains.com/webstorm/) · [下载](https://www.jetbrains.com/webstorm/download/) | 2026.1.3 | 2026-06-04 | Win/Mac/Linux | 前端开发首选，Vue/React/Angular 全支持，学生免费 |
 
+**其他 / 多语言：**
+
+| 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
+|------|-----|---------|---------|------|------|
+| 多语言 | [Geany](https://www.geany.org) | 2.1.0 | 2025-07-01 | Win/Mac/Linux | 轻量级 GUI IDE，50+ 语言，内置编译运行集成，需自行安装语言环境 |
+| Pascal | [Lazarus](https://www.lazarus-ide.org) | 4.8 | 2026-06-11 | Win/Mac/Linux | Delphi 开源替代，可视化窗体设计器，需安装 Free Pascal 编译器 |
+
 **适用场景：**
-- Java 开发 → IntelliJ CE（首选）/ Eclipse / NetBeans
+- Java 开发 → IntelliJ CE（首选）/ Eclipse / NetBeans / BlueJ（教学）
 - Python 开发 → PyCharm CE（全功能）/ PyScripter（轻量 Windows）
 - 数据科学/AI → Spyder
 - C#/.NET → VS Community
-- C/C++ → CLion
+- C/C++ → CLion / Geany（轻量）
+- Pascal → Lazarus
 - 前端 → WebStorm
 - Android → Android Studio
 
@@ -115,13 +118,12 @@
 | 语言支持 | 编辑器 | 最新版本 | 更新时间 | 平台 | 亮点 |
 |---------|--------|---------|---------|------|------|
 | **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.125.0 | 2026-06-17 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
-| 全语言 | [Zed](https://zed.dev) | 1.7.2 | 2026-06-17 | Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
+| 全语言 | [Zed](https://zed.dev) | 1.7.2 | 2026-06-17 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
 | **全语言** | **[Vim/Neovim](https://neovim.io)** | 0.12.3 | 2026-06-10 | **Win/Mac/Linux** | **终端编辑器之王，纯键盘操作，服务器必装** |
 | **全语言** | **[Sublime Text](https://www.sublimetext.com)** | **Build 4200** | **2026-05-29** | **Win/Mac/Linux** | **启动 <1 秒，多光标编辑，可无限试用** |
 | 全语言 | [nano](https://nano-editor.org) | 9.0 | 2026-04-08 | Linux/Mac | 最简单的终端编辑器，服务器必装，零学习成本 |
 | 全语言 | [gedit](https://gedit-technology.github.io/apps/gedit/) | 50.0 | 2026-03-27 | Linux | GNOME 桌面自带，语法高亮，适合 Linux 课堂 |
 | 全语言 | [Emacs](https://www.gnu.org/software/emacs/) | 30.2 | 2025-08-14 | Win/Mac/Linux | 可编程编辑器，Org-mode/Lisp 生态，学习曲线陡峭 |
-| 全语言 | [Geany](https://www.geany.org) | 2.1.0 | 2025-07-01 | Win/Mac/Linux | 轻量级 GUI 编辑器，50+ 语言，自带编译运行，开箱即用 |
 
 **需要手动安装的环境（按语言）：**
 
@@ -130,7 +132,7 @@
 | Python | 3.12+（最新稳定版） | [python.org](https://python.org) 下载 或 `pyenv` | `python3 --version` |
 | Java | 21 LTS（长期支持版） | [Adoptium](https://adoptium.net) | `java -version` |
 | Node.js | 22 LTS（长期支持版） | [nodejs.org](https://nodejs.org) 或 `nvm` | `node -v` |
-| C/C++ | 最新稳定版即可 | Windows: MinGW-w64 或 [MSYS2](https://www.msys2.org); Mac: Xcode CLI; Linux: `build-essential` | `gcc --version` |
+| C/C++ | 12.x~13.x（竞赛）/ 最新稳定版（日常） | Windows: MinGW-w64 或 [MSYS2](https://www.msys2.org); Mac: Xcode CLI; Linux: `build-essential` | `gcc --version` |
 | Go | 1.22+（最新稳定版） | [go.dev](https://go.dev) | `go version` |
 | Rust | 最新稳定版（rustup 自动管理） | [rustup.rs](https://rustup.rs) | `rustc --version` |
 | C#/.NET | 8 LTS（长期支持版） | [dotnet.microsoft.com](https://dotnet.microsoft.com) | `dotnet --version` |
@@ -138,6 +140,8 @@
 > 💡 选版本原则：**有 LTS（长期支持）选 LTS，没有就选最新稳定版**。LTS 版本维护时间长、社区支持好，适合学习和生产环境。
 
 > 💡 Windows 用户推荐用 [MSYS2](https://www.msys2.org) 管理 C/C++/Go/Rust 工具链，比单独装 MinGW 方便得多。
+
+> ⚠️ **竞赛编译器版本限制：** 参加编程竞赛（ICPC/NOI/蓝桥杯等）时，OJ 平台对编译器版本有严格要求，本地版本过新可能导致编译失败。推荐同时安装一个较旧版本（如 GCC 12.x）备用。竞赛常用限制：C++ 标准 `-std=c++14` 或 `-std=c++17`，不支持 C++20/23 新特性；NOI/NOIP 系列仅允许 C/C++，不接受 Java 和 Python。
 
 ---
 
@@ -152,7 +156,7 @@
 | [Replit](https://replit.com) | 50+ 种（Python/Java/C++/JS/Go 等） | 是 | ✅ 基础免费 | 浏览器完整 IDE，多人协作，AI 助手 |
 | [GitHub Codespaces](https://github.com/features/codespaces) | 全语言（VS Code） | 是（GitHub） | ✅ 60 小时/月 | 浏览器完整 VS Code，直接打开仓库 |
 | [OnlineGDB](https://www.onlinegdb.com) | 15+ 种（C/C++/Java/Python/JS 等） | 否 | ✅ 完全免费 | 内置 GDB 调试器，适合学习调试 |
-| [JDoodle](https://www.jdoodle.com) | 70+ 种语言 | 否 | ✅ 有每日限额 | 语言支持最广，快速测试代码 |
+| [JDoodle](https://www.jdoodle.com) | 110+ 种语言 | 否 | ✅ 有每日限额 | 语言支持最广，快速测试代码 |
 | [W3Schools Tryit](https://www.w3schools.com/tryit/) | 15+ 种（HTML/Python/Java/C 等） | 否 | ✅ 完全免费 | 配套 W3Schools 教程，一键试运行 |
 | [菜鸟工具](https://www.runoob.com) | 10+ 种（Python/C/Java/JS/PHP 等） | 否 | ✅ 完全免费 | 配套菜鸟教程，中文界面，一键运行 |
 | [IDEONE](https://ideone.com) | 60+ 种语言 | 否 | ✅ 完全免费 | 简洁快速，适合多语言对比测试 |
@@ -165,7 +169,7 @@
 | [PythonAnywhere](https://www.pythonanywhere.com) | Python | 是 | ✅ 基础免费 | Python 专属，可部署 Flask/Django 网站 |
 | [CodePen](https://codepen.io) | HTML/CSS/JS | 否 | ✅ 基础免费 | 前端开发实验场，实时预览，社区分享 |
 | [StackBlitz](https://stackblitz.com) | JS/TS/HTML/CSS | 否 | ✅ 完全免费 | 浏览器内运行 Node.js，秒开 GitHub 项目 |
-| [Programiz](https://www.programiz.com/python-programming/online-compiler) | Python/C/C++/Java/JS/Go | 否 | ✅ 完全免费 | 界面极简，零基础友好，配套教程 |
+| [Programiz](https://www.programiz.com/python-programming/online-compiler) | Python/C/C++/Java/JS/Go/C#/TS/Rust/Scala/Dart/Ruby/PHP/Swift/R/SQL/HTML/CSS | 否 | ✅ 完全免费 | 界面极简，零基础友好，配套教程 |
 
 **国内编程竞赛/刷题平台（在线 IDE）：**
 
@@ -212,7 +216,7 @@
 
 | 网站 | 形式 | 需要登录 | 免费 | 支持语言 | 亮点 |
 |------|------|---------|------|---------|------|
-| [Hello Algo（动手学数据结构与算法）](https://www.hello-algo.com) | 电子书+动画 | 否 | ✅ 完全免费 | Python/C++/Java/C/Go/JS/TS/C#/Swift/Rust | ⭐⭐ 中文最佳！全彩图解+动画+12 种语言代码 |
+| [Hello Algo（动手学数据结构与算法）](https://www.hello-algo.com) | 电子书+动画 | 否 | ✅ 完全免费 | Python/C++/Java/C/Go/JS/TS/C#/Swift/Rust/Zig/Kotlin/Dart/Ruby | ⭐⭐ 中文最佳！全彩图解+动画+14 种语言代码 |
 | [代码随想录](https://programmercarl.com) | 图文+代码 | 否 | ✅ 完全免费 | C++/Python/Java/Go/JS | ⭐⭐ LeetCode 题解+动画图解，B 站配套视频 |
 | [The Algorithms](https://the-algorithms.com) | 代码实现+说明 | 否 | ✅ 完全免费 | Python/Java/C++/C/JS/Go/Rust 等 15+ 种 | 开源算法大全，按语言+类别分类 |
 
