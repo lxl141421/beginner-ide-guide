@@ -38,17 +38,25 @@
 | C/C++ | [小龙 Dev-C++](https://gitee.com/devcpp/devcpp) · [GitHub](https://github.com/anbangli/XiaoLoong-DevCpp) | 6.4.1 | 2026-01-24 | Windows | 国产增强版 Dev-C++，自带 TDM-GCC，OJ 刷题/竞赛常用 |
 | C/C++ | [Red Panda C++](https://github.com/royqh1979/RedPanda-CPP) | 3.4 | 2025-11-30 | Windows/Linux | 信奥/竞赛首选，内置 OJ 题库，智能补全，中文界面 |
 
+**Java：**
+
+| 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
+|------|-----|---------|---------|------|------|
+| Java | [BlueJ](https://bluej.org) | 5.5.0 | 2025-06-03 | Win/Mac/Linux | 大学 Java 课程标配，可视化类图交互式创建对象，自带 JDK |
+
 
 
 **其他：**
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
+| Pascal | [Lazarus](https://www.lazarus-ide.org) | 4.8 | 2026-06-11 | Win/Mac/Linux | Delphi 开源替代，可视化窗体设计器，自带 Free Pascal 编译器 |
 | Racket | [Racket](https://racket-lang.org) | 9.2 | 2026-05-28 | Win/Mac/Linux | SICP/函数式编程首选，自带 DrRacket，教学语言分级 |
 | Processing | [Processing](https://processing.org) | 4.5.2 | 2026-01-29 | Win/Mac/Linux | 创意编程/可视化艺术首选，5 行代码画动画，即时反馈 |
 
 **适用场景：**
 - Python 零基础 → Thonny（跨平台）/ WinPython（Windows 便携）
+- Pascal/OJ 刷题 → Lazarus / 小龙 Dev-C++ / Red Panda C++
 - 创意编程 → Processing
 - 硬件/机器人 → Arduino IDE
 - 函数式编程/SICP → Racket
@@ -67,7 +75,6 @@
 | Kotlin/Java | [Android Studio](https://developer.android.com/studio) | Narwhal 2025.1.4 | 2026-06-04 | Win/Mac/Linux | Android 开发唯一官方 IDE，内置模拟器，布局可视化 |
 | Java | [NetBeans](https://netbeans.apache.org) | 30 | 2026-05-11 | Win/Mac/Linux | Apache 出品，Maven/Gradle 原生支持，GUI 拖拽设计器 |
 | Java | [Eclipse](https://eclipse.org) | 2026-03 | 2026-03-12 | Win/Mac/Linux | 老牌 Java IDE，插件生态最全，企业项目常用 |
-| Java | [BlueJ](https://bluej.org) | 5.5.0 | 2025-06-03 | Win/Mac/Linux | 大学 Java 课程标配，可视化类图交互式创建对象 |
 
 **Python：**
 
@@ -95,15 +102,13 @@
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
 | 多语言 | [Geany](https://www.geany.org) | 2.1.0 | 2025-07-01 | Win/Mac/Linux | 轻量级 GUI IDE，50+ 语言，内置编译运行集成，需自行安装语言环境 |
-| Pascal | [Lazarus](https://www.lazarus-ide.org) | 4.8 | 2026-06-11 | Win/Mac/Linux | Delphi 开源替代，可视化窗体设计器，需安装 Free Pascal 编译器 |
 
 **适用场景：**
-- Java 开发 → IntelliJ CE（首选）/ Eclipse / NetBeans / BlueJ（教学）
+- Java 开发 → IntelliJ CE（首选）/ Eclipse / NetBeans
 - Python 开发 → PyCharm CE（全功能）/ PyScripter（轻量 Windows）
 - 数据科学/AI → Spyder
 - C#/.NET → VS Community
 - C/C++ → CLion / Geany（轻量）
-- Pascal → Lazarus
 - 前端 → WebStorm
 - Android → Android Studio
 
