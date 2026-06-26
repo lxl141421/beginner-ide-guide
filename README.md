@@ -42,7 +42,7 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Java | [BlueJ](https://bluej.org) | 5.5.0 | 2025-06-03 | Win/Mac/Linux | 大学 Java 课程标配，可视化类图交互式创建对象，自带 JDK |
+| Java | [BlueJ](https://bluej.org) | 5.5.0 | 2025-06-03 | Win/Mac/Linux | 专为初学者设计的 Java IDE，可视化类图交互式创建对象，自带 JDK |
 
 
 
@@ -50,7 +50,7 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Pascal | [Lazarus](https://www.lazarus-ide.org) | 4.8 | 2026-06-11 | Win/Mac/Linux | Delphi 开源替代，可视化窗体设计器，自带 Free Pascal 编译器 |
+| Pascal | [Lazarus](https://www.lazarus-ide.org) | 4.8 | 2026-06-11 | Win/Mac/Linux | 专业级 Free Pascal RAD IDE，Delphi 兼容，可视化窗体设计器，自带编译器 |
 | Racket | [Racket](https://racket-lang.org) | 9.2 | 2026-05-28 | Win/Mac/Linux | SICP/函数式编程首选，自带 DrRacket，教学语言分级 |
 | Processing | [Processing](https://processing.org) | 4.5.2 | 2026-01-29 | Win/Mac/Linux | 创意编程/可视化艺术首选，5 行代码画动画，即时反馈 |
 
@@ -101,7 +101,7 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| 多语言 | [Geany](https://www.geany.org) | 2.1.0 | 2025-07-01 | Win/Mac/Linux | 轻量级 GUI IDE，50+ 语言，内置编译运行集成，需自行安装语言环境 |
+| 多语言 | [Geany](https://www.geany.org) | 2.1.0 | 2025-07-01 | Win/Mac/Linux | 轻量级程序员文本编辑器，50+ 语言支持，内置编译运行，需自行安装语言环境 |
 
 **适用场景：**
 - Java 开发 → IntelliJ CE（首选）/ Eclipse / NetBeans
