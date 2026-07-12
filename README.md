@@ -122,10 +122,10 @@
 
 | 语言支持 | 编辑器 | 最新版本 | 更新时间 | 平台 | 亮点 |
 |---------|--------|---------|---------|------|------|
-| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.127.0 | 2026-07-01 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
-| 全语言 | [Zed](https://zed.dev) | 1.9.0 | 2026-07-01 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
+| 全语言 | [Zed](https://zed.dev) | 1.10.2 | 2026-07-10 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
+| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.128.0 | 2026-07-08 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
+| **全语言** | **[Vim/Neovim](https://neovim.io)** | 0.12.4 | 2026-07-05 | **Win/Mac/Linux** | **终端编辑器之王，纯键盘操作，服务器必装** |
 | 全语言 | [nano](https://nano-editor.org) | 9.1 | 2026-06-23 | Linux/Mac | 最简单的终端编辑器，服务器必装，零学习成本 |
-| **全语言** | **[Vim/Neovim](https://neovim.io)** | 0.12.3 | 2026-06-10 | **Win/Mac/Linux** | **终端编辑器之王，纯键盘操作，服务器必装** |
 | **全语言** | **[Sublime Text](https://www.sublimetext.com)** | **Build 4200** | **2026-05-29** | **Win/Mac/Linux** | **启动 <1 秒，多光标编辑，可无限试用** |
 | 全语言 | [gedit](https://gedit-technology.github.io/apps/gedit/) | 50.0 | 2026-03-27 | Linux | GNOME 桌面自带，语法高亮，适合 Linux 课堂 |
 | 全语言 | [Emacs](https://www.gnu.org/software/emacs/) | 30.2 | 2025-08-14 | Win/Mac/Linux | 可编程编辑器，Org-mode/Lisp 生态，学习曲线陡峭 |
@@ -265,23 +265,23 @@
 
 ## 更新状态
 
-> 🤖 最后自动检查: 2026-07-05 11:09 UTC
+> 🤖 最后自动检查: 2026-07-12 10:39 UTC
 
 > 以下状态由自动化脚本每日更新。  
 > ⚠️ = 超过 12 个月未更新；✅ = 活跃维护中
 
 | 项目 | 最后活跃 | 状态 |
 |------|---------|------|
+| Zed | 2026-07-10 | ✅ |
+| VS Code | 2026-07-08 | ✅ |
+| Vim/Neovim | 2026-07-05 | ✅ |
 | IntelliJ IDEA CE | 2026-07-03 | ✅ |
 | BlueJ | 2026-07-01 | ✅ |
-| VS Code | 2026-07-01 | ✅ |
-| Zed | 2026-07-01 | ✅ |
 | Spyder | 2026-06-27 | ✅ |
 | Processing | 2026-06-24 | ✅ |
 | nano | 2026-06-23 | ✅ |
 | Visual Studio Community | 2026-06-16 | ✅ |
 | Lazarus | 2026-06-11 | ✅ |
-| Vim/Neovim | 2026-06-10 | ✅ |
 | Arduino IDE | 2026-06-09 | ✅ |
 | Android Studio | 2026-06-04 | ✅ |
 | PyCharm CE | 2026-06-04 | ✅ |
