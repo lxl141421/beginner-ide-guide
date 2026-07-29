@@ -165,6 +165,7 @@
 | [W3Schools Tryit](https://www.w3schools.com/tryit/) | 15+ 种（HTML/Python/Java/C 等） | 否 | ✅ 完全免费 | 配套 W3Schools 教程，一键试运行 |
 | [菜鸟工具](https://www.runoob.com) | 10+ 种（Python/C/Java/JS/PHP 等） | 否 | ✅ 完全免费 | 配套菜鸟教程，中文界面，一键运行 |
 | [IDEONE](https://ideone.com) | 60+ 种语言 | 否 | ✅ 完全免费 | 简洁快速，适合多语言对比测试 |
+| [Programiz](https://www.programiz.com/python-programming/online-compiler) | 18 种语言 | 否 | ✅ 完全免费 | 界面极简，零基础友好，配套教程 |
 
 **专项型：**
 
@@ -174,7 +175,7 @@
 | [PythonAnywhere](https://www.pythonanywhere.com) | Python | 是 | ✅ 基础免费 | Python 专属，可部署 Flask/Django 网站 |
 | [CodePen](https://codepen.io) | HTML/CSS/JS | 否 | ✅ 基础免费 | 前端开发实验场，实时预览，社区分享 |
 | [StackBlitz](https://stackblitz.com) | JS/TS/HTML/CSS | 否 | ✅ 完全免费 | 浏览器内运行 Node.js，秒开 GitHub 项目 |
-| [Programiz](https://www.programiz.com/python-programming/online-compiler) | Python/C/C++/Java/JS/Go/C#/TS/Rust/Scala/Dart/Ruby/PHP/Swift/R/SQL/HTML/CSS | 否 | ✅ 完全免费 | 界面极简，零基础友好，配套教程 |
+
 
 **国内编程竞赛/刷题平台（在线 IDE）：**
 
