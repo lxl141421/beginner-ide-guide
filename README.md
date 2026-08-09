@@ -26,7 +26,7 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Python | [WinPython](https://winpython.github.io) | 17.4 | 2026-05-17 | Windows | 便携免安装，数据科学选 **free** 版，只学基础选 **slim** 版 |
+| Python | [WinPython](https://winpython.github.io) | 17.9.20260805/wppm | 2026-08-06 | Windows | 便携免安装，数据科学选 **free** 版，只学基础选 **slim** 版 |
 | Python | [Thonny](https://thonny.org) | 5.0.0 | 2026-04-25 | Win/Mac/Linux | Python 官方推荐，逐行执行可视化变量，零配置 |
 
 
@@ -122,9 +122,9 @@
 
 | 语言支持 | 编辑器 | 最新版本 | 更新时间 | 平台 | 亮点 |
 |---------|--------|---------|---------|------|------|
+| 全语言 | [Zed](https://zed.dev) | 1.14.2 | 2026-08-05 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
+| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.132.0 | 2026-08-05 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
 | 全语言 | [nano](https://nano-editor.org) | 9.2 | 2026-07-31 | Linux/Mac | 最简单的终端编辑器，服务器必装，零学习成本 |
-| 全语言 | [Zed](https://zed.dev) | 1.13.1 | 2026-07-29 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
-| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.131.0 | 2026-07-29 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
 | **全语言** | **[Vim/Neovim](https://neovim.io)** | 0.12.4 | 2026-07-05 | **Win/Mac/Linux** | **终端编辑器之王，纯键盘操作，服务器必装** |
 | **全语言** | **[Sublime Text](https://www.sublimetext.com)** | **Build 4200** | **2026-05-29** | **Win/Mac/Linux** | **启动 <1 秒，多光标编辑，可无限试用** |
 | 全语言 | [gedit](https://gedit-technology.github.io/apps/gedit/) | 50.0 | 2026-03-27 | Linux | GNOME 桌面自带，语法高亮，适合 Linux 课堂 |
@@ -266,17 +266,18 @@
 
 ## 更新状态
 
-> 🤖 最后自动检查: 2026-08-02 10:45 UTC
+> 🤖 最后自动检查: 2026-08-09 09:46 UTC
 
 > 以下状态由自动化脚本每日更新。  
 > ⚠️ = 超过 12 个月未更新；✅ = 活跃维护中
 
 | 项目 | 最后活跃 | 状态 |
 |------|---------|------|
+| WinPython | 2026-08-06 | ✅ |
+| VS Code | 2026-08-05 | ✅ |
+| Zed | 2026-08-05 | ✅ |
 | nano | 2026-07-31 | ✅ |
 | Spyder | 2026-07-29 | ✅ |
-| VS Code | 2026-07-29 | ✅ |
-| Zed | 2026-07-29 | ✅ |
 | IntelliJ IDEA CE | 2026-07-28 | ✅ |
 | Visual Studio Community | 2026-07-22 | ✅ |
 | Processing | 2026-07-20 | ✅ |
@@ -290,7 +291,6 @@
 | Sublime Text | 2026-05-29 | ✅ |
 | Racket | 2026-05-28 | ✅ |
 | CLion | 2026-05-18 | ✅ |
-| WinPython | 2026-05-17 | ✅ |
 | NetBeans | 2026-05-11 | ✅ |
 | Thonny | 2026-04-25 | ✅ |
 | gedit | 2026-03-27 | ✅ |
