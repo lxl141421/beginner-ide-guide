@@ -88,7 +88,7 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| C++/C#/.NET | [Visual Studio Community](https://visualstudio.microsoft.com/vs/) · [社区版](https://visualstudio.microsoft.com/vs/community/) | 2022 17.14 | 2026-08-11 | Windows | C++/C# 开发最强，IntelliSense 智能补全，社区版免费 |
+| C++/C#/.NET | [Visual Studio Community](https://visualstudio.microsoft.com/vs/) · [社区版](https://visualstudio.microsoft.com/vs/community/) | 2022 17.14 | 2026-08-18 | Windows | C++/C# 开发最强，IntelliSense 智能补全，社区版免费 |
 | C/C++ | [CLion](https://www.jetbrains.com/clion/) · [下载](https://www.jetbrains.com/clion/download/) | 2026.1.2 | 2026-05-18 | Win/Mac/Linux | C/C++ 开发首选，CMake 原生支持，学生免费 |
 
 **JS / TS：**
@@ -122,8 +122,8 @@
 
 | 语言支持 | 编辑器 | 最新版本 | 更新时间 | 平台 | 亮点 |
 |---------|--------|---------|---------|------|------|
-| 全语言 | [Zed](https://zed.dev) | 1.15.0 | 2026-08-12 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
-| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.133.0 | 2026-08-12 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
+| 全语言 | [Zed](https://zed.dev) | 1.16.1 | 2026-08-19 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
+| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.134.0 | 2026-08-19 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
 | 全语言 | [nano](https://nano-editor.org) | 9.2 | 2026-07-31 | Linux/Mac | 最简单的终端编辑器，服务器必装，零学习成本 |
 | **全语言** | **[Vim/Neovim](https://neovim.io)** | 0.12.4 | 2026-07-05 | **Win/Mac/Linux** | **终端编辑器之王，纯键盘操作，服务器必装** |
 | **全语言** | **[Sublime Text](https://www.sublimetext.com)** | **Build 4200** | **2026-05-29** | **Win/Mac/Linux** | **启动 <1 秒，多光标编辑，可无限试用** |
@@ -266,18 +266,18 @@
 
 ## 更新状态
 
-> 🤖 最后自动检查: 2026-08-16 09:33 UTC
+> 🤖 最后自动检查: 2026-08-23 09:33 UTC
 
 > 以下状态由自动化脚本每日更新。  
 > ⚠️ = 超过 12 个月未更新；✅ = 活跃维护中
 
 | 项目 | 最后活跃 | 状态 |
 |------|---------|------|
+| VS Code | 2026-08-19 | ✅ |
+| Zed | 2026-08-19 | ✅ |
+| Visual Studio Community | 2026-08-18 | ✅ |
 | Racket | 2026-08-13 | ✅ |
 | IntelliJ IDEA CE | 2026-08-12 | ✅ |
-| VS Code | 2026-08-12 | ✅ |
-| Zed | 2026-08-12 | ✅ |
-| Visual Studio Community | 2026-08-11 | ✅ |
 | WinPython | 2026-08-06 | ✅ |
 | NetBeans | 2026-08-05 | ✅ |
 | nano | 2026-07-31 | ✅ |
