@@ -26,7 +26,7 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Python | [WinPython](https://winpython.github.io) | 17.9.20260805/wppm | 2026-08-06 | Windows | 便携免安装，数据科学选 **free** 版，只学基础选 **slim** 版 |
+| Python | [WinPython](https://winpython.github.io) | 17.12.20260522/WinPython | 2026-08-23 | Windows | 便携免安装，数据科学选 **free** 版，只学基础选 **slim** 版 |
 | Python | [Thonny](https://thonny.org) | 5.0.0 | 2026-04-25 | Win/Mac/Linux | Python 官方推荐，逐行执行可视化变量，零配置 |
 
 
@@ -80,7 +80,7 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Python | [Spyder](https://www.spyder-ide.org) | 6.1.6 | 2026-07-29 | Win/Mac/Linux | 数据科学专用，变量浏览器实时查看 DataFrame，类 MATLAB |
+| Python | [Spyder](https://www.spyder-ide.org) | 6.1.7 | 2026-08-28 | Win/Mac/Linux | 数据科学专用，变量浏览器实时查看 DataFrame，类 MATLAB |
 | Python | [PyCharm CE](https://www.jetbrains.com/pycharm/) · [下载](https://www.jetbrains.com/pycharm/download/) | 2026.1.3 | 2026-06-04 | Win/Mac/Linux | Python 开发首选，Django/Flask 支持，社区版免费 |
 | Python | [PyScripter](https://github.com/lmbelo/pyscripter) | 5.3.0 | 2025-11-11 | Windows | 轻量级 Python IDE，启动秒开，内置调试器 |
 
@@ -122,13 +122,13 @@
 
 | 语言支持 | 编辑器 | 最新版本 | 更新时间 | 平台 | 亮点 |
 |---------|--------|---------|---------|------|------|
-| 全语言 | [Zed](https://zed.dev) | 1.16.1 | 2026-08-19 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
-| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.134.0 | 2026-08-19 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
+| 全语言 | [Zed](https://zed.dev) | 1.17.2 | 2026-08-26 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
+| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.135.0 | 2026-08-26 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
+| 全语言 | [Emacs](https://www.gnu.org/software/emacs/) | 31.1 | 2026-08-24 | Win/Mac/Linux | 可编程编辑器，Org-mode/Lisp 生态，学习曲线陡峭 |
+| **全语言** | **[Vim/Neovim](https://neovim.io)** | 0.12.5 | 2026-08-23 | **Win/Mac/Linux** | **终端编辑器之王，纯键盘操作，服务器必装** |
 | 全语言 | [nano](https://nano-editor.org) | 9.2 | 2026-07-31 | Linux/Mac | 最简单的终端编辑器，服务器必装，零学习成本 |
-| **全语言** | **[Vim/Neovim](https://neovim.io)** | 0.12.4 | 2026-07-05 | **Win/Mac/Linux** | **终端编辑器之王，纯键盘操作，服务器必装** |
 | **全语言** | **[Sublime Text](https://www.sublimetext.com)** | **Build 4200** | **2026-05-29** | **Win/Mac/Linux** | **启动 <1 秒，多光标编辑，可无限试用** |
 | 全语言 | [gedit](https://gedit-technology.github.io/apps/gedit/) | 50.0 | 2026-03-27 | Linux | GNOME 桌面自带，语法高亮，适合 Linux 课堂 |
-| 全语言 | [Emacs](https://www.gnu.org/software/emacs/) | 30.2 | 2025-08-14 | Win/Mac/Linux | 可编程编辑器，Org-mode/Lisp 生态，学习曲线陡峭 |
 
 **需要手动安装的环境（按语言）：**
 
@@ -266,24 +266,25 @@
 
 ## 更新状态
 
-> 🤖 最后自动检查: 2026-08-23 09:33 UTC
+> 🤖 最后自动检查: 2026-08-30 14:22 UTC
 
 > 以下状态由自动化脚本每日更新。  
 > ⚠️ = 超过 12 个月未更新；✅ = 活跃维护中
 
 | 项目 | 最后活跃 | 状态 |
 |------|---------|------|
-| VS Code | 2026-08-19 | ✅ |
-| Zed | 2026-08-19 | ✅ |
+| Spyder | 2026-08-28 | ✅ |
+| VS Code | 2026-08-26 | ✅ |
+| Zed | 2026-08-26 | ✅ |
+| Emacs | 2026-08-24 | ✅ |
+| WinPython | 2026-08-23 | ✅ |
+| Vim/Neovim | 2026-08-23 | ✅ |
 | Visual Studio Community | 2026-08-18 | ✅ |
 | Racket | 2026-08-13 | ✅ |
 | IntelliJ IDEA CE | 2026-08-12 | ✅ |
-| WinPython | 2026-08-06 | ✅ |
 | NetBeans | 2026-08-05 | ✅ |
 | nano | 2026-07-31 | ✅ |
-| Spyder | 2026-07-29 | ✅ |
 | Processing | 2026-07-20 | ✅ |
-| Vim/Neovim | 2026-07-05 | ✅ |
 | BlueJ | 2026-07-01 | ✅ |
 | Lazarus | 2026-06-11 | ✅ |
 | Arduino IDE | 2026-06-09 | ✅ |
@@ -298,7 +299,6 @@
 | 小龙 Dev-C++ | 2026-01-24 | ✅ |
 | Red Panda C++ | 2025-11-30 | ✅ |
 | PyScripter | 2025-11-11 | ✅ |
-| Emacs | 2025-08-14 | ✅ |
 | Geany | 2025-07-01 | ⚠️ 可能停更 |
 
 ---
