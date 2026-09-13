@@ -71,7 +71,7 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Java/Kotlin | [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) · [下载](https://www.jetbrains.com/idea/download/) | 2026.2.2 | 2026-09-02 | Win/Mac/Linux | Java 开发行业标准，重构/补全/调试一体，社区版免费 |
+| Java/Kotlin | [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) · [下载](https://www.jetbrains.com/idea/download/) | 2026.2.2 | 2026-09-07 | Win/Mac/Linux | Java 开发行业标准，重构/补全/调试一体，社区版免费 |
 | Java | [NetBeans](https://netbeans.apache.org) | 31 | 2026-08-05 | Win/Mac/Linux | Apache 出品，Maven/Gradle 原生支持，GUI 拖拽设计器 |
 | Kotlin/Java | [Android Studio](https://developer.android.com/studio) | Narwhal 2025.1.4 | 2026-06-04 | Win/Mac/Linux | Android 开发唯一官方 IDE，内置模拟器，布局可视化 |
 | Java | [Eclipse](https://eclipse.org) | 2026-03 | 2026-03-12 | Win/Mac/Linux | 老牌 Java IDE，插件生态最全，企业项目常用 |
@@ -88,7 +88,7 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| C++/C#/.NET | [Visual Studio Community](https://visualstudio.microsoft.com/vs/) · [社区版](https://visualstudio.microsoft.com/vs/community/) | 2022 17.14 | 2026-08-18 | Windows | C++/C# 开发最强，IntelliSense 智能补全，社区版免费 |
+| C++/C#/.NET | [Visual Studio Community](https://visualstudio.microsoft.com/vs/) · [社区版](https://visualstudio.microsoft.com/vs/community/) | 2022 17.14 | 2026-09-08 | Windows | C++/C# 开发最强，IntelliSense 智能补全，社区版免费 |
 | C/C++ | [CLion](https://www.jetbrains.com/clion/) · [下载](https://www.jetbrains.com/clion/download/) | 2026.1.2 | 2026-05-18 | Win/Mac/Linux | C/C++ 开发首选，CMake 原生支持，学生免费 |
 
 **JS / TS：**
@@ -122,8 +122,8 @@
 
 | 语言支持 | 编辑器 | 最新版本 | 更新时间 | 平台 | 亮点 |
 |---------|--------|---------|---------|------|------|
-| 全语言 | [Zed](https://zed.dev) | 1.18.1 | 2026-09-04 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
-| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.136.1 | 2026-09-03 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
+| 全语言 | [Zed](https://zed.dev) | 1.19.2 | 2026-09-09 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
+| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.137.0 | 2026-09-09 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
 | 全语言 | [Emacs](https://www.gnu.org/software/emacs/) | 31.1 | 2026-08-24 | Win/Mac/Linux | 可编程编辑器，Org-mode/Lisp 生态，学习曲线陡峭 |
 | **全语言** | **[Vim/Neovim](https://neovim.io)** | 0.12.5 | 2026-08-23 | **Win/Mac/Linux** | **终端编辑器之王，纯键盘操作，服务器必装** |
 | 全语言 | [nano](https://nano-editor.org) | 9.2 | 2026-07-31 | Linux/Mac | 最简单的终端编辑器，服务器必装，零学习成本 |
@@ -266,22 +266,22 @@
 
 ## 更新状态
 
-> 🤖 最后自动检查: 2026-09-06 12:47 UTC
+> 🤖 最后自动检查: 2026-09-13 13:45 UTC
 
 > 以下状态由自动化脚本每日更新。  
 > ⚠️ = 超过 12 个月未更新；✅ = 活跃维护中
 
 | 项目 | 最后活跃 | 状态 |
 |------|---------|------|
+| VS Code | 2026-09-09 | ✅ |
+| Zed | 2026-09-09 | ✅ |
+| Visual Studio Community | 2026-09-08 | ✅ |
+| IntelliJ IDEA CE | 2026-09-07 | ✅ |
 | BlueJ | 2026-09-04 | ✅ |
-| Zed | 2026-09-04 | ✅ |
-| VS Code | 2026-09-03 | ✅ |
-| IntelliJ IDEA CE | 2026-09-02 | ✅ |
 | Spyder | 2026-08-28 | ✅ |
 | Emacs | 2026-08-24 | ✅ |
 | WinPython | 2026-08-23 | ✅ |
 | Vim/Neovim | 2026-08-23 | ✅ |
-| Visual Studio Community | 2026-08-18 | ✅ |
 | Racket | 2026-08-13 | ✅ |
 | NetBeans | 2026-08-05 | ✅ |
 | nano | 2026-07-31 | ✅ |
