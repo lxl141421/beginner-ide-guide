@@ -50,8 +50,8 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
+| Processing | [Processing](https://processing.org) | 4.5.7 | 2026-09-24 | Win/Mac/Linux | 创意编程/可视化艺术首选，5 行代码画动画，即时反馈 |
 | Racket | [Racket](https://racket-lang.org) | 9.3 | 2026-08-13 | Win/Mac/Linux | SICP/函数式编程首选，自带 DrRacket，教学语言分级 |
-| Processing | [Processing](https://processing.org) | 4.5.6 | 2026-07-20 | Win/Mac/Linux | 创意编程/可视化艺术首选，5 行代码画动画，即时反馈 |
 | Pascal | [Lazarus](https://www.lazarus-ide.org) | 4.8 | 2026-06-11 | Win/Mac/Linux | Delphi 开源替代，可视化窗体设计器，自带 Free Pascal 编译器 |
 
 **适用场景：**
@@ -122,8 +122,8 @@
 
 | 语言支持 | 编辑器 | 最新版本 | 更新时间 | 平台 | 亮点 |
 |---------|--------|---------|---------|------|------|
-| 全语言 | [Zed](https://zed.dev) | 1.20.2 | 2026-09-17 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
-| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.138.0 | 2026-09-16 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
+| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.139.1 | 2026-09-25 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
+| 全语言 | [Zed](https://zed.dev) | 1.21.0 | 2026-09-23 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
 | 全语言 | [Emacs](https://www.gnu.org/software/emacs/) | 31.1 | 2026-08-24 | Win/Mac/Linux | 可编程编辑器，Org-mode/Lisp 生态，学习曲线陡峭 |
 | **全语言** | **[Vim/Neovim](https://neovim.io)** | 0.12.5 | 2026-08-23 | **Win/Mac/Linux** | **终端编辑器之王，纯键盘操作，服务器必装** |
 | 全语言 | [nano](https://nano-editor.org) | 9.2 | 2026-07-31 | Linux/Mac | 最简单的终端编辑器，服务器必装，零学习成本 |
@@ -266,16 +266,17 @@
 
 ## 更新状态
 
-> 🤖 最后自动检查: 2026-09-20 13:32 UTC
+> 🤖 最后自动检查: 2026-09-27 14:39 UTC
 
 > 以下状态由自动化脚本每日更新。  
 > ⚠️ = 超过 12 个月未更新；✅ = 活跃维护中
 
 | 项目 | 最后活跃 | 状态 |
 |------|---------|------|
+| VS Code | 2026-09-25 | ✅ |
+| Processing | 2026-09-24 | ✅ |
+| Zed | 2026-09-23 | ✅ |
 | IntelliJ IDEA CE | 2026-09-18 | ✅ |
-| Zed | 2026-09-17 | ✅ |
-| VS Code | 2026-09-16 | ✅ |
 | Visual Studio Community | 2026-09-15 | ✅ |
 | WinPython | 2026-09-13 | ✅ |
 | BlueJ | 2026-09-04 | ✅ |
@@ -285,7 +286,6 @@
 | Racket | 2026-08-13 | ✅ |
 | NetBeans | 2026-08-05 | ✅ |
 | nano | 2026-07-31 | ✅ |
-| Processing | 2026-07-20 | ✅ |
 | Lazarus | 2026-06-11 | ✅ |
 | Arduino IDE | 2026-06-09 | ✅ |
 | Android Studio | 2026-06-04 | ✅ |
