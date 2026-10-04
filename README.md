@@ -34,8 +34,8 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
+| C/C++ | [小龙 Dev-C++](https://gitee.com/devcpp/devcpp) · [GitHub](https://github.com/anbangli/XiaoLoong-DevCpp) | 7.0 | 2026-09-28 | Windows | 国产增强版 Dev-C++，自带 TDM-GCC，OJ 刷题/竞赛常用 |
 | C/C++ | [Arduino IDE](https://www.arduino.cc/en/software) | 2.3.10 | 2026-06-09 | Win/Mac/Linux | 硬件编程首选，一键烧录到开发板，海量库支持 |
-| C/C++ | [小龙 Dev-C++](https://gitee.com/devcpp/devcpp) · [GitHub](https://github.com/anbangli/XiaoLoong-DevCpp) | 6.4.1 | 2026-01-24 | Windows | 国产增强版 Dev-C++，自带 TDM-GCC，OJ 刷题/竞赛常用 |
 | C/C++ | [Red Panda C++](https://github.com/royqh1979/RedPanda-CPP) | 3.4 | 2025-11-30 | Windows/Linux | 信奥/竞赛首选，内置 OJ 题库，智能补全，中文界面 |
 
 **Java：**
@@ -122,8 +122,8 @@
 
 | 语言支持 | 编辑器 | 最新版本 | 更新时间 | 平台 | 亮点 |
 |---------|--------|---------|---------|------|------|
-| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.139.1 | 2026-09-25 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
-| 全语言 | [Zed](https://zed.dev) | 1.21.0 | 2026-09-23 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
+| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.140.0 | 2026-09-30 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
+| 全语言 | [Zed](https://zed.dev) | 1.22.0 | 2026-09-30 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
 | 全语言 | [Emacs](https://www.gnu.org/software/emacs/) | 31.1 | 2026-08-24 | Win/Mac/Linux | 可编程编辑器，Org-mode/Lisp 生态，学习曲线陡峭 |
 | **全语言** | **[Vim/Neovim](https://neovim.io)** | 0.12.5 | 2026-08-23 | **Win/Mac/Linux** | **终端编辑器之王，纯键盘操作，服务器必装** |
 | 全语言 | [nano](https://nano-editor.org) | 9.2 | 2026-07-31 | Linux/Mac | 最简单的终端编辑器，服务器必装，零学习成本 |
@@ -266,16 +266,17 @@
 
 ## 更新状态
 
-> 🤖 最后自动检查: 2026-09-27 14:39 UTC
+> 🤖 最后自动检查: 2026-10-04 14:43 UTC
 
 > 以下状态由自动化脚本每日更新。  
 > ⚠️ = 超过 12 个月未更新；✅ = 活跃维护中
 
 | 项目 | 最后活跃 | 状态 |
 |------|---------|------|
-| VS Code | 2026-09-25 | ✅ |
+| VS Code | 2026-09-30 | ✅ |
+| Zed | 2026-09-30 | ✅ |
+| 小龙 Dev-C++ | 2026-09-28 | ✅ |
 | Processing | 2026-09-24 | ✅ |
-| Zed | 2026-09-23 | ✅ |
 | IntelliJ IDEA CE | 2026-09-18 | ✅ |
 | Visual Studio Community | 2026-09-15 | ✅ |
 | WinPython | 2026-09-13 | ✅ |
@@ -296,7 +297,6 @@
 | Thonny | 2026-04-25 | ✅ |
 | gedit | 2026-03-27 | ✅ |
 | Eclipse | 2026-03-12 | ✅ |
-| 小龙 Dev-C++ | 2026-01-24 | ✅ |
 | Red Panda C++ | 2025-11-30 | ✅ |
 | PyScripter | 2025-11-11 | ✅ |
 | Geany | 2025-07-01 | ⚠️ 可能停更 |
