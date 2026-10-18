@@ -88,7 +88,7 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| C++/C#/.NET | [Visual Studio Community](https://visualstudio.microsoft.com/vs/) · [社区版](https://visualstudio.microsoft.com/vs/community/) | 2022 17.14 | 2026-09-15 | Windows | C++/C# 开发最强，IntelliSense 智能补全，社区版免费 |
+| C++/C#/.NET | [Visual Studio Community](https://visualstudio.microsoft.com/vs/) · [社区版](https://visualstudio.microsoft.com/vs/community/) | 2022 17.14 | 2026-10-13 | Windows | C++/C# 开发最强，IntelliSense 智能补全，社区版免费 |
 | C/C++ | [CLion](https://www.jetbrains.com/clion/) · [下载](https://www.jetbrains.com/clion/download/) | 2026.1.2 | 2026-05-18 | Win/Mac/Linux | C/C++ 开发首选，CMake 原生支持，学生免费 |
 
 **JS / TS：**
@@ -122,10 +122,10 @@
 
 | 语言支持 | 编辑器 | 最新版本 | 更新时间 | 平台 | 亮点 |
 |---------|--------|---------|---------|------|------|
+| 全语言 | [gedit](https://gedit-technology.github.io/apps/gedit/) | 51.0 | 2026-10-15 | Linux | GNOME 桌面自带，语法高亮，适合 Linux 课堂 |
+| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.142.0 | 2026-10-14 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
+| 全语言 | [Zed](https://zed.dev) | 1.24.2 | 2026-10-14 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
 | **全语言** | **[Vim/Neovim](https://neovim.io)** | 0.12.6 | 2026-10-09 | **Win/Mac/Linux** | **终端编辑器之王，纯键盘操作，服务器必装** |
-| 全语言 | [gedit](https://gedit-technology.github.io/apps/gedit/) | 51.alpha1 | 2026-10-08 | Linux | GNOME 桌面自带，语法高亮，适合 Linux 课堂 |
-| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.141.0 | 2026-10-07 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
-| 全语言 | [Zed](https://zed.dev) | 1.23.2 | 2026-10-07 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
 | 全语言 | [Emacs](https://www.gnu.org/software/emacs/) | 31.1 | 2026-08-24 | Win/Mac/Linux | 可编程编辑器，Org-mode/Lisp 生态，学习曲线陡峭 |
 | 全语言 | [nano](https://nano-editor.org) | 9.2 | 2026-07-31 | Linux/Mac | 最简单的终端编辑器，服务器必装，零学习成本 |
 | **全语言** | **[Sublime Text](https://www.sublimetext.com)** | **Build 4200** | **2026-05-29** | **Win/Mac/Linux** | **启动 <1 秒，多光标编辑，可无限试用** |
@@ -266,21 +266,21 @@
 
 ## 更新状态
 
-> 🤖 最后自动检查: 2026-10-11 15:30 UTC
+> 🤖 最后自动检查: 2026-10-18 13:08 UTC
 
 > 以下状态由自动化脚本每日更新。  
 > ⚠️ = 超过 12 个月未更新；✅ = 活跃维护中
 
 | 项目 | 最后活跃 | 状态 |
 |------|---------|------|
+| gedit | 2026-10-15 | ✅ |
+| VS Code | 2026-10-14 | ✅ |
+| Zed | 2026-10-14 | ✅ |
+| Visual Studio Community | 2026-10-13 | ✅ |
 | Vim/Neovim | 2026-10-09 | ✅ |
-| gedit | 2026-10-08 | ✅ |
-| VS Code | 2026-10-07 | ✅ |
-| Zed | 2026-10-07 | ✅ |
 | 小龙 Dev-C++ | 2026-09-28 | ✅ |
 | Processing | 2026-09-24 | ✅ |
 | IntelliJ IDEA CE | 2026-09-18 | ✅ |
-| Visual Studio Community | 2026-09-15 | ✅ |
 | WinPython | 2026-09-13 | ✅ |
 | BlueJ | 2026-09-04 | ✅ |
 | Spyder | 2026-08-28 | ✅ |
