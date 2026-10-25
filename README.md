@@ -80,7 +80,7 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Python | [Spyder](https://www.spyder-ide.org) | 6.1.7 | 2026-08-28 | Win/Mac/Linux | 数据科学专用，变量浏览器实时查看 DataFrame，类 MATLAB |
+| Python | [Spyder](https://www.spyder-ide.org) | 6.1.8 | 2026-10-24 | Win/Mac/Linux | 数据科学专用，变量浏览器实时查看 DataFrame，类 MATLAB |
 | Python | [PyCharm CE](https://www.jetbrains.com/pycharm/) · [下载](https://www.jetbrains.com/pycharm/download/) | 2026.1.3 | 2026-06-04 | Win/Mac/Linux | Python 开发首选，Django/Flask 支持，社区版免费 |
 | Python | [PyScripter](https://github.com/lmbelo/pyscripter) | 5.3.0 | 2025-11-11 | Windows | 轻量级 Python IDE，启动秒开，内置调试器 |
 
@@ -122,12 +122,12 @@
 
 | 语言支持 | 编辑器 | 最新版本 | 更新时间 | 平台 | 亮点 |
 |---------|--------|---------|---------|------|------|
+| 全语言 | [Zed](https://zed.dev) | 1.25.3 | 2026-10-23 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
+| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.143.1 | 2026-10-22 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
+| 全语言 | [nano](https://nano-editor.org) | 9.3 | 2026-10-21 | Linux/Mac | 最简单的终端编辑器，服务器必装，零学习成本 |
 | 全语言 | [gedit](https://gedit-technology.github.io/apps/gedit/) | 51.0 | 2026-10-15 | Linux | GNOME 桌面自带，语法高亮，适合 Linux 课堂 |
-| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.142.0 | 2026-10-14 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
-| 全语言 | [Zed](https://zed.dev) | 1.24.2 | 2026-10-14 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
 | **全语言** | **[Vim/Neovim](https://neovim.io)** | 0.12.6 | 2026-10-09 | **Win/Mac/Linux** | **终端编辑器之王，纯键盘操作，服务器必装** |
 | 全语言 | [Emacs](https://www.gnu.org/software/emacs/) | 31.1 | 2026-08-24 | Win/Mac/Linux | 可编程编辑器，Org-mode/Lisp 生态，学习曲线陡峭 |
-| 全语言 | [nano](https://nano-editor.org) | 9.2 | 2026-07-31 | Linux/Mac | 最简单的终端编辑器，服务器必装，零学习成本 |
 | **全语言** | **[Sublime Text](https://www.sublimetext.com)** | **Build 4200** | **2026-05-29** | **Win/Mac/Linux** | **启动 <1 秒，多光标编辑，可无限试用** |
 
 **需要手动安装的环境（按语言）：**
@@ -266,16 +266,18 @@
 
 ## 更新状态
 
-> 🤖 最后自动检查: 2026-10-18 13:08 UTC
+> 🤖 最后自动检查: 2026-10-25 13:39 UTC
 
 > 以下状态由自动化脚本每日更新。  
 > ⚠️ = 超过 12 个月未更新；✅ = 活跃维护中
 
 | 项目 | 最后活跃 | 状态 |
 |------|---------|------|
+| Spyder | 2026-10-24 | ✅ |
+| Zed | 2026-10-23 | ✅ |
+| VS Code | 2026-10-22 | ✅ |
+| nano | 2026-10-21 | ✅ |
 | gedit | 2026-10-15 | ✅ |
-| VS Code | 2026-10-14 | ✅ |
-| Zed | 2026-10-14 | ✅ |
 | Visual Studio Community | 2026-10-13 | ✅ |
 | Vim/Neovim | 2026-10-09 | ✅ |
 | 小龙 Dev-C++ | 2026-09-28 | ✅ |
@@ -283,11 +285,9 @@
 | IntelliJ IDEA CE | 2026-09-18 | ✅ |
 | WinPython | 2026-09-13 | ✅ |
 | BlueJ | 2026-09-04 | ✅ |
-| Spyder | 2026-08-28 | ✅ |
 | Emacs | 2026-08-24 | ✅ |
 | Racket | 2026-08-13 | ✅ |
 | NetBeans | 2026-08-05 | ✅ |
-| nano | 2026-07-31 | ✅ |
 | Lazarus | 2026-06-11 | ✅ |
 | Arduino IDE | 2026-06-09 | ✅ |
 | Android Studio | 2026-06-04 | ✅ |
