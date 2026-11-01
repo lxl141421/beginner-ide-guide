@@ -26,17 +26,17 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Python | [WinPython](https://winpython.github.io) | wppm-17.13 | 2026-09-13 | Windows | 便携免安装，数据科学选 **free** 版，只学基础选 **slim** 版 |
-| Python | [Thonny](https://thonny.org) | 5.0.0 | 2026-04-25 | Win/Mac/Linux | Python 官方推荐，逐行执行可视化变量，零配置 |
+| Python | [WinPython](https://winpython.github.io) | 2026-04 | 2026-10-27 | Windows | 便携免安装，数据科学选 **free** 版，只学基础选 **slim** 版 |
+| Python | [Thonny](https://thonny.org) | 5.0.1 | 2026-10-28 | Win/Mac/Linux | Python 官方推荐，逐行执行可视化变量，零配置 |
 
 
 **C / C++：**
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
+| C/C++ | [Red Panda C++](https://github.com/royqh1979/RedPanda-CPP) | 3.5 | 2026-10-31 | Windows/Linux | 信奥/竞赛首选，内置 OJ 题库，智能补全，中文界面 |
 | C/C++ | [小龙 Dev-C++](https://gitee.com/devcpp/devcpp) · [GitHub](https://github.com/anbangli/XiaoLoong-DevCpp) | 7.0 | 2026-09-28 | Windows | 国产增强版 Dev-C++，自带 TDM-GCC，OJ 刷题/竞赛常用 |
 | C/C++ | [Arduino IDE](https://www.arduino.cc/en/software) | 2.3.10 | 2026-06-09 | Win/Mac/Linux | 硬件编程首选，一键烧录到开发板，海量库支持 |
-| C/C++ | [Red Panda C++](https://github.com/royqh1979/RedPanda-CPP) | 3.4 | 2025-11-30 | Windows/Linux | 信奥/竞赛首选，内置 OJ 题库，智能补全，中文界面 |
 
 **Java：**
 
@@ -71,7 +71,7 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| Java/Kotlin | [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) · [下载](https://www.jetbrains.com/idea/download/) | 2026.2.3 | 2026-09-18 | Win/Mac/Linux | Java 开发行业标准，重构/补全/调试一体，社区版免费 |
+| Java/Kotlin | [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) · [下载](https://www.jetbrains.com/idea/download/) | 2026.1.5.1 | 2026-10-30 | Win/Mac/Linux | Java 开发行业标准，重构/补全/调试一体，社区版免费 |
 | Java | [NetBeans](https://netbeans.apache.org) | 31 | 2026-08-05 | Win/Mac/Linux | Apache 出品，Maven/Gradle 原生支持，GUI 拖拽设计器 |
 | Kotlin/Java | [Android Studio](https://developer.android.com/studio) | Narwhal 2025.1.4 | 2026-06-04 | Win/Mac/Linux | Android 开发唯一官方 IDE，内置模拟器，布局可视化 |
 | Java | [Eclipse](https://eclipse.org) | 2026-03 | 2026-03-12 | Win/Mac/Linux | 老牌 Java IDE，插件生态最全，企业项目常用 |
@@ -88,7 +88,7 @@
 
 | 语言 | IDE | 最新版本 | 更新时间 | 平台 | 亮点 |
 |------|-----|---------|---------|------|------|
-| C++/C#/.NET | [Visual Studio Community](https://visualstudio.microsoft.com/vs/) · [社区版](https://visualstudio.microsoft.com/vs/community/) | 2022 17.14 | 2026-10-13 | Windows | C++/C# 开发最强，IntelliSense 智能补全，社区版免费 |
+| C++/C#/.NET | [Visual Studio Community](https://visualstudio.microsoft.com/vs/) · [社区版](https://visualstudio.microsoft.com/vs/community/) | 2022 17.14 | 2026-10-29 | Windows | C++/C# 开发最强，IntelliSense 智能补全，社区版免费 |
 | C/C++ | [CLion](https://www.jetbrains.com/clion/) · [下载](https://www.jetbrains.com/clion/download/) | 2026.1.2 | 2026-05-18 | Win/Mac/Linux | C/C++ 开发首选，CMake 原生支持，学生免费 |
 
 **JS / TS：**
@@ -122,8 +122,8 @@
 
 | 语言支持 | 编辑器 | 最新版本 | 更新时间 | 平台 | 亮点 |
 |---------|--------|---------|---------|------|------|
-| 全语言 | [Zed](https://zed.dev) | 1.25.3 | 2026-10-23 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
-| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.143.1 | 2026-10-22 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
+| 全语言 | [Zed](https://zed.dev) | 1.26.2 | 2026-10-28 | Win/Mac/Linux | GPU 加速渲染，多光标协作，Rust 编写极速启动 |
+| **全语言** | **[VS Code](https://code.visualstudio.com)** | 1.144.0 | 2026-10-28 | **Win/Mac/Linux** | **市占率第一，插件 3 万+，远程开发/Dev Containers** |
 | 全语言 | [nano](https://nano-editor.org) | 9.3 | 2026-10-21 | Linux/Mac | 最简单的终端编辑器，服务器必装，零学习成本 |
 | 全语言 | [gedit](https://gedit-technology.github.io/apps/gedit/) | 51.0 | 2026-10-15 | Linux | GNOME 桌面自带，语法高亮，适合 Linux 课堂 |
 | **全语言** | **[Vim/Neovim](https://neovim.io)** | 0.12.6 | 2026-10-09 | **Win/Mac/Linux** | **终端编辑器之王，纯键盘操作，服务器必装** |
@@ -266,24 +266,26 @@
 
 ## 更新状态
 
-> 🤖 最后自动检查: 2026-10-25 13:39 UTC
+> 🤖 最后自动检查: 2026-11-01 15:55 UTC
 
 > 以下状态由自动化脚本每日更新。  
 > ⚠️ = 超过 12 个月未更新；✅ = 活跃维护中
 
 | 项目 | 最后活跃 | 状态 |
 |------|---------|------|
+| Red Panda C++ | 2026-10-31 | ✅ |
+| IntelliJ IDEA CE | 2026-10-30 | ✅ |
+| Visual Studio Community | 2026-10-29 | ✅ |
+| Thonny | 2026-10-28 | ✅ |
+| VS Code | 2026-10-28 | ✅ |
+| Zed | 2026-10-28 | ✅ |
+| WinPython | 2026-10-27 | ✅ |
 | Spyder | 2026-10-24 | ✅ |
-| Zed | 2026-10-23 | ✅ |
-| VS Code | 2026-10-22 | ✅ |
 | nano | 2026-10-21 | ✅ |
 | gedit | 2026-10-15 | ✅ |
-| Visual Studio Community | 2026-10-13 | ✅ |
 | Vim/Neovim | 2026-10-09 | ✅ |
 | 小龙 Dev-C++ | 2026-09-28 | ✅ |
 | Processing | 2026-09-24 | ✅ |
-| IntelliJ IDEA CE | 2026-09-18 | ✅ |
-| WinPython | 2026-09-13 | ✅ |
 | BlueJ | 2026-09-04 | ✅ |
 | Emacs | 2026-08-24 | ✅ |
 | Racket | 2026-08-13 | ✅ |
@@ -295,9 +297,7 @@
 | WebStorm | 2026-06-04 | ✅ |
 | Sublime Text | 2026-05-29 | ✅ |
 | CLion | 2026-05-18 | ✅ |
-| Thonny | 2026-04-25 | ✅ |
 | Eclipse | 2026-03-12 | ✅ |
-| Red Panda C++ | 2025-11-30 | ✅ |
 | PyScripter | 2025-11-11 | ✅ |
 | Geany | 2025-07-01 | ⚠️ 可能停更 |
 
